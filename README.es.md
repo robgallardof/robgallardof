@@ -9,7 +9,7 @@
 
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&duration=3200&pause=1100&color=8B5CF6&center=true&vCenter=true&width=720&lines=Hola%2C+soy+Roberto+%F0%9F%91%8B+dev+de+Guadalajara+%F0%9F%8C%AE;De+.NET+Framework+2.0+a+.NET+10+y+11;Ahora+lanzando+RepoRinse+%F0%9F%A7%BC+en+Rust;Ense%C3%B1ando+a+agentes+de+IA+a+editar+mis+videos+%F0%9F%8E%AC;Si+no+se+entiende%2C+no+est%C3%A1+terminado+%E2%9C%A8" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&duration=3200&pause=1100&color=8B5CF6&center=true&vCenter=true&width=720&lines=Hola%2C+soy+Roberto+%F0%9F%91%8B+dev+de+Guadalajara+%F0%9F%8C%AE;De+.NET+Framework+2.0+a+.NET+10+y+11;Construyendo+Rekora%3A+memoria+para+agentes+de+IA+%F0%9F%A7%A0;Ahora+lanzando+RepoRinse+%F0%9F%A7%BC+en+Rust;Ense%C3%B1ando+a+agentes+de+IA+a+editar+mis+videos+%F0%9F%8E%AC;Si+no+se+entiende%2C+no+est%C3%A1+terminado+%E2%9C%A8" alt="Typing SVG" />
   </a>
 </p>
 
@@ -37,7 +37,7 @@
 public sealed record Developer
 {
     public string Name     => "Roberto Gallardo";
-    public string Role     => "Desarrollador Full Stack .NET";
+    public string Role     => "Arquitecto de Software · Full Stack .NET";
     public string Location => "Guadalajara, Jalisco 🇲🇽";
     public string DotNet   => ".NET Framework 2.0 → .NET 10 / 11";
     public string[] Stack  => ["C#", "VB.NET", "Rust", "Python",
@@ -57,8 +57,9 @@ Leo el código legacy antes de juzgarlo, y luego lo dejo mejor de como lo encont
 
 🏗️ **De día:** servicios backend en **.NET** para una empresa global de logística.<br/><br/>
 🔄 **Todas las generaciones de .NET:** desde **.NET Framework 2.0 / 3.5 / 4.x**, pasando por .NET Core, hasta **.NET 5 → 10 y 11** — y las migraciones entre ellas.<br/><br/>
+🤖 **4 años con IA:** de ChatGPT a Codex, Claude Code y Antigravity — con revisión y límites, no a ciegas.<br/><br/>
 🌙 **De noche:** agentes de IA que hacen trabajo real — editan mis videos, los publican y hasta hacen mi declaración.<br/><br/>
-🧼 **Ahora mismo:** lanzando [**RepoRinse**](https://github.com/robgallardof/RepoRinse), una CLI en Rust que mantiene limpios los repos.<br/><br/>
+🔨 **Ahora mismo:** construyendo [**RepoRinse**](https://github.com/robgallardof/RepoRinse) y [**Rekora**](https://github.com/robgallardof/rekora), herramientas en Rust para agentes de IA.<br/><br/>
 💬 **Platícame de:** C#, migraciones de .NET, diseño de software, MongoDB, Vue/Next.js, DevOps y agentes de IA.
 
 </td>
@@ -67,43 +68,38 @@ Leo el código legacy antes de juzgarlo, y luego lo dejo mejor de como lo encont
 
 ---
 
-## 🧼 Destacado: RepoRinse
+## 🔨 Lo que estoy construyendo
+
+Herramientas para que los agentes de IA trabajen de forma segura y con memoria — locales, sin telemetría y en Rust.
 
 <table>
   <tr>
-    <td width="100%" valign="top">
+    <td width="50%" valign="top">
       <h3>🧼 <a href="https://github.com/robgallardof/RepoRinse">RepoRinse</a></h3>
       <p>CLI local y determinista en Rust que mantiene limpios los repos: quita trailers de coautoría de IA (respeta a las personas), espacios e Unicode invisible, y añade límites para Claude Code, Codex, Gemini CLI y Cursor.</p>
-      <p><code>Rust</code> <code>Git hooks</code> <code>CLI</code></p>
+      <p><code>Rust</code> <code>Git hooks</code> <code>Límites para agentes</code></p>
       <p>
         <img src="https://img.shields.io/github/languages/top/robgallardof/RepoRinse?style=flat-square&color=6D28D9" alt="Top language" />
         <img src="https://img.shields.io/github/stars/robgallardof/RepoRinse?label=estrellas&style=flat-square&color=F59E0B&logo=github" alt="Stars" />
         <img src="https://img.shields.io/github/last-commit/robgallardof/RepoRinse?label=%C3%BAltimo%20commit&style=flat-square&color=0EA5E9" alt="Last commit" />
       </p>
     </td>
+    <td width="50%" valign="top">
+      <h3>🧠 <a href="https://github.com/robgallardof/rekora">Rekora</a></h3>
+      <p>Memoria local y verificable para agentes de IA de código: decisiones, restricciones y problemas conocidos con sus fuentes, marcados como desactualizados si cambia un archivo citado, servidos por CLI y servidor MCP dentro de un presupuesto de tokens. En desarrollo temprano.</p>
+      <p><code>Rust</code> <code>SQLite</code> <code>MCP</code> <code>Etapa temprana</code></p>
+      <p>
+        <img src="https://img.shields.io/github/languages/top/robgallardof/rekora?style=flat-square&color=6D28D9" alt="Top language" />
+        <img src="https://img.shields.io/github/stars/robgallardof/rekora?label=estrellas&style=flat-square&color=F59E0B&logo=github" alt="Stars" />
+        <img src="https://img.shields.io/github/last-commit/robgallardof/rekora?label=%C3%BAltimo%20commit&style=flat-square&color=0EA5E9" alt="Last commit" />
+      </p>
+    </td>
   </tr>
 </table>
 
-<p align="center"><b>Conserva el código. Limpia el ruido.</b></p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" alt="Rust" />
-  <img src="https://img.shields.io/badge/Git%20hooks-F05032?style=flat-square&logo=git&logoColor=white" alt="Git hooks" />
-  <img src="https://img.shields.io/badge/Claude%20Code-D97757?style=flat-square&logo=anthropic&logoColor=white" alt="Claude Code" />
-  <img src="https://img.shields.io/badge/Codex-412991?style=flat-square&logo=openai&logoColor=white" alt="Codex" />
-  <img src="https://img.shields.io/badge/Gemini%20CLI-8E75B2?style=flat-square&logo=googlegemini&logoColor=white" alt="Gemini CLI" />
-  <img src="https://img.shields.io/badge/Cursor-000000?style=flat-square&logo=cursor&logoColor=white" alt="Cursor" />
-  <img src="https://img.shields.io/badge/offline-sin%20telemetr%C3%ADa-2ea44f?style=flat-square" alt="Offline" />
-</p>
-
-Una CLI local y determinista que quita los trailers de coautoría de IA (y respeta a las personas), limpia espacios
-sobrantes y Unicode invisible, y añade límites en los hooks nativos de **Claude Code, Codex, Gemini CLI y Cursor**.
-Se instala junto a tus hooks existentes y se desinstala byte por byte. Es la sucesora de mi pequeño hook
-[`no-ai-coauthor`](https://github.com/robgallardof/no-ai-couathor).
-
 ```sh
-reporinse install --provider git --all --yes           # limpia cada mensaje de commit
-reporinse install --provider claude,codex --all --yes  # límites para tus agentes
+reporinse install --provider git --all --yes            # limpia cada mensaje de commit
+reporinse install --provider claude,codex --all --yes   # límites para tus agentes
 ```
 
 ---
@@ -117,7 +113,7 @@ conmigo al mando.
   <tr>
     <th width="33%">🔌 Servidores MCP</th>
     <th width="33%">🎯 Skills y roles de agentes</th>
-    <th width="33%">🪝 Hooks y límites</th>
+    <th width="33%">🧠 Memoria y límites</th>
   </tr>
   <tr>
     <td valign="top">
@@ -131,6 +127,7 @@ conmigo al mando.
       Contador y auditor para declaraciones
     </td>
     <td valign="top">
+      <a href="https://github.com/robgallardof/rekora">Rekora</a> — memoria verificable para agentes<br/>
       <a href="https://github.com/robgallardof/RepoRinse">RepoRinse</a> — hooks de Git y agentes<br/>
       Guardas de comandos y rutas para agentes<br/>
       Un historial de commits solo con personas
@@ -218,7 +215,7 @@ conmigo al mando.
     <td width="50%" valign="top">
       <h3>📲 <a href="https://github.com/robgallardof/social-publisher-mcp">social-publisher-mcp</a></h3>
       <p>Un community manager con IA para video corto, como servidor MCP: ve tus videos, escribe el copy de cada red, programa a las 05:00 y te dice qué funcionó.</p>
-      <p><code>MCP</code> <code>Python</code> <code>Social</code></p>
+      <p><code>MCP</code> <code>Python</code> <code>Redes</code></p>
       <p>
         <img src="https://img.shields.io/github/languages/top/robgallardof/social-publisher-mcp?style=flat-square&color=6D28D9" alt="Top language" />
         <img src="https://img.shields.io/github/stars/robgallardof/social-publisher-mcp?label=estrellas&style=flat-square&color=F59E0B&logo=github" alt="Stars" />
@@ -238,18 +235,6 @@ conmigo al mando.
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3>🤖 <a href="https://github.com/robgallardof/wallybot">wallybot</a></h3>
-      <p>Centro autoalojado de análisis de mercado, cartera y trading asistido por IA: propuestas explicadas, tu aprobación y controles de riesgo.</p>
-      <p><code>Python</code> <code>Self-hosted</code></p>
-      <p>
-        <img src="https://img.shields.io/github/languages/top/robgallardof/wallybot?style=flat-square&color=6D28D9" alt="Top language" />
-        <img src="https://img.shields.io/github/stars/robgallardof/wallybot?label=estrellas&style=flat-square&color=F59E0B&logo=github" alt="Stars" />
-        <img src="https://img.shields.io/github/last-commit/robgallardof/wallybot?label=%C3%BAltimo%20commit&style=flat-square&color=0EA5E9" alt="Last commit" />
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
       <h3>📚 <a href="https://github.com/robgallardof/wikdoc">wikdoc</a></h3>
       <p>Convierte cualquier carpeta de código en una base de conocimiento local con la que puedes chatear — embeddings + RAG con Ollama, nada sale de tu equipo.</p>
       <p><code>Python</code> <code>Ollama</code> <code>RAG</code></p>
@@ -259,6 +244,30 @@ conmigo al mando.
         <img src="https://img.shields.io/github/last-commit/robgallardof/wikdoc?label=%C3%BAltimo%20commit&style=flat-square&color=0EA5E9" alt="Last commit" />
       </p>
     </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🤖 <a href="https://github.com/robgallardof/wallybot">wallybot</a></h3>
+      <p>Centro autoalojado de análisis de mercado, cartera y trading asistido por IA: propuestas explicadas, tu aprobación y controles de riesgo.</p>
+      <p><code>Python</code> <code>Autoalojado</code></p>
+      <p>
+        <img src="https://img.shields.io/github/languages/top/robgallardof/wallybot?style=flat-square&color=6D28D9" alt="Top language" />
+        <img src="https://img.shields.io/github/stars/robgallardof/wallybot?label=estrellas&style=flat-square&color=F59E0B&logo=github" alt="Stars" />
+        <img src="https://img.shields.io/github/last-commit/robgallardof/wallybot?label=%C3%BAltimo%20commit&style=flat-square&color=0EA5E9" alt="Last commit" />
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🦊 <a href="https://github.com/robgallardof/multig">multig</a></h3>
+      <p>Administra muchos perfiles de navegador persistentes y aislados con Camoufox, un panel en Next.js y un backend en Python.</p>
+      <p><code>Next.js</code> <code>Python</code> <code>Camoufox</code></p>
+      <p>
+        <img src="https://img.shields.io/github/languages/top/robgallardof/multig?style=flat-square&color=6D28D9" alt="Top language" />
+        <img src="https://img.shields.io/github/stars/robgallardof/multig?label=estrellas&style=flat-square&color=F59E0B&logo=github" alt="Stars" />
+        <img src="https://img.shields.io/github/last-commit/robgallardof/multig?label=%C3%BAltimo%20commit&style=flat-square&color=0EA5E9" alt="Last commit" />
+      </p>
+    </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
       <h3>⚡ <a href="https://github.com/robgallardof/arquest">arquest</a></h3>
       <p>Cliente HTTP estilo Postman/Thunder con Next.js App Router: interfaz pensada en modo oscuro y PWA instalable con caché offline.</p>
@@ -269,8 +278,6 @@ conmigo al mando.
         <img src="https://img.shields.io/github/last-commit/robgallardof/arquest?label=%C3%BAltimo%20commit&style=flat-square&color=0EA5E9" alt="Last commit" />
       </p>
     </td>
-  </tr>
-  <tr>
     <td width="50%" valign="top">
       <h3>🎮 <a href="https://github.com/robgallardof/ruxtbot">ruxtbot</a></h3>
       <p>Bot de Discord para Rust: planeación de raids con imágenes, crafteo, servidores en vivo, búsqueda de jugadores y alertas de BattleMetrics, en inglés y español.</p>
@@ -302,7 +309,7 @@ conmigo al mando.
 
 | | Grado | Institución |
 |---|---|---|
-| 🎓 | **Maestría en Arquitectura de Software** | AICAD Business School |
+| 🎓 | **Maestría en Arquitectura de Software** | Università degli Studi Guglielmo Marconi · cursada en AICAD Business School |
 | 🎓 | **Licenciatura en Sistemas Computacionales Administrativos** | Universidad Veracruzana |
 
 ---
