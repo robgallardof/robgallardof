@@ -9,7 +9,7 @@
 
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&duration=3200&pause=1100&color=8B5CF6&center=true&vCenter=true&width=720&lines=Hola%2C+soy+Roberto+%F0%9F%91%8B+dev+de+Guadalajara+%F0%9F%8C%AE;Convierto+c%C3%B3digo+legacy+en+.NET+8+limpio;Ahora+lanzando+RepoRinse+%F0%9F%A7%BC+en+Rust;Ense%C3%B1ando+a+agentes+de+IA+a+editar+mis+videos+%F0%9F%8E%AC;Si+no+se+entiende%2C+no+est%C3%A1+terminado+%E2%9C%A8" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&duration=3200&pause=1100&color=8B5CF6&center=true&vCenter=true&width=720&lines=Hola%2C+soy+Roberto+%F0%9F%91%8B+dev+de+Guadalajara+%F0%9F%8C%AE;De+.NET+Framework+2.0+a+.NET+10+y+11;Ahora+lanzando+RepoRinse+%F0%9F%A7%BC+en+Rust;Ense%C3%B1ando+a+agentes+de+IA+a+editar+mis+videos+%F0%9F%8E%AC;Si+no+se+entiende%2C+no+est%C3%A1+terminado+%E2%9C%A8" alt="Typing SVG" />
   </a>
 </p>
 
@@ -38,9 +38,11 @@ public sealed record Developer
 {
     public string Name     => "Roberto Gallardo";
     public string Role     => "Desarrollador Full Stack .NET";
-    public string HomeTown => "Guadalajara 🇲🇽 — experto en tortas ahogadas";
-    public string[] Stack  => [".NET 8", "C#", "Rust", "Vue",
-                               "React", "Next.js", "MongoDB"];
+    public string Location => "Guadalajara, Jalisco 🇲🇽";
+    public string DotNet   => ".NET Framework 2.0 → .NET 10 / 11";
+    public string[] Stack  => ["C#", "VB.NET", "Rust", "Python",
+                               "Vue", "React", "Next.js",
+                               "MongoDB", "SQL Server"];
     public string[] Loves  => ["Clean Architecture", "SOLID",
                                "CI/CD", "Agentes de IA y MCP"];
     public string Motto    => "Que funcione es lo mínimo. "
@@ -53,10 +55,11 @@ public sealed record Developer
 
 Leo el código legacy antes de juzgarlo, y luego lo dejo mejor de como lo encontré.
 
-🏗️ **De día:** servicios backend en **.NET 8** para una empresa global de logística.<br/><br/>
-🌙 **De noche:** agentes de IA que hacen trabajo real — editan mis videos, los publican y hasta hacen mi declaración. 😅<br/><br/>
+🏗️ **De día:** servicios backend en **.NET** para una empresa global de logística.<br/><br/>
+🔄 **Todas las generaciones de .NET:** desde **.NET Framework 2.0 / 3.5 / 4.x**, pasando por .NET Core, hasta **.NET 5 → 10 y 11** — y las migraciones entre ellas.<br/><br/>
+🌙 **De noche:** agentes de IA que hacen trabajo real — editan mis videos, los publican y hasta hacen mi declaración.<br/><br/>
 🧼 **Ahora mismo:** lanzando [**RepoRinse**](https://github.com/robgallardof/RepoRinse), una CLI en Rust que mantiene limpios los repos.<br/><br/>
-💬 **Platícame de:** C#, diseño de software, MongoDB, Vue/Next.js, DevOps — o de la mejor taquería de GDL.
+💬 **Platícame de:** C#, migraciones de .NET, diseño de software, MongoDB, Vue/Next.js, DevOps y agentes de IA.
 
 </td>
 </tr>
@@ -66,14 +69,20 @@ Leo el código legacy antes de juzgarlo, y luego lo dejo mejor de como lo encont
 
 ## 🧼 Destacado: RepoRinse
 
-<p align="center">
-  <a href="https://github.com/robgallardof/RepoRinse">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://socialify.git.ci/robgallardof/RepoRinse/image?theme=Dark&font=Inter&language=1&description=1&name=1&owner=1&pattern=Circuit%20Board" />
-      <img src="https://socialify.git.ci/robgallardof/RepoRinse/image?theme=Light&font=Inter&language=1&description=1&name=1&owner=1&pattern=Circuit%20Board" alt="RepoRinse" width="80%" />
-    </picture>
-  </a>
-</p>
+<table>
+  <tr>
+    <td width="100%" valign="top">
+      <h3>🧼 <a href="https://github.com/robgallardof/RepoRinse">RepoRinse</a></h3>
+      <p>CLI local y determinista en Rust que mantiene limpios los repos: quita trailers de coautoría de IA (respeta a las personas), espacios e Unicode invisible, y añade límites para Claude Code, Codex, Gemini CLI y Cursor.</p>
+      <p><code>Rust</code> <code>Git hooks</code> <code>CLI</code></p>
+      <p>
+        <img src="https://img.shields.io/github/languages/top/robgallardof/RepoRinse?style=flat-square&color=6D28D9" alt="Top language" />
+        <img src="https://img.shields.io/github/stars/robgallardof/RepoRinse?label=estrellas&style=flat-square&color=F59E0B&logo=github" alt="Stars" />
+        <img src="https://img.shields.io/github/last-commit/robgallardof/RepoRinse?label=%C3%BAltimo%20commit&style=flat-square&color=0EA5E9" alt="Last commit" />
+      </p>
+    </td>
+  </tr>
+</table>
 
 <p align="center"><b>Conserva el código. Limpia el ruido.</b></p>
 
@@ -85,7 +94,6 @@ Leo el código legacy antes de juzgarlo, y luego lo dejo mejor de como lo encont
   <img src="https://img.shields.io/badge/Gemini%20CLI-8E75B2?style=flat-square&logo=googlegemini&logoColor=white" alt="Gemini CLI" />
   <img src="https://img.shields.io/badge/Cursor-000000?style=flat-square&logo=cursor&logoColor=white" alt="Cursor" />
   <img src="https://img.shields.io/badge/offline-sin%20telemetr%C3%ADa-2ea44f?style=flat-square" alt="Offline" />
-  <img src="https://img.shields.io/github/last-commit/robgallardof/RepoRinse?label=%C3%BAltimo%20commit&style=flat-square&color=6D28D9" alt="Último commit" />
 </p>
 
 Una CLI local y determinista que quita los trailers de coautoría de IA (y respeta a las personas), limpia espacios
@@ -198,42 +206,80 @@ conmigo al mando.
 <table>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/robgallardof/davinci-resolve-mcp"><img src="https://socialify.git.ci/robgallardof/davinci-resolve-mcp/image?theme=Dark&font=Inter&language=1&name=1&owner=1&pattern=Plus&stargazers=1" alt="davinci-resolve-mcp" width="100%" /></a>
-      <p>🎬 Edita en DaVinci Resolve hablando con una IA que trabaja como productor: cortes verticales y horizontales, movimiento que no corta caras, subtítulos con diseño, música a tiempo y revisión antes de cada render.</p>
+      <h3>🎬 <a href="https://github.com/robgallardof/davinci-resolve-mcp">davinci-resolve-mcp</a></h3>
+      <p>Edita en DaVinci Resolve hablando con una IA que trabaja como productor: cortes verticales y horizontales, movimiento que no corta caras, subtítulos con diseño, música a tiempo y revisión antes de cada render.</p>
+      <p><code>MCP</code> <code>Python</code> <code>Video</code></p>
+      <p>
+        <img src="https://img.shields.io/github/languages/top/robgallardof/davinci-resolve-mcp?style=flat-square&color=6D28D9" alt="Top language" />
+        <img src="https://img.shields.io/github/stars/robgallardof/davinci-resolve-mcp?label=estrellas&style=flat-square&color=F59E0B&logo=github" alt="Stars" />
+        <img src="https://img.shields.io/github/last-commit/robgallardof/davinci-resolve-mcp?label=%C3%BAltimo%20commit&style=flat-square&color=0EA5E9" alt="Last commit" />
+      </p>
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/robgallardof/social-publisher-mcp"><img src="https://socialify.git.ci/robgallardof/social-publisher-mcp/image?theme=Dark&font=Inter&language=1&name=1&owner=1&pattern=Plus" alt="social-publisher-mcp" width="100%" /></a>
-      <p>📲 Un community manager con IA para video corto, como servidor MCP: ve tus videos, escribe el copy de cada red, programa a las 05:00 y te dice qué funcionó.</p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/robgallardof/declaracion"><img src="https://socialify.git.ci/robgallardof/declaracion/image?theme=Dark&font=Inter&language=1&name=1&owner=1&pattern=Plus" alt="declaracion" width="100%" /></a>
-      <p>🧾 Tu asistente de impuestos personales en México dentro de tu agente de IA: lee CFDI, calcula ISR e IVA (RESICO) y te guía al declarar. Tus datos se quedan en tu PC.</p>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/robgallardof/wallybot"><img src="https://socialify.git.ci/robgallardof/wallybot/image?theme=Dark&font=Inter&language=1&name=1&owner=1&pattern=Plus" alt="wallybot" width="100%" /></a>
-      <p>🤖 Centro autoalojado de análisis de mercado, cartera y trading asistido por IA: propuestas explicadas, tu aprobación y controles de riesgo.</p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/robgallardof/wikdoc"><img src="https://socialify.git.ci/robgallardof/wikdoc/image?theme=Dark&font=Inter&language=1&name=1&owner=1&pattern=Plus" alt="wikdoc" width="100%" /></a>
-      <p>📚 Convierte cualquier carpeta de código en una base de conocimiento local con la que puedes chatear — embeddings + RAG con Ollama, nada sale de tu equipo.</p>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/robgallardof/arquest"><img src="https://socialify.git.ci/robgallardof/arquest/image?theme=Dark&font=Inter&language=1&name=1&owner=1&pattern=Plus" alt="arquest" width="100%" /></a>
-      <p>⚡ Cliente HTTP estilo Postman/Thunder con Next.js App Router: interfaz pensada en modo oscuro y PWA instalable con caché offline.</p>
+      <h3>📲 <a href="https://github.com/robgallardof/social-publisher-mcp">social-publisher-mcp</a></h3>
+      <p>Un community manager con IA para video corto, como servidor MCP: ve tus videos, escribe el copy de cada red, programa a las 05:00 y te dice qué funcionó.</p>
+      <p><code>MCP</code> <code>Python</code> <code>Social</code></p>
+      <p>
+        <img src="https://img.shields.io/github/languages/top/robgallardof/social-publisher-mcp?style=flat-square&color=6D28D9" alt="Top language" />
+        <img src="https://img.shields.io/github/stars/robgallardof/social-publisher-mcp?label=estrellas&style=flat-square&color=F59E0B&logo=github" alt="Stars" />
+        <img src="https://img.shields.io/github/last-commit/robgallardof/social-publisher-mcp?label=%C3%BAltimo%20commit&style=flat-square&color=0EA5E9" alt="Last commit" />
+      </p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/robgallardof/ruxtbot"><img src="https://socialify.git.ci/robgallardof/ruxtbot/image?theme=Dark&font=Inter&language=1&name=1&owner=1&pattern=Plus" alt="ruxtbot" width="100%" /></a>
-      <p>🎮 Bot de Discord para Rust: planeación de raids con imágenes, crafteo, servidores en vivo, búsqueda de jugadores y alertas de BattleMetrics, en inglés y español.</p>
+      <h3>🧾 <a href="https://github.com/robgallardof/declaracion">declaracion</a></h3>
+      <p>Tu asistente de impuestos personales en México dentro de tu agente de IA: lee CFDI, calcula ISR e IVA (RESICO) y te guía al declarar. Tus datos se quedan en tu PC.</p>
+      <p><code>MCP</code> <code>Python</code> <code>SAT</code></p>
+      <p>
+        <img src="https://img.shields.io/github/languages/top/robgallardof/declaracion?style=flat-square&color=6D28D9" alt="Top language" />
+        <img src="https://img.shields.io/github/stars/robgallardof/declaracion?label=estrellas&style=flat-square&color=F59E0B&logo=github" alt="Stars" />
+        <img src="https://img.shields.io/github/last-commit/robgallardof/declaracion?label=%C3%BAltimo%20commit&style=flat-square&color=0EA5E9" alt="Last commit" />
+      </p>
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/robgallardof/portfolio-roberto-gallardo"><img src="https://socialify.git.ci/robgallardof/portfolio-roberto-gallardo/image?theme=Dark&font=Inter&language=1&name=1&owner=1&pattern=Plus" alt="portafolio" width="100%" /></a>
-      <p>🌐 Mi portafolio personal: Next.js, Tailwind y shadcn/ui, bilingüe y con modo oscuro.</p>
+      <h3>🤖 <a href="https://github.com/robgallardof/wallybot">wallybot</a></h3>
+      <p>Centro autoalojado de análisis de mercado, cartera y trading asistido por IA: propuestas explicadas, tu aprobación y controles de riesgo.</p>
+      <p><code>Python</code> <code>Self-hosted</code></p>
+      <p>
+        <img src="https://img.shields.io/github/languages/top/robgallardof/wallybot?style=flat-square&color=6D28D9" alt="Top language" />
+        <img src="https://img.shields.io/github/stars/robgallardof/wallybot?label=estrellas&style=flat-square&color=F59E0B&logo=github" alt="Stars" />
+        <img src="https://img.shields.io/github/last-commit/robgallardof/wallybot?label=%C3%BAltimo%20commit&style=flat-square&color=0EA5E9" alt="Last commit" />
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>📚 <a href="https://github.com/robgallardof/wikdoc">wikdoc</a></h3>
+      <p>Convierte cualquier carpeta de código en una base de conocimiento local con la que puedes chatear — embeddings + RAG con Ollama, nada sale de tu equipo.</p>
+      <p><code>Python</code> <code>Ollama</code> <code>RAG</code></p>
+      <p>
+        <img src="https://img.shields.io/github/languages/top/robgallardof/wikdoc?style=flat-square&color=6D28D9" alt="Top language" />
+        <img src="https://img.shields.io/github/stars/robgallardof/wikdoc?label=estrellas&style=flat-square&color=F59E0B&logo=github" alt="Stars" />
+        <img src="https://img.shields.io/github/last-commit/robgallardof/wikdoc?label=%C3%BAltimo%20commit&style=flat-square&color=0EA5E9" alt="Last commit" />
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>⚡ <a href="https://github.com/robgallardof/arquest">arquest</a></h3>
+      <p>Cliente HTTP estilo Postman/Thunder con Next.js App Router: interfaz pensada en modo oscuro y PWA instalable con caché offline.</p>
+      <p><code>Next.js</code> <code>PWA</code></p>
+      <p>
+        <img src="https://img.shields.io/github/languages/top/robgallardof/arquest?style=flat-square&color=6D28D9" alt="Top language" />
+        <img src="https://img.shields.io/github/stars/robgallardof/arquest?label=estrellas&style=flat-square&color=F59E0B&logo=github" alt="Stars" />
+        <img src="https://img.shields.io/github/last-commit/robgallardof/arquest?label=%C3%BAltimo%20commit&style=flat-square&color=0EA5E9" alt="Last commit" />
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🎮 <a href="https://github.com/robgallardof/ruxtbot">ruxtbot</a></h3>
+      <p>Bot de Discord para Rust: planeación de raids con imágenes, crafteo, servidores en vivo, búsqueda de jugadores y alertas de BattleMetrics, en inglés y español.</p>
+      <p><code>Discord</code> <code>Bot</code></p>
+      <p>
+        <img src="https://img.shields.io/github/languages/top/robgallardof/ruxtbot?style=flat-square&color=6D28D9" alt="Top language" />
+        <img src="https://img.shields.io/github/stars/robgallardof/ruxtbot?label=estrellas&style=flat-square&color=F59E0B&logo=github" alt="Stars" />
+        <img src="https://img.shields.io/github/last-commit/robgallardof/ruxtbot?label=%C3%BAltimo%20commit&style=flat-square&color=0EA5E9" alt="Last commit" />
+      </p>
     </td>
   </tr>
 </table>
