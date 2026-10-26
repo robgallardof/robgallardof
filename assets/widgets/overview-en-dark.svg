@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="GitHub overview">
+  <defs><linearGradient id="brand" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#8b5cf6"/><stop offset="1" stop-color="#0ea5e9"/></linearGradient><style>text{font-family:"Segoe UI", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;} .mono{font-family:"Cascadia Code", "JetBrains Mono", Consolas, Menlo, "DejaVu Sans Mono", monospace;}</style></defs>
+  <rect x="0.5" y="0.5" width="1199" height="299" rx="18" fill="#121829" stroke="#25304a"/>
+  <rect x="24" y="0.5" width="96" height="3" rx="1.5" fill="url(#brand)"/>
+  <text x="36" y="56" style="font-size:20px;font-weight:800" fill="url(#brand)">GitHub overview</text>
+  <text x="1164" y="56" text-anchor="end" style="font-size:12px" fill="#8b949e">updated daily by GitHub Actions</text>
+  <rect x="36" y="80" width="116" height="92" rx="14" fill="rgba(148,163,184,0.12)" stroke="#25304a"/><text x="52" y="128" style="font-size:32px;font-weight:800" fill="url(#brand)">23</text><text x="52" y="154" style="font-size:12.5px" fill="#8b949e">public repos</text>
+  <rect x="164" y="80" width="116" height="92" rx="14" fill="rgba(148,163,184,0.12)" stroke="#25304a"/><text x="180" y="128" style="font-size:32px;font-weight:800" fill="url(#brand)">8</text><text x="180" y="154" style="font-size:12.5px" fill="#8b949e">years on GitHub</text>
+  <rect x="292" y="80" width="116" height="92" rx="14" fill="rgba(148,163,184,0.12)" stroke="#25304a"/><text x="308" y="128" style="font-size:32px;font-weight:800" fill="url(#brand)">7</text><text x="308" y="154" style="font-size:12.5px" fill="#8b949e">languages</text>
+  <text x="36" y="202" style="font-size:13px;font-weight:700" fill="#e6edf3">Languages across my repositories</text>
+  <rect x="36" y="214" width="356" height="10" rx="5" fill="#21283b"/>
+  <rect x="36.0" y="214" width="167.5" height="10" rx="3" fill="#3178c6"/>
+  <rect x="205.5" y="214" width="82.8" height="10" rx="3" fill="#3776ab"/>
+  <rect x="290.3" y="214" width="31.9" height="10" rx="3" fill="#f1e05a"/>
+  <rect x="324.2" y="214" width="31.9" height="10" rx="3" fill="#dea584"/>
+  <rect x="358.1" y="214" width="15.0" height="10" rx="3" fill="#9b4f96"/>
+  <rect x="375.0" y="214" width="15.0" height="10" rx="3" fill="#89e051"/>
+  <circle cx="41" cy="246" r="5" fill="#3178c6"/><text x="52" y="250" style="font-size:12.5px" fill="#e6edf3">TypeScript <tspan fill="#8b949e">48%</tspan></text>
+  <circle cx="163" cy="246" r="5" fill="#3776ab"/><text x="174" y="250" style="font-size:12.5px" fill="#e6edf3">Python <tspan fill="#8b949e">24%</tspan></text>
+  <circle cx="285" cy="246" r="5" fill="#f1e05a"/><text x="296" y="250" style="font-size:12.5px" fill="#e6edf3">JavaScript <tspan fill="#8b949e">10%</tspan></text>
+  <circle cx="41" cy="268" r="5" fill="#dea584"/><text x="52" y="272" style="font-size:12.5px" fill="#e6edf3">Rust <tspan fill="#8b949e">10%</tspan></text>
+  <circle cx="163" cy="268" r="5" fill="#9b4f96"/><text x="174" y="272" style="font-size:12.5px" fill="#e6edf3">C# <tspan fill="#8b949e">5%</tspan></text>
+  <circle cx="285" cy="268" r="5" fill="#89e051"/><text x="296" y="272" style="font-size:12.5px" fill="#e6edf3">Shell <tspan fill="#8b949e">5%</tspan></text>
+  <rect x="432" y="80" width="1" height="190" fill="#25304a"/>
+  <text x="450" y="100" style="font-size:13px;font-weight:700" fill="#e6edf3">Latest projects</text>
+  <rect x="450" y="122" width="714" height="32" rx="10" fill="rgba(148,163,184,0.12)" stroke="#25304a"/><circle cx="468" cy="138" r="5" fill="#dea584"/><text x="482" y="143" style="font-size:14px;font-weight:600" fill="#e6edf3">rekora</text><text x="1150" y="143" text-anchor="end" style="font-size:12.5px" fill="#8b949e">Rust</text>
+  <rect x="450" y="162" width="714" height="32" rx="10" fill="rgba(148,163,184,0.12)" stroke="#25304a"/><circle cx="468" cy="178" r="5" fill="#dea584"/><text x="482" y="183" style="font-size:14px;font-weight:600" fill="#e6edf3">RepoRinse</text><text x="1150" y="183" text-anchor="end" style="font-size:12.5px" fill="#8b949e">Rust</text>
+  <rect x="450" y="202" width="714" height="32" rx="10" fill="rgba(148,163,184,0.12)" stroke="#25304a"/><circle cx="468" cy="218" r="5" fill="#3776ab"/><text x="482" y="223" style="font-size:14px;font-weight:600" fill="#e6edf3">declaracion</text><text x="1150" y="223" text-anchor="end" style="font-size:12.5px" fill="#8b949e">Python</text>
+  <rect x="450" y="242" width="714" height="32" rx="10" fill="rgba(148,163,184,0.12)" stroke="#25304a"/><circle cx="468" cy="258" r="5" fill="#3776ab"/><text x="482" y="263" style="font-size:14px;font-weight:600" fill="#e6edf3">social-publisher-mcp</text><text x="1150" y="263" text-anchor="end" style="font-size:12.5px" fill="#8b949e">Python</text>
+</svg>

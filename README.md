@@ -54,22 +54,7 @@
 <tr>
 <td width="55%" valign="top">
 
-```csharp
-public sealed record Developer
-{
-    public string Name     => "Roberto Gallardo";
-    public string Role     => "Software Architect · Full Stack .NET";
-    public string Location => "Guadalajara, Jalisco 🇲🇽";
-    public string DotNet   => ".NET Framework 2.0 → .NET 10 / 11";
-    public string[] Stack  => ["C#", "VB.NET", "Rust", "Python",
-                               "Vue", "React", "Next.js",
-                               "MongoDB", "SQL Server"];
-    public string[] Loves  => ["Clean Architecture", "SOLID",
-                               "CI/CD", "AI agents & MCP"];
-    public string Motto    => "Code that works is the minimum. "
-                            + "Code that's clear is the goal.";
-}
-```
+<img src="assets/widgets/ide-en.svg" alt="Developer.cs" width="100%" />
 
 </td>
 <td width="45%" valign="top">
@@ -326,18 +311,12 @@ I build **MCP servers, skills and hooks** so agents can do real work on my machi
 <a id="experience"></a>
 <p align="center"><img src="assets/sections/en-06.svg" alt="06 · Experience & education" width="100%" /></p>
 
-| Industry | Role | Period |
-|---|---|---|
-| 🚚 **Global logistics** | Full Stack .NET Developer — .NET 8, Clean Architecture, CQRS, Docker/K8s, Azure DevOps, Vue, MongoDB | 2023 – present |
-| 🏦 **Banking** | .NET Developer — .NET Framework → .NET 5, biometrics, GCM → FCM, Kotlin | 2022 |
-| 📡 **Telecom** | Developer — VB.NET / C# / Java, SQL Server, SSRS, Mulesoft | 2019 – 2022 |
-
-### 🎓 Education
-
-| | Degree | School |
-|---|---|---|
-| 🎓 | **Master's Degree in Software Architecture** | Università degli Studi Guglielmo Marconi · taken at AICAD Business School |
-| 🎓 | **Bachelor's in Administrative Computer Systems** | Universidad Veracruzana |
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/widgets/timeline-en-dark.svg" />
+    <img src="assets/widgets/timeline-en-light.svg" alt="Experience and education timeline" width="100%" />
+  </picture>
+</p>
 
 <p align="center"><img src="assets/divider.svg" alt="" width="80%" /></p>
 
@@ -345,7 +324,10 @@ I build **MCP servers, skills and hooks** so agents can do real work on my machi
 <p align="center"><img src="assets/sections/en-07.svg" alt="07 · GitHub stats" width="100%" /></p>
 
 <p align="center">
-  <img src="./profile-summary-card-output/tokyonight/0-profile-details.svg" alt="Profile details" width="100%" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/widgets/overview-en-dark.svg" />
+    <img src="assets/widgets/overview-en-light.svg" alt="GitHub overview" width="100%" />
+  </picture>
 </p>
 
 <table>

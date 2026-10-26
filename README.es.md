@@ -54,22 +54,7 @@
 <tr>
 <td width="55%" valign="top">
 
-```csharp
-public sealed record Developer
-{
-    public string Name     => "Roberto Gallardo";
-    public string Role     => "Arquitecto de Software · Full Stack .NET";
-    public string Location => "Guadalajara, Jalisco 🇲🇽";
-    public string DotNet   => ".NET Framework 2.0 → .NET 10 / 11";
-    public string[] Stack  => ["C#", "VB.NET", "Rust", "Python",
-                               "Vue", "React", "Next.js",
-                               "MongoDB", "SQL Server"];
-    public string[] Loves  => ["Clean Architecture", "SOLID",
-                               "CI/CD", "Agentes de IA y MCP"];
-    public string Motto    => "Que funcione es lo mínimo. "
-                            + "Que se entienda es la meta.";
-}
-```
+<img src="assets/widgets/ide-es.svg" alt="Developer.cs" width="100%" />
 
 </td>
 <td width="45%" valign="top">
@@ -327,18 +312,12 @@ conmigo al mando.
 <a id="experiencia"></a>
 <p align="center"><img src="assets/sections/es-06.svg" alt="06 · Experiencia y formación" width="100%" /></p>
 
-| Sector | Puesto | Periodo |
-|---|---|---|
-| 🚚 **Logística global** | Desarrollador Full Stack .NET — .NET 8, Clean Architecture, CQRS, Docker/K8s, Azure DevOps, Vue, MongoDB | 2023 – actual |
-| 🏦 **Banca** | Desarrollador .NET — .NET Framework → .NET 5, biometría, GCM → FCM, Kotlin | 2022 |
-| 📡 **Telecomunicaciones** | Desarrollador — VB.NET / C# / Java, SQL Server, SSRS, Mulesoft | 2019 – 2022 |
-
-### 🎓 Formación
-
-| | Grado | Institución |
-|---|---|---|
-| 🎓 | **Maestría en Arquitectura de Software** | Università degli Studi Guglielmo Marconi · cursada en AICAD Business School |
-| 🎓 | **Licenciatura en Sistemas Computacionales Administrativos** | Universidad Veracruzana |
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/widgets/timeline-es-dark.svg" />
+    <img src="assets/widgets/timeline-es-light.svg" alt="Línea de tiempo de experiencia y formación" width="100%" />
+  </picture>
+</p>
 
 <p align="center"><img src="assets/divider.svg" alt="" width="80%" /></p>
 
@@ -346,7 +325,10 @@ conmigo al mando.
 <p align="center"><img src="assets/sections/es-07.svg" alt="07 · Estadísticas de GitHub" width="100%" /></p>
 
 <p align="center">
-  <img src="./profile-summary-card-output/tokyonight/0-profile-details.svg" alt="Profile details" width="100%" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/widgets/overview-es-dark.svg" />
+    <img src="assets/widgets/overview-es-light.svg" alt="Resumen de GitHub" width="100%" />
+  </picture>
 </p>
 
 <table>
