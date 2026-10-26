@@ -235,7 +235,7 @@ I build **MCP servers, skills and hooks** so agents can do real work on my machi
       <p>Local-first, verifiable memory for AI coding agents: decisions and constraints with their sources, stale detection, tasks and handoffs between agents, served over MCP to Claude Code and Codex.</p>
       <p><code>🆕 New</code> <code>Rust</code> <code>MCP</code> <code>SQLite</code></p>
       <p>
-        <img src="https://img.shields.io/github/languages/top/robgallardof/rekora?style=flat-square&color=6D28D9" alt="Top language" />
+        <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" alt="Rust" />
         <img src="https://img.shields.io/github/stars/robgallardof/rekora?label=stars&style=flat-square&color=F59E0B&logo=github" alt="Stars" />
         <img src="https://img.shields.io/github/last-commit/robgallardof/rekora?label=last%20commit&style=flat-square&color=0EA5E9" alt="Last commit" />
       </p>
@@ -245,7 +245,7 @@ I build **MCP servers, skills and hooks** so agents can do real work on my machi
       <p>Keeps repos clean and agents in check: removes AI co-author trailers (keeps the humans), whitespace and invisible Unicode, and adds guardrail hooks for Claude Code, Codex, Gemini CLI and Cursor.</p>
       <p><code>🆕 New</code> <code>Rust</code> <code>Git hooks</code> <code>Agent hooks</code></p>
       <p>
-        <img src="https://img.shields.io/github/languages/top/robgallardof/RepoRinse?style=flat-square&color=6D28D9" alt="Top language" />
+        <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" alt="Rust" />
         <img src="https://img.shields.io/github/stars/robgallardof/RepoRinse?label=stars&style=flat-square&color=F59E0B&logo=github" alt="Stars" />
         <img src="https://img.shields.io/github/last-commit/robgallardof/RepoRinse?label=last%20commit&style=flat-square&color=0EA5E9" alt="Last commit" />
       </p>
@@ -257,7 +257,7 @@ I build **MCP servers, skills and hooks** so agents can do real work on my machi
       <p>Edit in DaVinci Resolve by talking to an AI producer: vertical & horizontal cuts, motion that keeps faces whole, designed captions, music on the beat and QA before every render.</p>
       <p><code>MCP</code> <code>Python</code> <code>Video</code></p>
       <p>
-        <img src="https://img.shields.io/github/languages/top/robgallardof/davinci-resolve-mcp?style=flat-square&color=6D28D9" alt="Top language" />
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
         <img src="https://img.shields.io/github/stars/robgallardof/davinci-resolve-mcp?label=stars&style=flat-square&color=F59E0B&logo=github" alt="Stars" />
         <img src="https://img.shields.io/github/last-commit/robgallardof/davinci-resolve-mcp?label=last%20commit&style=flat-square&color=0EA5E9" alt="Last commit" />
       </p>
@@ -267,7 +267,7 @@ I build **MCP servers, skills and hooks** so agents can do real work on my machi
       <p>An AI community manager for short-form video: watches your videos, writes the copy for every network, schedules the posts and tells you what worked.</p>
       <p><code>MCP</code> <code>Python</code> <code>Social</code></p>
       <p>
-        <img src="https://img.shields.io/github/languages/top/robgallardof/social-publisher-mcp?style=flat-square&color=6D28D9" alt="Top language" />
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
         <img src="https://img.shields.io/github/stars/robgallardof/social-publisher-mcp?label=stars&style=flat-square&color=F59E0B&logo=github" alt="Stars" />
         <img src="https://img.shields.io/github/last-commit/robgallardof/social-publisher-mcp?label=last%20commit&style=flat-square&color=0EA5E9" alt="Last commit" />
       </p>
@@ -279,7 +279,7 @@ I build **MCP servers, skills and hooks** so agents can do real work on my machi
       <p>A personal tax assistant for Mexico inside your AI agent: reads CFDI, computes ISR and IVA (RESICO) and guides the filing. Your data stays on your PC.</p>
       <p><code>MCP</code> <code>Python</code> <code>SAT</code></p>
       <p>
-        <img src="https://img.shields.io/github/languages/top/robgallardof/declaracion?style=flat-square&color=6D28D9" alt="Top language" />
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
         <img src="https://img.shields.io/github/stars/robgallardof/declaracion?label=stars&style=flat-square&color=F59E0B&logo=github" alt="Stars" />
         <img src="https://img.shields.io/github/last-commit/robgallardof/declaracion?label=last%20commit&style=flat-square&color=0EA5E9" alt="Last commit" />
       </p>
@@ -289,7 +289,7 @@ I build **MCP servers, skills and hooks** so agents can do real work on my machi
       <p>Turn any folder of code into a local knowledge base you can chat with — embeddings + RAG over Ollama, nothing leaves your machine.</p>
       <p><code>Python</code> <code>Ollama</code> <code>RAG</code></p>
       <p>
-        <img src="https://img.shields.io/github/languages/top/robgallardof/wikdoc?style=flat-square&color=6D28D9" alt="Top language" />
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
         <img src="https://img.shields.io/github/stars/robgallardof/wikdoc?label=stars&style=flat-square&color=F59E0B&logo=github" alt="Stars" />
         <img src="https://img.shields.io/github/last-commit/robgallardof/wikdoc?label=last%20commit&style=flat-square&color=0EA5E9" alt="Last commit" />
       </p>
@@ -301,7 +301,7 @@ I build **MCP servers, skills and hooks** so agents can do real work on my machi
       <p>Self-hosted hub for market analysis, portfolio and AI-assisted trading: explained proposals, your approval and risk controls.</p>
       <p><code>Python</code> <code>AI</code> <code>Self-hosted</code></p>
       <p>
-        <img src="https://img.shields.io/github/languages/top/robgallardof/wallybot?style=flat-square&color=6D28D9" alt="Top language" />
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
         <img src="https://img.shields.io/github/stars/robgallardof/wallybot?label=stars&style=flat-square&color=F59E0B&logo=github" alt="Stars" />
         <img src="https://img.shields.io/github/last-commit/robgallardof/wallybot?label=last%20commit&style=flat-square&color=0EA5E9" alt="Last commit" />
       </p>
@@ -311,7 +311,7 @@ I build **MCP servers, skills and hooks** so agents can do real work on my machi
       <p>Manage many persistent, isolated browser profiles with Camoufox, a Next.js dashboard and a Python backend.</p>
       <p><code>Next.js</code> <code>Python</code> <code>Camoufox</code></p>
       <p>
-        <img src="https://img.shields.io/github/languages/top/robgallardof/multig?style=flat-square&color=6D28D9" alt="Top language" />
+        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
         <img src="https://img.shields.io/github/stars/robgallardof/multig?label=stars&style=flat-square&color=F59E0B&logo=github" alt="Stars" />
         <img src="https://img.shields.io/github/last-commit/robgallardof/multig?label=last%20commit&style=flat-square&color=0EA5E9" alt="Last commit" />
       </p>
@@ -372,6 +372,7 @@ I build **MCP servers, skills and hooks** so agents can do real work on my machi
 <h3 align="center">⚡ Recent activity</h3>
 
 <!--START_SECTION:activity-->
+<sub>⏳ Updates automatically every 6 hours with my latest pull requests, issues and releases.</sub>
 <!--END_SECTION:activity-->
 
 </td>

@@ -236,7 +236,7 @@ conmigo al mando.
       <p>Memoria local y verificable para agentes de IA de código: decisiones y restricciones con sus fuentes, detección de desactualizados, tareas y handoffs entre agentes, servida por MCP a Claude Code y Codex.</p>
       <p><code>🆕 Nuevo</code> <code>Rust</code> <code>MCP</code> <code>SQLite</code></p>
       <p>
-        <img src="https://img.shields.io/github/languages/top/robgallardof/rekora?style=flat-square&color=6D28D9" alt="Top language" />
+        <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" alt="Rust" />
         <img src="https://img.shields.io/github/stars/robgallardof/rekora?label=estrellas&style=flat-square&color=F59E0B&logo=github" alt="Stars" />
         <img src="https://img.shields.io/github/last-commit/robgallardof/rekora?label=%C3%BAltimo%20commit&style=flat-square&color=0EA5E9" alt="Last commit" />
       </p>
@@ -246,7 +246,7 @@ conmigo al mando.
       <p>Mantiene limpios los repos y a los agentes bajo control: quita trailers de coautoría de IA (respeta a las personas), espacios e Unicode invisible, y agrega hooks de límites para Claude Code, Codex, Gemini CLI y Cursor.</p>
       <p><code>🆕 Nuevo</code> <code>Rust</code> <code>Git hooks</code> <code>Hooks de agentes</code></p>
       <p>
-        <img src="https://img.shields.io/github/languages/top/robgallardof/RepoRinse?style=flat-square&color=6D28D9" alt="Top language" />
+        <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" alt="Rust" />
         <img src="https://img.shields.io/github/stars/robgallardof/RepoRinse?label=estrellas&style=flat-square&color=F59E0B&logo=github" alt="Stars" />
         <img src="https://img.shields.io/github/last-commit/robgallardof/RepoRinse?label=%C3%BAltimo%20commit&style=flat-square&color=0EA5E9" alt="Last commit" />
       </p>
@@ -258,7 +258,7 @@ conmigo al mando.
       <p>Edita en DaVinci Resolve hablando con un productor de IA: cortes verticales y horizontales, movimiento que no corta caras, subtítulos con diseño, música a tiempo y revisión antes de cada render.</p>
       <p><code>MCP</code> <code>Python</code> <code>Video</code></p>
       <p>
-        <img src="https://img.shields.io/github/languages/top/robgallardof/davinci-resolve-mcp?style=flat-square&color=6D28D9" alt="Top language" />
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
         <img src="https://img.shields.io/github/stars/robgallardof/davinci-resolve-mcp?label=estrellas&style=flat-square&color=F59E0B&logo=github" alt="Stars" />
         <img src="https://img.shields.io/github/last-commit/robgallardof/davinci-resolve-mcp?label=%C3%BAltimo%20commit&style=flat-square&color=0EA5E9" alt="Last commit" />
       </p>
@@ -268,7 +268,7 @@ conmigo al mando.
       <p>Un community manager con IA para video corto: ve tus videos, escribe el texto de cada red, programa las publicaciones y te dice qué funcionó.</p>
       <p><code>MCP</code> <code>Python</code> <code>Redes</code></p>
       <p>
-        <img src="https://img.shields.io/github/languages/top/robgallardof/social-publisher-mcp?style=flat-square&color=6D28D9" alt="Top language" />
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
         <img src="https://img.shields.io/github/stars/robgallardof/social-publisher-mcp?label=estrellas&style=flat-square&color=F59E0B&logo=github" alt="Stars" />
         <img src="https://img.shields.io/github/last-commit/robgallardof/social-publisher-mcp?label=%C3%BAltimo%20commit&style=flat-square&color=0EA5E9" alt="Last commit" />
       </p>
@@ -280,7 +280,7 @@ conmigo al mando.
       <p>Tu asistente de impuestos personales en México dentro de tu agente de IA: lee CFDI, calcula ISR e IVA (RESICO) y te guía al declarar. Tus datos se quedan en tu PC.</p>
       <p><code>MCP</code> <code>Python</code> <code>SAT</code></p>
       <p>
-        <img src="https://img.shields.io/github/languages/top/robgallardof/declaracion?style=flat-square&color=6D28D9" alt="Top language" />
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
         <img src="https://img.shields.io/github/stars/robgallardof/declaracion?label=estrellas&style=flat-square&color=F59E0B&logo=github" alt="Stars" />
         <img src="https://img.shields.io/github/last-commit/robgallardof/declaracion?label=%C3%BAltimo%20commit&style=flat-square&color=0EA5E9" alt="Last commit" />
       </p>
@@ -290,7 +290,7 @@ conmigo al mando.
       <p>Convierte cualquier carpeta de código en una base de conocimiento local con la que puedes chatear — embeddings + RAG con Ollama, nada sale de tu equipo.</p>
       <p><code>Python</code> <code>Ollama</code> <code>RAG</code></p>
       <p>
-        <img src="https://img.shields.io/github/languages/top/robgallardof/wikdoc?style=flat-square&color=6D28D9" alt="Top language" />
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
         <img src="https://img.shields.io/github/stars/robgallardof/wikdoc?label=estrellas&style=flat-square&color=F59E0B&logo=github" alt="Stars" />
         <img src="https://img.shields.io/github/last-commit/robgallardof/wikdoc?label=%C3%BAltimo%20commit&style=flat-square&color=0EA5E9" alt="Last commit" />
       </p>
@@ -302,7 +302,7 @@ conmigo al mando.
       <p>Centro autoalojado de análisis de mercado, cartera y trading asistido por IA: propuestas explicadas, tu aprobación y controles de riesgo.</p>
       <p><code>Python</code> <code>IA</code> <code>Autoalojado</code></p>
       <p>
-        <img src="https://img.shields.io/github/languages/top/robgallardof/wallybot?style=flat-square&color=6D28D9" alt="Top language" />
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
         <img src="https://img.shields.io/github/stars/robgallardof/wallybot?label=estrellas&style=flat-square&color=F59E0B&logo=github" alt="Stars" />
         <img src="https://img.shields.io/github/last-commit/robgallardof/wallybot?label=%C3%BAltimo%20commit&style=flat-square&color=0EA5E9" alt="Last commit" />
       </p>
@@ -312,7 +312,7 @@ conmigo al mando.
       <p>Administra muchos perfiles de navegador persistentes y aislados con Camoufox, un panel en Next.js y un backend en Python.</p>
       <p><code>Next.js</code> <code>Python</code> <code>Camoufox</code></p>
       <p>
-        <img src="https://img.shields.io/github/languages/top/robgallardof/multig?style=flat-square&color=6D28D9" alt="Top language" />
+        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
         <img src="https://img.shields.io/github/stars/robgallardof/multig?label=estrellas&style=flat-square&color=F59E0B&logo=github" alt="Stars" />
         <img src="https://img.shields.io/github/last-commit/robgallardof/multig?label=%C3%BAltimo%20commit&style=flat-square&color=0EA5E9" alt="Last commit" />
       </p>
@@ -373,6 +373,7 @@ conmigo al mando.
 <h3 align="center">⚡ Actividad reciente</h3>
 
 <!--START_SECTION:activity-->
+<sub>⏳ Se actualiza sola cada 6 horas con mis pull requests, issues y releases más recientes.</sub>
 <!--END_SECTION:activity-->
 
 </td>
