@@ -4,12 +4,15 @@
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:512BD4,50:6D28D9,100:0EA5E9&height=230&section=header&text=Roberto%20Gallardo&fontSize=60&fontColor=ffffff&fontAlignY=36&desc=Full%20Stack%20.NET%20Developer%20%C2%B7%20Software%20Architecture%20%C2%B7%20AI%20tooling&descSize=17&descAlignY=58&animation=fadeIn" alt="Roberto Gallardo" width="100%" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg" />
+    <img src="assets/hero-light.svg" alt="Roberto Gallardo — Software Architect · Full Stack .NET · AI tooling" width="100%" />
+  </picture>
 </p>
 
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&duration=3200&pause=1100&color=8B5CF6&center=true&vCenter=true&width=720&lines=Hey%2C+I%27m+Roberto+%F0%9F%91%8B+a+dev+from+Guadalajara+%F0%9F%8C%AE;From+.NET+Framework+2.0+to+.NET+10+%26+11;Building+Rekora%3A+memory+for+AI+agents+%F0%9F%A7%A0;Now+shipping+RepoRinse+%F0%9F%A7%BC+in+Rust;Teaching+AI+agents+to+edit+my+videos+%F0%9F%8E%AC;If+it%27s+not+clear%2C+it%27s+not+done+%E2%9C%A8" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&duration=3200&pause=1100&color=8B5CF6&center=true&vCenter=true&width=720&lines=Hey%2C+I%27m+Roberto+%F0%9F%91%8B+software+architect+from+Guadalajara;From+.NET+Framework+2.0+to+.NET+10+%26+11;Building+Rekora%3A+memory+for+AI+agents+%F0%9F%A7%A0;Now+shipping+RepoRinse+%F0%9F%A7%BC+in+Rust;Teaching+AI+agents+to+edit+my+videos+%F0%9F%8E%AC;If+it%27s+not+clear%2C+it%27s+not+done+%E2%9C%A8" alt="Typing SVG" />
   </a>
 </p>
 
@@ -25,9 +28,12 @@
   <img src="https://img.shields.io/badge/%F0%9F%93%8D-Guadalajara%2C%20Jalisco%20%F0%9F%87%B2%F0%9F%87%BD-512BD4?style=flat-square" alt="Location" />
 </p>
 
----
+<p align="center"><b><a href="#about">About</a> · <a href="#building">Building now</a> · <a href="#toolbox">AI toolbox</a> · <a href="#stack">Stack</a> · <a href="#projects">Projects</a> · <a href="#experience">Experience</a> · <a href="#stats">Stats</a></b></p>
 
-## 👋 About me
+<p align="center"><img src="assets/divider.svg" alt="" width="80%" /></p>
+
+<a id="about"></a>
+<p align="center"><img src="assets/sections/en-01.svg" alt="01 · About me" width="100%" /></p>
 
 <table>
 <tr>
@@ -66,9 +72,10 @@ I read the legacy code before judging it — then leave it better than I found i
 </tr>
 </table>
 
----
+<p align="center"><img src="assets/divider.svg" alt="" width="80%" /></p>
 
-## 🔨 What I'm building now
+<a id="building"></a>
+<p align="center"><img src="assets/sections/en-02.svg" alt="02 · What I'm building now" width="100%" /></p>
 
 Tools that let AI coding agents work safely and remember what matters — local, no telemetry, written in Rust.
 
@@ -102,9 +109,10 @@ reporinse install --provider git --all --yes            # clean every commit mes
 reporinse install --provider claude,codex --all --yes   # guardrails for your agents
 ```
 
----
+<p align="center"><img src="assets/divider.svg" alt="" width="80%" /></p>
 
-## 🧩 My AI agent toolbox
+<a id="toolbox"></a>
+<p align="center"><img src="assets/sections/en-03.svg" alt="03 · My AI agent toolbox" width="100%" /></p>
 
 I build **MCP servers, skills and hooks** so agents can do real work on my machine — locally, with me in control.
 
@@ -140,9 +148,10 @@ I build **MCP servers, skills and hooks** so agents can do real work on my machi
   <img src="https://img.shields.io/badge/Ollama-local%20RAG-000000?style=for-the-badge&logo=ollama&logoColor=white" alt="Ollama" />
 </p>
 
----
+<p align="center"><img src="assets/divider.svg" alt="" width="80%" /></p>
 
-## 🛠️ Tech stack
+<a id="stack"></a>
+<p align="center"><img src="assets/sections/en-04.svg" alt="04 · Tech stack" width="100%" /></p>
 
 <p align="center">
   <b>Backend</b><br/><br/>
@@ -195,9 +204,10 @@ I build **MCP servers, skills and hooks** so agents can do real work on my machi
   <img src="https://img.shields.io/badge/DaVinci%20Resolve-233A51?style=flat-square&logo=davinciresolve&logoColor=white" alt="DaVinci Resolve" />
 </p>
 
----
+<p align="center"><img src="assets/divider.svg" alt="" width="80%" /></p>
 
-## 🚀 Featured projects
+<a id="projects"></a>
+<p align="center"><img src="assets/sections/en-05.svg" alt="05 · Featured projects" width="100%" /></p>
 
 <table>
   <tr>
@@ -294,9 +304,10 @@ I build **MCP servers, skills and hooks** so agents can do real work on my machi
   <a href="https://github.com/robgallardof?tab=repositories"><b>➜ See all repositories</b></a>
 </p>
 
----
+<p align="center"><img src="assets/divider.svg" alt="" width="80%" /></p>
 
-## 💼 Experience
+<a id="experience"></a>
+<p align="center"><img src="assets/sections/en-06.svg" alt="06 · Experience & education" width="100%" /></p>
 
 | Industry | Role | Period |
 |---|---|---|
@@ -304,16 +315,17 @@ I build **MCP servers, skills and hooks** so agents can do real work on my machi
 | 🏦 **Banking** | .NET Developer — .NET Framework → .NET 5, biometrics, GCM → FCM, Kotlin | 2022 |
 | 📡 **Telecom** | Developer — VB.NET / C# / Java, SQL Server, SSRS, Mulesoft | 2019 – 2022 |
 
-## 🎓 Education
+### 🎓 Education
 
 | | Degree | School |
 |---|---|---|
 | 🎓 | **Master's Degree in Software Architecture** | Università degli Studi Guglielmo Marconi · taken at AICAD Business School |
 | 🎓 | **Bachelor's in Administrative Computer Systems** | Universidad Veracruzana |
 
----
+<p align="center"><img src="assets/divider.svg" alt="" width="80%" /></p>
 
-## 📊 GitHub stats
+<a id="stats"></a>
+<p align="center"><img src="assets/sections/en-07.svg" alt="07 · GitHub stats" width="100%" /></p>
 
 <p align="center">
   <img src="./profile-summary-card-output/tokyonight/0-profile-details.svg" alt="Profile details" width="100%" />
@@ -330,7 +342,7 @@ I build **MCP servers, skills and hooks** so agents can do real work on my machi
   <a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=robgallardof&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D" alt="GitHub streak" /></a>
 </p>
 
-## 🐍 Contribution snake
+### 🐍 Contribution snake
 
 <p align="center">
   <picture>
@@ -340,10 +352,10 @@ I build **MCP servers, skills and hooks** so agents can do real work on my machi
   </picture>
 </p>
 
----
+<p align="center"><img src="assets/divider.svg" alt="" width="80%" /></p>
 
 <p align="center">
   <i>“Make it work, make it right, make it fast.” — Kent Beck</i>
 </p>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0EA5E9,50:6D28D9,100:512BD4&height=110&section=footer" width="100%" alt="footer" />
+<img src="assets/footer-en.svg" alt="Thanks for stopping by" width="100%" />

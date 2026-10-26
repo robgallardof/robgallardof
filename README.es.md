@@ -4,12 +4,15 @@
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:512BD4,50:6D28D9,100:0EA5E9&height=230&section=header&text=Roberto%20Gallardo&fontSize=60&fontColor=ffffff&fontAlignY=36&desc=Desarrollador%20Full%20Stack%20.NET%20%C2%B7%20Arquitectura%20de%20Software%20%C2%B7%20Herramientas%20de%20IA&descSize=17&descAlignY=58&animation=fadeIn" alt="Roberto Gallardo" width="100%" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg" />
+    <img src="assets/hero-light.svg" alt="Roberto Gallardo — Arquitecto de Software · Full Stack .NET · Herramientas de IA" width="100%" />
+  </picture>
 </p>
 
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&duration=3200&pause=1100&color=8B5CF6&center=true&vCenter=true&width=720&lines=Hola%2C+soy+Roberto+%F0%9F%91%8B+dev+de+Guadalajara+%F0%9F%8C%AE;De+.NET+Framework+2.0+a+.NET+10+y+11;Construyendo+Rekora%3A+memoria+para+agentes+de+IA+%F0%9F%A7%A0;Ahora+lanzando+RepoRinse+%F0%9F%A7%BC+en+Rust;Ense%C3%B1ando+a+agentes+de+IA+a+editar+mis+videos+%F0%9F%8E%AC;Si+no+se+entiende%2C+no+est%C3%A1+terminado+%E2%9C%A8" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&duration=3200&pause=1100&color=8B5CF6&center=true&vCenter=true&width=720&lines=Hola%2C+soy+Roberto+%F0%9F%91%8B+arquitecto+de+software+en+Guadalajara;De+.NET+Framework+2.0+a+.NET+10+y+11;Construyendo+Rekora%3A+memoria+para+agentes+de+IA+%F0%9F%A7%A0;Ahora+lanzando+RepoRinse+%F0%9F%A7%BC+en+Rust;Ense%C3%B1ando+a+agentes+de+IA+a+editar+mis+videos+%F0%9F%8E%AC;Si+no+se+entiende%2C+no+est%C3%A1+terminado+%E2%9C%A8" alt="Typing SVG" />
   </a>
 </p>
 
@@ -25,9 +28,12 @@
   <img src="https://img.shields.io/badge/%F0%9F%93%8D-Guadalajara%2C%20Jalisco%20%F0%9F%87%B2%F0%9F%87%BD-512BD4?style=flat-square" alt="Ubicación" />
 </p>
 
----
+<p align="center"><b><a href="#sobre-mi">Sobre mí</a> · <a href="#construyendo">Construyendo</a> · <a href="#herramientas">Herramientas IA</a> · <a href="#tecnologias">Stack</a> · <a href="#proyectos">Proyectos</a> · <a href="#experiencia">Experiencia</a> · <a href="#estadisticas">Estadísticas</a></b></p>
 
-## 👋 Sobre mí
+<p align="center"><img src="assets/divider.svg" alt="" width="80%" /></p>
+
+<a id="sobre-mi"></a>
+<p align="center"><img src="assets/sections/es-01.svg" alt="01 · Sobre mí" width="100%" /></p>
 
 <table>
 <tr>
@@ -66,9 +72,10 @@ Leo el código legacy antes de juzgarlo, y luego lo dejo mejor de como lo encont
 </tr>
 </table>
 
----
+<p align="center"><img src="assets/divider.svg" alt="" width="80%" /></p>
 
-## 🔨 Lo que estoy construyendo
+<a id="construyendo"></a>
+<p align="center"><img src="assets/sections/es-02.svg" alt="02 · Lo que estoy construyendo" width="100%" /></p>
 
 Herramientas para que los agentes de IA trabajen de forma segura y con memoria — locales, sin telemetría y en Rust.
 
@@ -102,9 +109,10 @@ reporinse install --provider git --all --yes            # limpia cada mensaje de
 reporinse install --provider claude,codex --all --yes   # límites para tus agentes
 ```
 
----
+<p align="center"><img src="assets/divider.svg" alt="" width="80%" /></p>
 
-## 🧩 Mi caja de herramientas para agentes de IA
+<a id="herramientas"></a>
+<p align="center"><img src="assets/sections/es-03.svg" alt="03 · Mi caja de herramientas de IA" width="100%" /></p>
 
 Construyo **servidores MCP, skills y hooks** para que los agentes hagan trabajo real en mi equipo — en local y
 conmigo al mando.
@@ -141,9 +149,10 @@ conmigo al mando.
   <img src="https://img.shields.io/badge/Ollama-RAG%20local-000000?style=for-the-badge&logo=ollama&logoColor=white" alt="Ollama" />
 </p>
 
----
+<p align="center"><img src="assets/divider.svg" alt="" width="80%" /></p>
 
-## 🛠️ Tecnologías
+<a id="tecnologias"></a>
+<p align="center"><img src="assets/sections/es-04.svg" alt="04 · Tecnologías" width="100%" /></p>
 
 <p align="center">
   <b>Backend</b><br/><br/>
@@ -196,9 +205,10 @@ conmigo al mando.
   <img src="https://img.shields.io/badge/DaVinci%20Resolve-233A51?style=flat-square&logo=davinciresolve&logoColor=white" alt="DaVinci Resolve" />
 </p>
 
----
+<p align="center"><img src="assets/divider.svg" alt="" width="80%" /></p>
 
-## 🚀 Proyectos destacados
+<a id="proyectos"></a>
+<p align="center"><img src="assets/sections/es-05.svg" alt="05 · Proyectos destacados" width="100%" /></p>
 
 <table>
   <tr>
@@ -295,9 +305,10 @@ conmigo al mando.
   <a href="https://github.com/robgallardof?tab=repositories"><b>➜ Ver todos los repositorios</b></a>
 </p>
 
----
+<p align="center"><img src="assets/divider.svg" alt="" width="80%" /></p>
 
-## 💼 Experiencia
+<a id="experiencia"></a>
+<p align="center"><img src="assets/sections/es-06.svg" alt="06 · Experiencia y formación" width="100%" /></p>
 
 | Sector | Puesto | Periodo |
 |---|---|---|
@@ -305,16 +316,17 @@ conmigo al mando.
 | 🏦 **Banca** | Desarrollador .NET — .NET Framework → .NET 5, biometría, GCM → FCM, Kotlin | 2022 |
 | 📡 **Telecomunicaciones** | Desarrollador — VB.NET / C# / Java, SQL Server, SSRS, Mulesoft | 2019 – 2022 |
 
-## 🎓 Formación
+### 🎓 Formación
 
 | | Grado | Institución |
 |---|---|---|
 | 🎓 | **Maestría en Arquitectura de Software** | Università degli Studi Guglielmo Marconi · cursada en AICAD Business School |
 | 🎓 | **Licenciatura en Sistemas Computacionales Administrativos** | Universidad Veracruzana |
 
----
+<p align="center"><img src="assets/divider.svg" alt="" width="80%" /></p>
 
-## 📊 Estadísticas
+<a id="estadisticas"></a>
+<p align="center"><img src="assets/sections/es-07.svg" alt="07 · Estadísticas de GitHub" width="100%" /></p>
 
 <p align="center">
   <img src="./profile-summary-card-output/tokyonight/0-profile-details.svg" alt="Detalles del perfil" width="100%" />
@@ -331,7 +343,7 @@ conmigo al mando.
   <a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=robgallardof&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D&locale=es" alt="Racha en GitHub" /></a>
 </p>
 
-## 🐍 Serpiente de contribuciones
+### 🐍 Serpiente de contribuciones
 
 <p align="center">
   <picture>
@@ -341,10 +353,10 @@ conmigo al mando.
   </picture>
 </p>
 
----
+<p align="center"><img src="assets/divider.svg" alt="" width="80%" /></p>
 
 <p align="center">
   <i>“Primero que funcione, luego que esté bien, luego que sea rápido.” — Kent Beck</i>
 </p>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0EA5E9,50:6D28D9,100:512BD4&height=110&section=footer" width="100%" alt="footer" />
+<img src="assets/footer-es.svg" alt="Gracias por pasar" width="100%" />
