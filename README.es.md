@@ -50,22 +50,43 @@
 <a id="sobre-mi"></a>
 <p align="center"><img src="assets/sections/es-01.svg" alt="01 · Sobre mí" width="100%" /></p>
 
+<p align="center"><img src="assets/widgets/ide-es.svg" alt="Developer.cs" width="88%" /></p>
+
+<p align="center"><i>Leo el código legacy antes de juzgarlo, y luego lo dejo mejor de como lo encontré.</i></p>
+
 <table>
 <tr>
-<td width="55%" valign="top">
+<td width="50%" valign="top">
 
-<img src="assets/widgets/ide-es.svg" alt="Developer.cs" width="100%" />
+🏗️ **De día:** servicios backend en **.NET** para una empresa global de logística.
 
 </td>
-<td width="45%" valign="top">
+<td width="50%" valign="top">
 
-Leo el código legacy antes de juzgarlo, y luego lo dejo mejor de como lo encontré.
+🔄 **Todas las generaciones de .NET:** desde **.NET Framework 2.0 / 3.5 / 4.x**, pasando por .NET Core, hasta **.NET 5 → 10 y 11** — y las migraciones entre ellas.
 
-🏗️ **De día:** servicios backend en **.NET** para una empresa global de logística.<br/><br/>
-🔄 **Todas las generaciones de .NET:** desde **.NET Framework 2.0 / 3.5 / 4.x**, pasando por .NET Core, hasta **.NET 5 → 10 y 11** — y las migraciones entre ellas.<br/><br/>
-🤖 **4 años con IA:** de ChatGPT a Codex, Claude Code y Antigravity — con revisión y límites, no a ciegas.<br/><br/>
-🌙 **De noche:** agentes de IA que hacen trabajo real — editan mis videos, los publican y hasta hacen mi declaración.<br/><br/>
-🔨 **Ahora mismo:** construyendo [**RepoRinse**](https://github.com/robgallardof/RepoRinse) y [**Rekora**](https://github.com/robgallardof/rekora), herramientas en Rust para agentes de IA.<br/><br/>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+🤖 **4 años con IA:** de ChatGPT a Codex, Claude Code y Antigravity — con revisión y límites, no a ciegas.
+
+</td>
+<td width="50%" valign="top">
+
+🌙 **De noche:** agentes de IA que hacen trabajo real — editan mis videos, los publican y hasta hacen mi declaración.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+🔨 **Ahora mismo:** construyendo [**RepoRinse**](https://github.com/robgallardof/RepoRinse) y [**Rekora**](https://github.com/robgallardof/rekora), herramientas en Rust para agentes de IA.
+
+</td>
+<td width="50%" valign="top">
+
 💬 **Platícame de:** C#, migraciones de .NET, diseño de software, MongoDB, Vue/Next.js, DevOps y agentes de IA.
 
 </td>
@@ -333,12 +354,12 @@ conmigo al mando.
 
 <table>
 <tr>
-<td width="50%" align="center"><img src="./profile-summary-card-output/tokyonight/1-repos-per-language.svg" alt="Repos per language" width="100%" /></td>
-<td width="50%" align="center"><img src="./profile-summary-card-output/tokyonight/2-most-commit-language.svg" alt="Most commit language" width="100%" /></td>
+<td width="50%" align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="./profile-summary-card-output/github_dark/1-repos-per-language.svg" /><img src="./profile-summary-card-output/github/1-repos-per-language.svg" alt="Repos per language" width="100%" /></picture></td>
+<td width="50%" align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="./profile-summary-card-output/github_dark/2-most-commit-language.svg" /><img src="./profile-summary-card-output/github/2-most-commit-language.svg" alt="Most commit language" width="100%" /></picture></td>
 </tr>
 <tr>
-<td width="50%" align="center"><img src="./profile-summary-card-output/tokyonight/3-stats.svg" alt="Stats" width="100%" /></td>
-<td width="50%" align="center"><img src="./profile-summary-card-output/tokyonight/4-productive-time.svg" alt="Productive time" width="100%" /></td>
+<td width="50%" align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="./profile-summary-card-output/github_dark/3-stats.svg" /><img src="./profile-summary-card-output/github/3-stats.svg" alt="Stats" width="100%" /></picture></td>
+<td width="50%" align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="./profile-summary-card-output/github_dark/4-productive-time.svg" /><img src="./profile-summary-card-output/github/4-productive-time.svg" alt="Productive time" width="100%" /></picture></td>
 </tr>
 </table>
 
@@ -347,7 +368,7 @@ conmigo al mando.
 <td width="50%" valign="top">
 
 <h3 align="center">🔥 Racha</h3>
-<p align="center"><a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=robgallardof&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D" alt="GitHub streak" width="100%" /></a></p>
+<p align="center"><a href="https://git.io/streak-stats"><picture><source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=robgallardof&hide_border=true&date_format=j%20M%5B%20Y%5D&theme=github-dark-blue" /><img src="https://streak-stats.demolab.com?user=robgallardof&hide_border=true&date_format=j%20M%5B%20Y%5D&theme=default" alt="GitHub streak" width="100%" /></picture></a></p>
 
 </td>
 <td width="50%" valign="top">

@@ -50,22 +50,43 @@
 <a id="about"></a>
 <p align="center"><img src="assets/sections/en-01.svg" alt="01 · About me" width="100%" /></p>
 
+<p align="center"><img src="assets/widgets/ide-en.svg" alt="Developer.cs" width="88%" /></p>
+
+<p align="center"><i>I read the legacy code before judging it — then leave it better than I found it.</i></p>
+
 <table>
 <tr>
-<td width="55%" valign="top">
+<td width="50%" valign="top">
 
-<img src="assets/widgets/ide-en.svg" alt="Developer.cs" width="100%" />
+🏗️ **By day:** backend services in **.NET** for a global logistics company.
 
 </td>
-<td width="45%" valign="top">
+<td width="50%" valign="top">
 
-I read the legacy code before judging it — then leave it better than I found it.
+🔄 **Every .NET generation:** from **.NET Framework 2.0 / 3.5 / 4.x** through .NET Core and **.NET 5 → 10 and 11** — and the migrations in between.
 
-🏗️ **By day:** backend services in **.NET** for a global logistics company.<br/><br/>
-🔄 **Every .NET generation:** from **.NET Framework 2.0 / 3.5 / 4.x** through .NET Core and **.NET 5 → 10 and 11** — and the migrations in between.<br/><br/>
-🤖 **4 years with AI:** from ChatGPT to Codex, Claude Code and Antigravity — reviewed and guarded, never blind.<br/><br/>
-🌙 **By night:** AI agents that do real work — editing my videos, publishing them, even doing my taxes.<br/><br/>
-🔨 **Right now:** building [**RepoRinse**](https://github.com/robgallardof/RepoRinse) and [**Rekora**](https://github.com/robgallardof/rekora), Rust tools for AI coding agents.<br/><br/>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+🤖 **4 years with AI:** from ChatGPT to Codex, Claude Code and Antigravity — reviewed and guarded, never blind.
+
+</td>
+<td width="50%" valign="top">
+
+🌙 **By night:** AI agents that do real work — editing my videos, publishing them, even doing my taxes.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+🔨 **Right now:** building [**RepoRinse**](https://github.com/robgallardof/RepoRinse) and [**Rekora**](https://github.com/robgallardof/rekora), Rust tools for AI coding agents.
+
+</td>
+<td width="50%" valign="top">
+
 💬 **Ask me about:** C#, .NET migrations, software design, MongoDB, Vue/Next.js, DevOps and AI agents.
 
 </td>
@@ -332,12 +353,12 @@ I build **MCP servers, skills and hooks** so agents can do real work on my machi
 
 <table>
 <tr>
-<td width="50%" align="center"><img src="./profile-summary-card-output/tokyonight/1-repos-per-language.svg" alt="Repos per language" width="100%" /></td>
-<td width="50%" align="center"><img src="./profile-summary-card-output/tokyonight/2-most-commit-language.svg" alt="Most commit language" width="100%" /></td>
+<td width="50%" align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="./profile-summary-card-output/github_dark/1-repos-per-language.svg" /><img src="./profile-summary-card-output/github/1-repos-per-language.svg" alt="Repos per language" width="100%" /></picture></td>
+<td width="50%" align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="./profile-summary-card-output/github_dark/2-most-commit-language.svg" /><img src="./profile-summary-card-output/github/2-most-commit-language.svg" alt="Most commit language" width="100%" /></picture></td>
 </tr>
 <tr>
-<td width="50%" align="center"><img src="./profile-summary-card-output/tokyonight/3-stats.svg" alt="Stats" width="100%" /></td>
-<td width="50%" align="center"><img src="./profile-summary-card-output/tokyonight/4-productive-time.svg" alt="Productive time" width="100%" /></td>
+<td width="50%" align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="./profile-summary-card-output/github_dark/3-stats.svg" /><img src="./profile-summary-card-output/github/3-stats.svg" alt="Stats" width="100%" /></picture></td>
+<td width="50%" align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="./profile-summary-card-output/github_dark/4-productive-time.svg" /><img src="./profile-summary-card-output/github/4-productive-time.svg" alt="Productive time" width="100%" /></picture></td>
 </tr>
 </table>
 
@@ -346,7 +367,7 @@ I build **MCP servers, skills and hooks** so agents can do real work on my machi
 <td width="50%" valign="top">
 
 <h3 align="center">🔥 Streak</h3>
-<p align="center"><a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=robgallardof&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D" alt="GitHub streak" width="100%" /></a></p>
+<p align="center"><a href="https://git.io/streak-stats"><picture><source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=robgallardof&hide_border=true&date_format=j%20M%5B%20Y%5D&theme=github-dark-blue" /><img src="https://streak-stats.demolab.com?user=robgallardof&hide_border=true&date_format=j%20M%5B%20Y%5D&theme=default" alt="GitHub streak" width="100%" /></picture></a></p>
 
 </td>
 <td width="50%" valign="top">
