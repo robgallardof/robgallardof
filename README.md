@@ -1,25 +1,26 @@
 <!-- Header -->
+<p align="right">
+  <b>English</b> · <a href="README.es.md">Español</a>
+</p>
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:512BD4,50:6D28D9,100:0EA5E9&height=210&section=header&text=Roberto%20Gallardo&fontSize=58&fontColor=ffffff&fontAlignY=36&desc=Full%20Stack%20.NET%20Developer%20%C2%B7%20Software%20Architecture%20%C2%B7%20AI%20tooling&descSize=17&descAlignY=58&animation=fadeIn" alt="Roberto Gallardo" width="100%" />
 </p>
 
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&duration=3200&pause=900&color=8B5CF6&center=true&vCenter=true&width=640&lines=C%23+%2F+.NET+8+%C2%B7+Clean+Architecture+%C2%B7+CQRS;Vue+%C2%B7+React+%C2%B7+Next.js+%C2%B7+Tailwind;Docker+%C2%B7+Kubernetes+%C2%B7+Azure+DevOps;Building+MCP+servers+%26+AI+agents+%F0%9F%A4%96;Hablo+espa%C3%B1ol+%F0%9F%87%B2%F0%9F%87%BD+%C2%B7+I+speak+English" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&duration=3200&pause=1100&color=8B5CF6&center=true&vCenter=true&width=680&lines=Hey%2C+I%27m+Roberto+%F0%9F%91%8B+a+dev+from+Guadalajara+%F0%9F%8C%AE;I+turn+legacy+code+into+clean+.NET+8;Coffee+%E2%98%95+%2B+Clean+Architecture+%3D+happy+Mondays;Teaching+AI+agents+to+edit+my+videos+%F0%9F%8E%AC;If+it%27s+not+clear%2C+it%27s+not+done+%E2%9C%A8" alt="Typing SVG" />
   </a>
 </p>
 
 <p align="center">
   <a href="https://robertogallardo.dev"><img src="https://img.shields.io/badge/Website-robertogallardo.dev-0EA5E9?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website" /></a>
   <a href="https://linkedin.com/in/robgallardof"><img src="https://img.shields.io/badge/LinkedIn-robgallardof-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://portfolio-roberto-gallardo.vercel.app"><img src="https://img.shields.io/badge/Portfolio-ver-6D28D9?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
-  <a href="https://resume-murex-eta-70.vercel.app"><img src="https://img.shields.io/badge/CV-descargar-512BD4?style=for-the-badge&logo=readdotcv&logoColor=white" alt="CV" /></a>
 </p>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=robgallardof&label=Profile%20views&color=6D28D9&style=flat-square" alt="Profile views" />
   <img src="https://img.shields.io/github/followers/robgallardof?label=Followers&style=flat-square&color=0EA5E9&logo=github" alt="Followers" />
-  <img src="https://img.shields.io/badge/%F0%9F%93%8D-Guadalajara%2C%20M%C3%A9xico-512BD4?style=flat-square" alt="Location" />
+  <img src="https://img.shields.io/badge/%F0%9F%93%8D-Guadalajara%2C%20Jalisco%20%F0%9F%87%B2%F0%9F%87%BD-512BD4?style=flat-square" alt="Location" />
 </p>
 
 ---
@@ -30,19 +31,21 @@
 public sealed record Developer
 {
     public string Name      => "Roberto Gallardo";
-    public string Role      => "Full Stack .NET Developer @ Geodis";
-    public string Location  => "Guadalajara, Jalisco, México 🇲🇽";
+    public string Role      => "Full Stack .NET Developer";
+    public string HomeTown  => "Guadalajara, Jalisco 🇲🇽 — tortas ahogadas certified";
     public string[] Stack   => [".NET 8", "C#", "Vue", "React", "Next.js", "MongoDB", "SQL Server"];
     public string[] Loves   => ["Clean Architecture", "SOLID · DRY · KISS", "CI/CD", "AI agents & MCP"];
-    public string Studying  => "Master's in Software Architecture — AICAD Business School";
+    public string[] Degrees => ["Master's in Software Architecture", "B.Sc. Administrative Computer Systems"];
     public string Motto     => "Code that works is the minimum. Code that's clear is the goal.";
 }
 ```
 
-- 🔭 Migrating services to **.NET 8**, shipping containers on **Kubernetes** and pipelines on **Azure DevOps**.
-- 🤖 Lately building **MCP servers and AI agents**: video editing in DaVinci Resolve, social media publishing, Mexican taxes.
-- 🌱 Self‑taught: I learn what I need when I need it, and I always question how to make it better.
-- 💬 Ask me about **C#, Clean Architecture, CQRS, MongoDB, Vue/Next.js or DevOps**.
+I'm the kind of developer who reads the legacy code before judging it, and then leaves it better than I found it. By day I build backend services in **.NET 8** for a global logistics company; by night I automate my own life with AI agents — from editing my videos in DaVinci Resolve to doing my taxes. 😅
+
+- 🏗️ I care about **architecture that the next person can understand** — Clean Architecture, CQRS and boring, reliable pipelines.
+- 🤖 Lately obsessed with **MCP servers and AI agents** that do real work, not demos.
+- 🧠 I learned most of this by building things, breaking them and fixing them — then went and got the master's to understand *why* it worked.
+- 💬 Happy to talk about **C#, software design, MongoDB, Vue/Next.js, DevOps** or the best taquería in GDL.
 
 ---
 
@@ -140,11 +143,20 @@ public sealed record Developer
 
 ## 💼 Experience
 
-| Company | Role | Period |
+| Industry | Role | Period |
 |---|---|---|
-| **Geodis** | Full Stack .NET Developer — .NET 8, Clean Architecture, CQRS, Docker/K8s, Azure DevOps, Vue, MongoDB | 2023 – present |
-| **Bansí** | .NET Developer — .NET Framework → .NET 5, biometrics, GCM → FCM, Kotlin | 2022 |
-| **Megacable** | Developer — VB.NET / C# / Java, SQL Server, SSRS, Mulesoft | 2019 – 2022 |
+| 🚚 **Global logistics** | Full Stack .NET Developer — .NET 8, Clean Architecture, CQRS, Docker/K8s, Azure DevOps, Vue, MongoDB | 2023 – present |
+| 🏦 **Banking** | .NET Developer — .NET Framework → .NET 5, biometrics, GCM → FCM, Kotlin | 2022 |
+| 📡 **Telecom** | Developer — VB.NET / C# / Java, SQL Server, SSRS, Mulesoft | 2019 – 2022 |
+
+---
+
+## 🎓 Education
+
+| | Degree | School |
+|---|---|---|
+| 🎓 | **Master's Degree in Software Architecture** | AICAD Business School |
+| 🎓 | **Bachelor's in Administrative Computer Systems** | Universidad Veracruzana |
 
 ---
 
