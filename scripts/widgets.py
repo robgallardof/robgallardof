@@ -51,32 +51,27 @@ def frame(width: int, height: int, theme: dict, label: str, body: str, defs: str
 # ---------------------------------------------------------------- IDE window
 
 IDE_CODE = {
-    "en": [
+    lang: [
         [("kw", "public sealed record "), ("ty", "Developer")],
         [("p", "{")],
-        [("p", "    "), ("kw", "public string "), ("id", "Name"), ("p", "     => "), ("st", '"Roberto Gallardo"'), ("p", ";")],
-        [("p", "    "), ("kw", "public string "), ("id", "Role"), ("p", "     => "), ("st", '"Software Architect · Full Stack .NET"'), ("p", ";")],
-        [("p", "    "), ("kw", "public string "), ("id", "Location"), ("p", " => "), ("st", '"Guadalajara, Jalisco"'), ("p", ";")],
-        [("p", "    "), ("kw", "public string "), ("id", "DotNet"), ("p", "   => "), ("st", '".NET Framework 2.0 → .NET 10 / 11"'), ("p", ";")],
-        [("p", "    "), ("kw", "public string"), ("p", "[] "), ("id", "Stack"), ("p", "  => ["), ("st", '"C#"'), ("p", ", "), ("st", '"Rust"'), ("p", ", "), ("st", '"Python"'), ("p", ", "), ("st", '"Vue"'), ("p", ", "), ("st", '"Next.js"'), ("p", "];")],
-        [("p", "    "), ("kw", "public string"), ("p", "[] "), ("id", "Loves"), ("p", "  => ["), ("st", '"Clean Architecture"'), ("p", ", "), ("st", '"CI/CD"'), ("p", ", "), ("st", '"AI agents & MCP"'), ("p", "];")],
-        [("p", "    "), ("kw", "public int "), ("id", "YearsWithAI"), ("p", " => "), ("nu", "4"), ("p", ";")],
-        [("p", "    "), ("cm", "// Code that works is the minimum. Code that's clear is the goal.")],
+        [("p", "    "), ("kw", "public string   "), ("id", "Name"), ("p", "        => "), ("st", '"Roberto Gallardo"'), ("p", ";")],
+        [("p", "    "), ("kw", "public string   "), ("id", "Role"), ("p", "        => "), ("st", role), ("p", ";")],
+        [("p", "    "), ("kw", "public int      "), ("id", "Years"), ("p", "       => "), ("nu", "7"), ("p", ";  "), ("cm", years_note)],
+        [("p", "    "), ("kw", "public string   "), ("id", "Now"), ("p", "         => "), ("st", now), ("p", ";")],
+        [("p", "    "), ("kw", "public string[] "), ("id", "DotNet"), ("p", "      => ["), ("st", '"Framework 2.0–4.8"'), ("p", ", "), ("st", '".NET Core"'), ("p", ", "), ("st", '".NET 5–11"'), ("p", "];")],
+        [("p", "    "), ("kw", "public string[] "), ("id", "Backend"), ("p", "     => ["), ("st", '"C#"'), ("p", ", "), ("st", '"ASP.NET Core"'), ("p", ", "), ("st", '"EF Core"'), ("p", ", "), ("st", '"SignalR"'), ("p", ", "), ("st", '"WCF"'), ("p", ", "), ("st", '"Rust"'), ("p", "];")],
+        [("p", "    "), ("kw", "public string[] "), ("id", "Frontend"), ("p", "    => ["), ("st", '"Vue"'), ("p", ", "), ("st", '"React"'), ("p", ", "), ("st", '"Next.js"'), ("p", ", "), ("st", '"TypeScript"'), ("p", ", "), ("st", '"Tailwind"'), ("p", "];")],
+        [("p", "    "), ("kw", "public string[] "), ("id", "Data"), ("p", "        => ["), ("st", '"SQL Server"'), ("p", ", "), ("st", '"MongoDB"'), ("p", ", "), ("st", '"Informix"'), ("p", ", "), ("st", '"SQLite"'), ("p", "];")],
+        [("p", "    "), ("kw", "public string[] "), ("id", "Cloud"), ("p", "       => ["), ("st", '"Azure DevOps"'), ("p", ", "), ("st", '"Docker"'), ("p", ", "), ("st", '"Kubernetes"'), ("p", ", "), ("st", '"Cloudflare"'), ("p", "];")],
+        [("p", "    "), ("kw", "public string[] "), ("id", "AI"), ("p", "          => ["), ("st", '"Codex"'), ("p", ", "), ("st", '"Claude Code"'), ("p", ", "), ("st", '"Antigravity"'), ("p", ", "), ("st", '"MCP"'), ("p", "];  "), ("cm", ai_note)],
+        [("p", "    "), ("kw", "public string[] "), ("id", "Building"), ("p", "    => ["), ("st", '"Rekora"'), ("p", ", "), ("st", '"RepoRinse"'), ("p", ", "), ("st", '"MCP servers"'), ("p", "];")],
+        [("p", "    "), ("kw", "public string   "), ("id", "Education"), ("p", "   => "), ("st", education), ("p", ";")],
         [("p", "}")],
-    ],
-    "es": [
-        [("kw", "public sealed record "), ("ty", "Developer")],
-        [("p", "{")],
-        [("p", "    "), ("kw", "public string "), ("id", "Name"), ("p", "     => "), ("st", '"Roberto Gallardo"'), ("p", ";")],
-        [("p", "    "), ("kw", "public string "), ("id", "Role"), ("p", "     => "), ("st", '"Arquitecto de Software · Full Stack .NET"'), ("p", ";")],
-        [("p", "    "), ("kw", "public string "), ("id", "Location"), ("p", " => "), ("st", '"Guadalajara, Jalisco"'), ("p", ";")],
-        [("p", "    "), ("kw", "public string "), ("id", "DotNet"), ("p", "   => "), ("st", '".NET Framework 2.0 → .NET 10 / 11"'), ("p", ";")],
-        [("p", "    "), ("kw", "public string"), ("p", "[] "), ("id", "Stack"), ("p", "  => ["), ("st", '"C#"'), ("p", ", "), ("st", '"Rust"'), ("p", ", "), ("st", '"Python"'), ("p", ", "), ("st", '"Vue"'), ("p", ", "), ("st", '"Next.js"'), ("p", "];")],
-        [("p", "    "), ("kw", "public string"), ("p", "[] "), ("id", "Loves"), ("p", "  => ["), ("st", '"Clean Architecture"'), ("p", ", "), ("st", '"CI/CD"'), ("p", ", "), ("st", '"Agentes de IA y MCP"'), ("p", "];")],
-        [("p", "    "), ("kw", "public int "), ("id", "YearsWithAI"), ("p", " => "), ("nu", "4"), ("p", ";")],
-        [("p", "    "), ("cm", "// Que funcione es lo mínimo. Que se entienda es la meta.")],
-        [("p", "}")],
-    ],
+    ]
+    for lang, role, years_note, now, ai_note, education in [
+        ("en", '"Software Architect · Full Stack .NET"', "// professionally, since 2019", '"Global logistics · .NET 8, Clean Architecture, CQRS"', "// daily, 4 years", '"MSc Software Architecture"'),
+        ("es", '"Arquitecto de Software · Full Stack .NET"', "// profesionalmente, desde 2019", '"Logística global · .NET 8, Clean Architecture, CQRS"', "// a diario, 4 años", '"Maestría en Arquitectura de Software"'),
+    ]
 }
 
 SYNTAX = {"kw": "#569cd6", "ty": "#4ec9b0", "id": "#9cdcfe", "st": "#ce9178", "nu": "#b5cea8", "cm": "#6a9955", "p": "#d4d4d4"}
@@ -84,7 +79,7 @@ SYNTAX = {"kw": "#569cd6", "ty": "#4ec9b0", "id": "#9cdcfe", "st": "#ce9178", "n
 
 def ide(lang: str) -> str:
     lines = IDE_CODE[lang]
-    w, top, lh = 860, 86, 25
+    w, top, lh = 980, 86, 25
     h = top + lh * len(lines) - 4
     rows = []
     for i, tokens in enumerate(lines):
@@ -112,27 +107,31 @@ def ide(lang: str) -> str:
 
 TIMELINE = {
     "en": {
-        "work_title": "Experience", "edu_title": "Education",
+        "work_title": "Experience · 7+ years", "edu_title": "Education",
         "work": [
             ("2023 — now", "Full Stack .NET Developer", "Global logistics", [".NET 8", "Clean Architecture", "CQRS", "Docker/K8s", "Azure DevOps", "Vue", "MongoDB"]),
+            ("2022 — now", "Software Architect & Full Stack", "Freelance", ["Next.js", "SignalR", "CQRS", "MongoDB", "Azure Blob", "Cloudflare Zero Trust"]),
             ("2022", ".NET Developer", "Banking", [".NET Framework → .NET 5", "Biometrics", "GCM → FCM", "Kotlin"]),
             ("2019 — 2022", "Developer", "Telecom", ["VB.NET", "C#", "Java", "SQL Server", "SSRS", "Mulesoft"]),
         ],
         "edu": [
             ("2024 — 2025", "Master's Degree in Software Architecture", "Università degli Studi Guglielmo Marconi", ["Taken at AICAD Business School"]),
             ("2015 — 2019", "Bachelor's in Administrative Computer Systems", "Universidad Veracruzana", []),
+            ("2012 — 2015", "Technical Degree in Programming", "CBTIS 66", []),
         ],
     },
     "es": {
-        "work_title": "Experiencia", "edu_title": "Formación",
+        "work_title": "Experiencia · 7+ años", "edu_title": "Formación",
         "work": [
             ("2023 — hoy", "Desarrollador Full Stack .NET", "Logística global", [".NET 8", "Clean Architecture", "CQRS", "Docker/K8s", "Azure DevOps", "Vue", "MongoDB"]),
+            ("2022 — hoy", "Arquitecto de Software y Full Stack", "Freelance", ["Next.js", "SignalR", "CQRS", "MongoDB", "Azure Blob", "Cloudflare Zero Trust"]),
             ("2022", "Desarrollador .NET", "Banca", [".NET Framework → .NET 5", "Biometría", "GCM → FCM", "Kotlin"]),
             ("2019 — 2022", "Desarrollador", "Telecomunicaciones", ["VB.NET", "C#", "Java", "SQL Server", "SSRS", "Mulesoft"]),
         ],
         "edu": [
             ("2024 — 2025", "Maestría en Arquitectura de Software", "Università degli Studi Guglielmo Marconi", ["Cursada en AICAD Business School"]),
             ("2015 — 2019", "Lic. en Sistemas Computacionales Administrativos", "Universidad Veracruzana", []),
+            ("2012 — 2015", "Técnico en Programación", "CBTIS 66", []),
         ],
     },
 }
