@@ -28,7 +28,22 @@
   <img src="https://img.shields.io/badge/%F0%9F%93%8D-Guadalajara%2C%20Jalisco%20%F0%9F%87%B2%F0%9F%87%BD-512BD4?style=flat-square" alt="Location" />
 </p>
 
-<p align="center"><b><a href="#about">About</a> · <a href="#building">Building now</a> · <a href="#toolbox">AI toolbox</a> · <a href="#stack">Stack</a> · <a href="#projects">Projects</a> · <a href="#experience">Experience</a> · <a href="#stats">Stats</a></b></p>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/facts-en-dark.svg" />
+    <img src="assets/facts-en-light.svg" alt="7+ years building software · .NET Framework 2.0 → 11 · 4 years with AI agents · MSc Software Architecture · bilingual" width="100%" />
+  </picture>
+</p>
+
+<p align="center">
+  <a href="#about"><img src="https://img.shields.io/badge/About-6D28D9?style=for-the-badge" alt="About" /></a>
+  <a href="#building"><img src="https://img.shields.io/badge/Building%20now-5B21B6?style=for-the-badge" alt="Building now" /></a>
+  <a href="#toolbox"><img src="https://img.shields.io/badge/AI%20toolbox-4F46E5?style=for-the-badge" alt="AI toolbox" /></a>
+  <a href="#stack"><img src="https://img.shields.io/badge/Stack-4338CA?style=for-the-badge" alt="Stack" /></a>
+  <a href="#projects"><img src="https://img.shields.io/badge/Projects-2563EB?style=for-the-badge" alt="Projects" /></a>
+  <a href="#experience"><img src="https://img.shields.io/badge/Experience-0284C7?style=for-the-badge" alt="Experience" /></a>
+  <a href="#stats"><img src="https://img.shields.io/badge/Stats-0EA5E9?style=for-the-badge" alt="Stats" /></a>
+</p>
 
 <p align="center"><img src="assets/divider.svg" alt="" width="80%" /></p>
 
@@ -79,34 +94,13 @@ I read the legacy code before judging it — then leave it better than I found i
 
 Tools that let AI coding agents work safely and remember what matters — local, no telemetry, written in Rust.
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🧼 <a href="https://github.com/robgallardof/RepoRinse">RepoRinse</a></h3>
-      <p>Local, deterministic Rust CLI that keeps repos clean: strips AI co-author trailers (keeps the humans), whitespace and invisible Unicode, plus guardrails for Claude Code, Codex, Gemini CLI and Cursor.</p>
-      <p><code>Rust</code> <code>Git hooks</code> <code>Agent guardrails</code></p>
-      <p>
-        <img src="https://img.shields.io/github/languages/top/robgallardof/RepoRinse?style=flat-square&color=6D28D9" alt="Top language" />
-        <img src="https://img.shields.io/github/stars/robgallardof/RepoRinse?label=stars&style=flat-square&color=F59E0B&logo=github" alt="Stars" />
-        <img src="https://img.shields.io/github/last-commit/robgallardof/RepoRinse?label=last%20commit&style=flat-square&color=0EA5E9" alt="Last commit" />
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🧠 <a href="https://github.com/robgallardof/rekora">Rekora</a></h3>
-      <p>Local-first, verifiable memory for AI coding agents: decisions, constraints and known issues with their sources, flagged as stale when a cited file changes, served through a CLI and an MCP server within a token budget. Early development.</p>
-      <p><code>Rust</code> <code>SQLite</code> <code>MCP</code> <code>Early stage</code></p>
-      <p>
-        <img src="https://img.shields.io/github/languages/top/robgallardof/rekora?style=flat-square&color=6D28D9" alt="Top language" />
-        <img src="https://img.shields.io/github/stars/robgallardof/rekora?label=stars&style=flat-square&color=F59E0B&logo=github" alt="Stars" />
-        <img src="https://img.shields.io/github/last-commit/robgallardof/rekora?label=last%20commit&style=flat-square&color=0EA5E9" alt="Last commit" />
-      </p>
-    </td>
-  </tr>
-</table>
+- 🧠 **[Rekora](https://github.com/robgallardof/rekora)** — verifiable memory for agents: every decision cites its source, stale knowledge is flagged, and tasks hand off cleanly between Claude Code and Codex.
+- 🧼 **[RepoRinse](https://github.com/robgallardof/RepoRinse)** — clean commit history and guardrail hooks for Claude Code, Codex, Gemini CLI and Cursor.
 
 ```sh
 reporinse install --provider git --all --yes            # clean every commit message
 reporinse install --provider claude,codex --all --yes   # guardrails for your agents
+rekora agent install claude --confirm                   # give Claude Code a memory
 ```
 
 <p align="center"><img src="assets/divider.svg" alt="" width="80%" /></p>
@@ -153,56 +147,81 @@ I build **MCP servers, skills and hooks** so agents can do real work on my machi
 <a id="stack"></a>
 <p align="center"><img src="assets/sections/en-04.svg" alt="04 · Tech stack" width="100%" /></p>
 
+<table>
+<tr>
+<td width="50%" valign="top">
+
+<h3 align="center">⚙️ Backend</h3>
 <p align="center">
-  <b>Backend</b><br/><br/>
-  <img src="https://skillicons.dev/icons?i=cs,dotnet,rust,python,kotlin,nodejs&theme=dark" alt="Backend" />
-</p>
-<p align="center">
-  <b>Frontend</b><br/><br/>
-  <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,vue,tailwind,html,css&theme=dark" alt="Frontend" />
-</p>
-<p align="center">
-  <b>Data · Cloud · DevOps</b><br/><br/>
-  <img src="https://skillicons.dev/icons?i=mongodb,mysql,azure,docker,kubernetes,nginx,cloudflare,linux&theme=dark" alt="Data, cloud and DevOps" />
-</p>
-<p align="center">
-  <b>Tools</b><br/><br/>
-  <img src="https://skillicons.dev/icons?i=git,github,githubactions,vscode,visualstudio,postman,powershell,bash&theme=dark" alt="Tools" />
+  <img src="https://skillicons.dev/icons?theme=dark&perline=4&i=cs,dotnet,rust,python,kotlin,nodejs" alt="⚙️ Backend" /><br/><br/>
+  <code>.NET Framework 2.0–4.8</code> <code>.NET 5–11</code> <code>ASP.NET Core</code> <code>EF Core</code> <code>SignalR</code> <code>WCF</code> <code>VB.NET</code> <code>xUnit + Moq</code>
 </p>
 
+</td>
+<td width="50%" valign="top">
+
+<h3 align="center">🎨 Frontend</h3>
 <p align="center">
-  <b>AI &amp; agents</b><br/><br/>
-  <img src="https://img.shields.io/badge/Claude%20Code-D97757?style=for-the-badge&logo=claude&logoColor=white" alt="Claude Code" />
-  <img src="https://img.shields.io/badge/ChatGPT-10A37F?style=for-the-badge&logoColor=white" alt="ChatGPT" />
-  <img src="https://img.shields.io/badge/Codex-412991?style=for-the-badge&logoColor=white" alt="Codex" />
-  <img src="https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Gemini" />
-  <img src="https://img.shields.io/badge/Antigravity-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Antigravity" />
-  <img src="https://img.shields.io/badge/Cursor-000000?style=for-the-badge&logo=cursor&logoColor=white" alt="Cursor" />
-  <img src="https://img.shields.io/badge/DeepSeek-4D6BFE?style=for-the-badge&logo=deepseek&logoColor=white" alt="DeepSeek" />
-  <img src="https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white" alt="Ollama" />
-  <img src="https://img.shields.io/badge/MCP-8A2BE2?style=for-the-badge&logo=anthropic&logoColor=white" alt="MCP" />
-</p>
-<p align="center">
-  <b>Content &amp; automation</b><br/><br/>
-  <img src="https://img.shields.io/badge/DaVinci%20Resolve-233A51?style=for-the-badge&logo=davinciresolve&logoColor=white" alt="DaVinci Resolve" />
-  <img src="https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white" alt="TikTok" />
-  <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
-  <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube" />
-  <img src="https://img.shields.io/badge/Facebook-0866FF?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook" />
-  <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" />
-  <img src="https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logoColor=white" alt="Playwright" />
-  <img src="https://img.shields.io/badge/Tampermonkey-00485B?style=for-the-badge&logo=tampermonkey&logoColor=white" alt="Tampermonkey" />
+  <img src="https://skillicons.dev/icons?theme=dark&perline=4&i=ts,js,react,nextjs,vue,tailwind,html,css" alt="🎨 Frontend" /><br/><br/>
+  <code>shadcn/ui</code> <code>Framer Motion</code> <code>PWA</code> <code>i18n</code>
 </p>
 
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<h3 align="center">🗄️ Data & Cloud</h3>
 <p align="center">
-  <img src="https://img.shields.io/badge/SQL%20Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white" alt="SQL Server" />
-  <img src="https://img.shields.io/badge/EF%20Core-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt="EF Core" />
-  <img src="https://img.shields.io/badge/SignalR-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt="SignalR" />
-  <img src="https://img.shields.io/badge/xUnit%20%2B%20Moq-5C2D91?style=flat-square&logo=dotnet&logoColor=white" alt="xUnit" />
-  <img src="https://img.shields.io/badge/Azure%20DevOps-0078D7?style=flat-square&logo=azuredevops&logoColor=white" alt="Azure DevOps" />
-  <img src="https://img.shields.io/badge/shadcn%2Fui-000000?style=flat-square&logo=shadcnui&logoColor=white" alt="shadcn/ui" />
+  <img src="https://skillicons.dev/icons?theme=dark&perline=4&i=mongodb,mysql,postgres,azure,cloudflare,vercel" alt="🗄️ Data & Cloud" /><br/><br/>
+  <code>SQL Server</code> <code>MongoDB Atlas</code> <code>SQLite · FTS5</code> <code>Informix</code> <code>Azure Blob</code>
+</p>
+
+</td>
+<td width="50%" valign="top">
+
+<h3 align="center">🚢 DevOps & Tools</h3>
+<p align="center">
+  <img src="https://skillicons.dev/icons?theme=dark&perline=4&i=docker,kubernetes,githubactions,nginx,linux,git,vscode,visualstudio,postman,powershell,bash" alt="🚢 DevOps & Tools" /><br/><br/>
+  <code>Azure DevOps</code> <code>CI/CD</code> <code>Clean Architecture</code> <code>CQRS</code>
+</p>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<h3 align="center">🤖 AI & agents</h3>
+<p align="center">
+  <img src="https://img.shields.io/badge/Claude%20Code-D97757?style=flat-square&logo=claude&logoColor=white" alt="Claude Code" />
+  <img src="https://img.shields.io/badge/Codex-412991?style=flat-square" alt="Codex" />
+  <img src="https://img.shields.io/badge/ChatGPT-10A37F?style=flat-square" alt="ChatGPT" />
+  <img src="https://img.shields.io/badge/Antigravity-4285F4?style=flat-square&logo=google&logoColor=white" alt="Antigravity" />
+  <img src="https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white" alt="Gemini" />
+  <img src="https://img.shields.io/badge/Cursor-000000?style=flat-square&logo=cursor&logoColor=white" alt="Cursor" />
+  <img src="https://img.shields.io/badge/DeepSeek-4D6BFE?style=flat-square&logo=deepseek&logoColor=white" alt="DeepSeek" />
+  <img src="https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white" alt="Ollama" />
+  <img src="https://img.shields.io/badge/MCP-8A2BE2?style=flat-square&logo=anthropic&logoColor=white" alt="MCP" />
+</p>
+
+</td>
+<td width="50%" valign="top">
+
+<h3 align="center">🎬 Content & automation</h3>
+<p align="center">
   <img src="https://img.shields.io/badge/DaVinci%20Resolve-233A51?style=flat-square&logo=davinciresolve&logoColor=white" alt="DaVinci Resolve" />
+  <img src="https://img.shields.io/badge/TikTok-000000?style=flat-square&logo=tiktok&logoColor=white" alt="TikTok" />
+  <img src="https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white" alt="Instagram" />
+  <img src="https://img.shields.io/badge/YouTube-FF0000?style=flat-square&logo=youtube&logoColor=white" alt="YouTube" />
+  <img src="https://img.shields.io/badge/Facebook-0866FF?style=flat-square&logo=facebook&logoColor=white" alt="Facebook" />
+  <img src="https://img.shields.io/badge/Discord-5865F2?style=flat-square&logo=discord&logoColor=white" alt="Discord" />
+  <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat-square" alt="Playwright" />
+  <img src="https://img.shields.io/badge/Tampermonkey-00485B?style=flat-square&logo=tampermonkey&logoColor=white" alt="Tampermonkey" />
 </p>
+
+</td>
+</tr>
+</table>
 
 <p align="center"><img src="assets/divider.svg" alt="" width="80%" /></p>
 
@@ -212,8 +231,30 @@ I build **MCP servers, skills and hooks** so agents can do real work on my machi
 <table>
   <tr>
     <td width="50%" valign="top">
+      <h3>🧠 <a href="https://github.com/robgallardof/rekora">Rekora</a></h3>
+      <p>Local-first, verifiable memory for AI coding agents: decisions and constraints with their sources, stale detection, tasks and handoffs between agents, served over MCP to Claude Code and Codex.</p>
+      <p><code>🆕 New</code> <code>Rust</code> <code>MCP</code> <code>SQLite</code></p>
+      <p>
+        <img src="https://img.shields.io/github/languages/top/robgallardof/rekora?style=flat-square&color=6D28D9" alt="Top language" />
+        <img src="https://img.shields.io/github/stars/robgallardof/rekora?label=stars&style=flat-square&color=F59E0B&logo=github" alt="Stars" />
+        <img src="https://img.shields.io/github/last-commit/robgallardof/rekora?label=last%20commit&style=flat-square&color=0EA5E9" alt="Last commit" />
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🧼 <a href="https://github.com/robgallardof/RepoRinse">RepoRinse</a></h3>
+      <p>Keeps repos clean and agents in check: removes AI co-author trailers (keeps the humans), whitespace and invisible Unicode, and adds guardrail hooks for Claude Code, Codex, Gemini CLI and Cursor.</p>
+      <p><code>🆕 New</code> <code>Rust</code> <code>Git hooks</code> <code>Agent hooks</code></p>
+      <p>
+        <img src="https://img.shields.io/github/languages/top/robgallardof/RepoRinse?style=flat-square&color=6D28D9" alt="Top language" />
+        <img src="https://img.shields.io/github/stars/robgallardof/RepoRinse?label=stars&style=flat-square&color=F59E0B&logo=github" alt="Stars" />
+        <img src="https://img.shields.io/github/last-commit/robgallardof/RepoRinse?label=last%20commit&style=flat-square&color=0EA5E9" alt="Last commit" />
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
       <h3>🎬 <a href="https://github.com/robgallardof/davinci-resolve-mcp">davinci-resolve-mcp</a></h3>
-      <p>Edit in DaVinci Resolve by talking to an AI that works like a producer: vertical & horizontal cuts, motion that keeps faces whole, designed captions, music on the beat and QA before every render.</p>
+      <p>Edit in DaVinci Resolve by talking to an AI producer: vertical & horizontal cuts, motion that keeps faces whole, designed captions, music on the beat and QA before every render.</p>
       <p><code>MCP</code> <code>Python</code> <code>Video</code></p>
       <p>
         <img src="https://img.shields.io/github/languages/top/robgallardof/davinci-resolve-mcp?style=flat-square&color=6D28D9" alt="Top language" />
@@ -223,7 +264,7 @@ I build **MCP servers, skills and hooks** so agents can do real work on my machi
     </td>
     <td width="50%" valign="top">
       <h3>📲 <a href="https://github.com/robgallardof/social-publisher-mcp">social-publisher-mcp</a></h3>
-      <p>An AI community manager for short‑form video as an MCP server: watches your videos, writes the copy for every network, schedules at 05:00 and tells you what worked.</p>
+      <p>An AI community manager for short-form video: watches your videos, writes the copy for every network, schedules the posts and tells you what worked.</p>
       <p><code>MCP</code> <code>Python</code> <code>Social</code></p>
       <p>
         <img src="https://img.shields.io/github/languages/top/robgallardof/social-publisher-mcp?style=flat-square&color=6D28D9" alt="Top language" />
@@ -235,7 +276,7 @@ I build **MCP servers, skills and hooks** so agents can do real work on my machi
   <tr>
     <td width="50%" valign="top">
       <h3>🧾 <a href="https://github.com/robgallardof/declaracion">declaracion</a></h3>
-      <p>A personal tax assistant for Mexico inside your AI agent: reads CFDI, computes ISR and IVA (RESICO) and guides you through filing. Your data stays on your PC.</p>
+      <p>A personal tax assistant for Mexico inside your AI agent: reads CFDI, computes ISR and IVA (RESICO) and guides the filing. Your data stays on your PC.</p>
       <p><code>MCP</code> <code>Python</code> <code>SAT</code></p>
       <p>
         <img src="https://img.shields.io/github/languages/top/robgallardof/declaracion?style=flat-square&color=6D28D9" alt="Top language" />
@@ -245,7 +286,7 @@ I build **MCP servers, skills and hooks** so agents can do real work on my machi
     </td>
     <td width="50%" valign="top">
       <h3>📚 <a href="https://github.com/robgallardof/wikdoc">wikdoc</a></h3>
-      <p>Turn any folder of code into a local, searchable knowledge base you can chat with — embeddings + RAG over Ollama, nothing leaves your machine.</p>
+      <p>Turn any folder of code into a local knowledge base you can chat with — embeddings + RAG over Ollama, nothing leaves your machine.</p>
       <p><code>Python</code> <code>Ollama</code> <code>RAG</code></p>
       <p>
         <img src="https://img.shields.io/github/languages/top/robgallardof/wikdoc?style=flat-square&color=6D28D9" alt="Top language" />
@@ -257,8 +298,8 @@ I build **MCP servers, skills and hooks** so agents can do real work on my machi
   <tr>
     <td width="50%" valign="top">
       <h3>🤖 <a href="https://github.com/robgallardof/wallybot">wallybot</a></h3>
-      <p>Self‑hosted hub for market analysis, portfolio and AI‑assisted trading: explained proposals, your approval and risk controls.</p>
-      <p><code>Python</code> <code>Self-hosted</code></p>
+      <p>Self-hosted hub for market analysis, portfolio and AI-assisted trading: explained proposals, your approval and risk controls.</p>
+      <p><code>Python</code> <code>AI</code> <code>Self-hosted</code></p>
       <p>
         <img src="https://img.shields.io/github/languages/top/robgallardof/wallybot?style=flat-square&color=6D28D9" alt="Top language" />
         <img src="https://img.shields.io/github/stars/robgallardof/wallybot?label=stars&style=flat-square&color=F59E0B&logo=github" alt="Stars" />
@@ -276,33 +317,9 @@ I build **MCP servers, skills and hooks** so agents can do real work on my machi
       </p>
     </td>
   </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>⚡ <a href="https://github.com/robgallardof/arquest">arquest</a></h3>
-      <p>A Postman/Thunder‑like HTTP client on Next.js App Router: dark‑mode‑first UI and installable PWA with offline cache.</p>
-      <p><code>Next.js</code> <code>PWA</code></p>
-      <p>
-        <img src="https://img.shields.io/github/languages/top/robgallardof/arquest?style=flat-square&color=6D28D9" alt="Top language" />
-        <img src="https://img.shields.io/github/stars/robgallardof/arquest?label=stars&style=flat-square&color=F59E0B&logo=github" alt="Stars" />
-        <img src="https://img.shields.io/github/last-commit/robgallardof/arquest?label=last%20commit&style=flat-square&color=0EA5E9" alt="Last commit" />
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🎮 <a href="https://github.com/robgallardof/ruxtbot">ruxtbot</a></h3>
-      <p>Discord bot for Rust: raid planning with pictures, crafting, live servers, player lookups and BattleMetrics alerts, in English and Spanish.</p>
-      <p><code>Discord</code> <code>Bot</code></p>
-      <p>
-        <img src="https://img.shields.io/github/languages/top/robgallardof/ruxtbot?style=flat-square&color=6D28D9" alt="Top language" />
-        <img src="https://img.shields.io/github/stars/robgallardof/ruxtbot?label=stars&style=flat-square&color=F59E0B&logo=github" alt="Stars" />
-        <img src="https://img.shields.io/github/last-commit/robgallardof/ruxtbot?label=last%20commit&style=flat-square&color=0EA5E9" alt="Last commit" />
-      </p>
-    </td>
-  </tr>
 </table>
 
-<p align="center">
-  <a href="https://github.com/robgallardof?tab=repositories"><b>➜ See all repositories</b></a>
-</p>
+<p align="center"><a href="https://github.com/robgallardof?tab=repositories"><b>➜ See all repositories</b></a></p>
 
 <p align="center"><img src="assets/divider.svg" alt="" width="80%" /></p>
 
@@ -330,19 +347,38 @@ I build **MCP servers, skills and hooks** so agents can do real work on my machi
 <p align="center">
   <img src="./profile-summary-card-output/tokyonight/0-profile-details.svg" alt="Profile details" width="100%" />
 </p>
-<p align="center">
-  <img src="./profile-summary-card-output/tokyonight/1-repos-per-language.svg" alt="Repos per language" height="180" />
-  <img src="./profile-summary-card-output/tokyonight/2-most-commit-language.svg" alt="Most commit language" height="180" />
-</p>
-<p align="center">
-  <img src="./profile-summary-card-output/tokyonight/3-stats.svg" alt="Stats" height="180" />
-  <img src="./profile-summary-card-output/tokyonight/4-productive-time.svg" alt="Productive time" height="180" />
-</p>
-<p align="center">
-  <a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=robgallardof&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D" alt="GitHub streak" /></a>
-</p>
 
-### 🐍 Contribution snake
+<table>
+<tr>
+<td width="50%" align="center"><img src="./profile-summary-card-output/tokyonight/1-repos-per-language.svg" alt="Repos per language" width="100%" /></td>
+<td width="50%" align="center"><img src="./profile-summary-card-output/tokyonight/2-most-commit-language.svg" alt="Most commit language" width="100%" /></td>
+</tr>
+<tr>
+<td width="50%" align="center"><img src="./profile-summary-card-output/tokyonight/3-stats.svg" alt="Stats" width="100%" /></td>
+<td width="50%" align="center"><img src="./profile-summary-card-output/tokyonight/4-productive-time.svg" alt="Productive time" width="100%" /></td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+<h3 align="center">🔥 Streak</h3>
+<p align="center"><a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=robgallardof&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D" alt="GitHub streak" width="100%" /></a></p>
+
+</td>
+<td width="50%" valign="top">
+
+<h3 align="center">⚡ Recent activity</h3>
+
+<!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
+
+</td>
+</tr>
+</table>
+
+<h3 align="center">🐍 Contribution snake</h3>
 
 <p align="center">
   <picture>

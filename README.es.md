@@ -28,7 +28,22 @@
   <img src="https://img.shields.io/badge/%F0%9F%93%8D-Guadalajara%2C%20Jalisco%20%F0%9F%87%B2%F0%9F%87%BD-512BD4?style=flat-square" alt="Ubicación" />
 </p>
 
-<p align="center"><b><a href="#sobre-mi">Sobre mí</a> · <a href="#construyendo">Construyendo</a> · <a href="#herramientas">Herramientas IA</a> · <a href="#tecnologias">Stack</a> · <a href="#proyectos">Proyectos</a> · <a href="#experiencia">Experiencia</a> · <a href="#estadisticas">Estadísticas</a></b></p>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/facts-es-dark.svg" />
+    <img src="assets/facts-es-light.svg" alt="7+ años construyendo software · .NET Framework 2.0 → 11 · 4 años con agentes de IA · Maestría en Arquitectura de Software · bilingüe" width="100%" />
+  </picture>
+</p>
+
+<p align="center">
+  <a href="#sobre-mi"><img src="https://img.shields.io/badge/Sobre%20mí-6D28D9?style=for-the-badge" alt="Sobre mí" /></a>
+  <a href="#construyendo"><img src="https://img.shields.io/badge/Construyendo-5B21B6?style=for-the-badge" alt="Construyendo" /></a>
+  <a href="#herramientas"><img src="https://img.shields.io/badge/Herramientas%20IA-4F46E5?style=for-the-badge" alt="Herramientas IA" /></a>
+  <a href="#tecnologias"><img src="https://img.shields.io/badge/Stack-4338CA?style=for-the-badge" alt="Stack" /></a>
+  <a href="#proyectos"><img src="https://img.shields.io/badge/Proyectos-2563EB?style=for-the-badge" alt="Proyectos" /></a>
+  <a href="#experiencia"><img src="https://img.shields.io/badge/Experiencia-0284C7?style=for-the-badge" alt="Experiencia" /></a>
+  <a href="#estadisticas"><img src="https://img.shields.io/badge/Estadísticas-0EA5E9?style=for-the-badge" alt="Estadísticas" /></a>
+</p>
 
 <p align="center"><img src="assets/divider.svg" alt="" width="80%" /></p>
 
@@ -77,36 +92,15 @@ Leo el código legacy antes de juzgarlo, y luego lo dejo mejor de como lo encont
 <a id="construyendo"></a>
 <p align="center"><img src="assets/sections/es-02.svg" alt="02 · Lo que estoy construyendo" width="100%" /></p>
 
-Herramientas para que los agentes de IA trabajen de forma segura y con memoria — locales, sin telemetría y en Rust.
+Herramientas para que los agentes de IA trabajen de forma segura y recuerden lo importante — locales, sin telemetría y en Rust.
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🧼 <a href="https://github.com/robgallardof/RepoRinse">RepoRinse</a></h3>
-      <p>CLI local y determinista en Rust que mantiene limpios los repos: quita trailers de coautoría de IA (respeta a las personas), espacios e Unicode invisible, y añade límites para Claude Code, Codex, Gemini CLI y Cursor.</p>
-      <p><code>Rust</code> <code>Git hooks</code> <code>Límites para agentes</code></p>
-      <p>
-        <img src="https://img.shields.io/github/languages/top/robgallardof/RepoRinse?style=flat-square&color=6D28D9" alt="Top language" />
-        <img src="https://img.shields.io/github/stars/robgallardof/RepoRinse?label=estrellas&style=flat-square&color=F59E0B&logo=github" alt="Stars" />
-        <img src="https://img.shields.io/github/last-commit/robgallardof/RepoRinse?label=%C3%BAltimo%20commit&style=flat-square&color=0EA5E9" alt="Last commit" />
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🧠 <a href="https://github.com/robgallardof/rekora">Rekora</a></h3>
-      <p>Memoria local y verificable para agentes de IA de código: decisiones, restricciones y problemas conocidos con sus fuentes, marcados como desactualizados si cambia un archivo citado, servidos por CLI y servidor MCP dentro de un presupuesto de tokens. En desarrollo temprano.</p>
-      <p><code>Rust</code> <code>SQLite</code> <code>MCP</code> <code>Etapa temprana</code></p>
-      <p>
-        <img src="https://img.shields.io/github/languages/top/robgallardof/rekora?style=flat-square&color=6D28D9" alt="Top language" />
-        <img src="https://img.shields.io/github/stars/robgallardof/rekora?label=estrellas&style=flat-square&color=F59E0B&logo=github" alt="Stars" />
-        <img src="https://img.shields.io/github/last-commit/robgallardof/rekora?label=%C3%BAltimo%20commit&style=flat-square&color=0EA5E9" alt="Last commit" />
-      </p>
-    </td>
-  </tr>
-</table>
+- 🧠 **[Rekora](https://github.com/robgallardof/rekora)** — memoria verificable para agentes: cada decisión cita su fuente, lo desactualizado se marca y las tareas pasan limpias entre Claude Code y Codex.
+- 🧼 **[RepoRinse](https://github.com/robgallardof/RepoRinse)** — historial de commits limpio y hooks de límites para Claude Code, Codex, Gemini CLI y Cursor.
 
 ```sh
 reporinse install --provider git --all --yes            # limpia cada mensaje de commit
 reporinse install --provider claude,codex --all --yes   # límites para tus agentes
+rekora agent install claude --confirm                   # dale memoria a Claude Code
 ```
 
 <p align="center"><img src="assets/divider.svg" alt="" width="80%" /></p>
@@ -154,56 +148,81 @@ conmigo al mando.
 <a id="tecnologias"></a>
 <p align="center"><img src="assets/sections/es-04.svg" alt="04 · Tecnologías" width="100%" /></p>
 
+<table>
+<tr>
+<td width="50%" valign="top">
+
+<h3 align="center">⚙️ Backend</h3>
 <p align="center">
-  <b>Backend</b><br/><br/>
-  <img src="https://skillicons.dev/icons?i=cs,dotnet,rust,python,kotlin,nodejs&theme=dark" alt="Backend" />
-</p>
-<p align="center">
-  <b>Frontend</b><br/><br/>
-  <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,vue,tailwind,html,css&theme=dark" alt="Frontend" />
-</p>
-<p align="center">
-  <b>Datos · Nube · DevOps</b><br/><br/>
-  <img src="https://skillicons.dev/icons?i=mongodb,mysql,azure,docker,kubernetes,nginx,cloudflare,linux&theme=dark" alt="Datos, nube y DevOps" />
-</p>
-<p align="center">
-  <b>Herramientas</b><br/><br/>
-  <img src="https://skillicons.dev/icons?i=git,github,githubactions,vscode,visualstudio,postman,powershell,bash&theme=dark" alt="Herramientas" />
+  <img src="https://skillicons.dev/icons?theme=dark&perline=4&i=cs,dotnet,rust,python,kotlin,nodejs" alt="⚙️ Backend" /><br/><br/>
+  <code>.NET Framework 2.0–4.8</code> <code>.NET 5–11</code> <code>ASP.NET Core</code> <code>EF Core</code> <code>SignalR</code> <code>WCF</code> <code>VB.NET</code> <code>xUnit + Moq</code>
 </p>
 
+</td>
+<td width="50%" valign="top">
+
+<h3 align="center">🎨 Frontend</h3>
 <p align="center">
-  <b>IA y agentes</b><br/><br/>
-  <img src="https://img.shields.io/badge/Claude%20Code-D97757?style=for-the-badge&logo=claude&logoColor=white" alt="Claude Code" />
-  <img src="https://img.shields.io/badge/ChatGPT-10A37F?style=for-the-badge&logoColor=white" alt="ChatGPT" />
-  <img src="https://img.shields.io/badge/Codex-412991?style=for-the-badge&logoColor=white" alt="Codex" />
-  <img src="https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Gemini" />
-  <img src="https://img.shields.io/badge/Antigravity-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Antigravity" />
-  <img src="https://img.shields.io/badge/Cursor-000000?style=for-the-badge&logo=cursor&logoColor=white" alt="Cursor" />
-  <img src="https://img.shields.io/badge/DeepSeek-4D6BFE?style=for-the-badge&logo=deepseek&logoColor=white" alt="DeepSeek" />
-  <img src="https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white" alt="Ollama" />
-  <img src="https://img.shields.io/badge/MCP-8A2BE2?style=for-the-badge&logo=anthropic&logoColor=white" alt="MCP" />
-</p>
-<p align="center">
-  <b>Contenido y automatización</b><br/><br/>
-  <img src="https://img.shields.io/badge/DaVinci%20Resolve-233A51?style=for-the-badge&logo=davinciresolve&logoColor=white" alt="DaVinci Resolve" />
-  <img src="https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white" alt="TikTok" />
-  <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
-  <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube" />
-  <img src="https://img.shields.io/badge/Facebook-0866FF?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook" />
-  <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" />
-  <img src="https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logoColor=white" alt="Playwright" />
-  <img src="https://img.shields.io/badge/Tampermonkey-00485B?style=for-the-badge&logo=tampermonkey&logoColor=white" alt="Tampermonkey" />
+  <img src="https://skillicons.dev/icons?theme=dark&perline=4&i=ts,js,react,nextjs,vue,tailwind,html,css" alt="🎨 Frontend" /><br/><br/>
+  <code>shadcn/ui</code> <code>Framer Motion</code> <code>PWA</code> <code>i18n</code>
 </p>
 
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<h3 align="center">🗄️ Datos y nube</h3>
 <p align="center">
-  <img src="https://img.shields.io/badge/SQL%20Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white" alt="SQL Server" />
-  <img src="https://img.shields.io/badge/EF%20Core-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt="EF Core" />
-  <img src="https://img.shields.io/badge/SignalR-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt="SignalR" />
-  <img src="https://img.shields.io/badge/xUnit%20%2B%20Moq-5C2D91?style=flat-square&logo=dotnet&logoColor=white" alt="xUnit" />
-  <img src="https://img.shields.io/badge/Azure%20DevOps-0078D7?style=flat-square&logo=azuredevops&logoColor=white" alt="Azure DevOps" />
-  <img src="https://img.shields.io/badge/shadcn%2Fui-000000?style=flat-square&logo=shadcnui&logoColor=white" alt="shadcn/ui" />
+  <img src="https://skillicons.dev/icons?theme=dark&perline=4&i=mongodb,mysql,postgres,azure,cloudflare,vercel" alt="🗄️ Datos y nube" /><br/><br/>
+  <code>SQL Server</code> <code>MongoDB Atlas</code> <code>SQLite · FTS5</code> <code>Informix</code> <code>Azure Blob</code>
+</p>
+
+</td>
+<td width="50%" valign="top">
+
+<h3 align="center">🚢 DevOps y herramientas</h3>
+<p align="center">
+  <img src="https://skillicons.dev/icons?theme=dark&perline=4&i=docker,kubernetes,githubactions,nginx,linux,git,vscode,visualstudio,postman,powershell,bash" alt="🚢 DevOps y herramientas" /><br/><br/>
+  <code>Azure DevOps</code> <code>CI/CD</code> <code>Clean Architecture</code> <code>CQRS</code>
+</p>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<h3 align="center">🤖 IA y agentes</h3>
+<p align="center">
+  <img src="https://img.shields.io/badge/Claude%20Code-D97757?style=flat-square&logo=claude&logoColor=white" alt="Claude Code" />
+  <img src="https://img.shields.io/badge/Codex-412991?style=flat-square" alt="Codex" />
+  <img src="https://img.shields.io/badge/ChatGPT-10A37F?style=flat-square" alt="ChatGPT" />
+  <img src="https://img.shields.io/badge/Antigravity-4285F4?style=flat-square&logo=google&logoColor=white" alt="Antigravity" />
+  <img src="https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white" alt="Gemini" />
+  <img src="https://img.shields.io/badge/Cursor-000000?style=flat-square&logo=cursor&logoColor=white" alt="Cursor" />
+  <img src="https://img.shields.io/badge/DeepSeek-4D6BFE?style=flat-square&logo=deepseek&logoColor=white" alt="DeepSeek" />
+  <img src="https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white" alt="Ollama" />
+  <img src="https://img.shields.io/badge/MCP-8A2BE2?style=flat-square&logo=anthropic&logoColor=white" alt="MCP" />
+</p>
+
+</td>
+<td width="50%" valign="top">
+
+<h3 align="center">🎬 Contenido y automatización</h3>
+<p align="center">
   <img src="https://img.shields.io/badge/DaVinci%20Resolve-233A51?style=flat-square&logo=davinciresolve&logoColor=white" alt="DaVinci Resolve" />
+  <img src="https://img.shields.io/badge/TikTok-000000?style=flat-square&logo=tiktok&logoColor=white" alt="TikTok" />
+  <img src="https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white" alt="Instagram" />
+  <img src="https://img.shields.io/badge/YouTube-FF0000?style=flat-square&logo=youtube&logoColor=white" alt="YouTube" />
+  <img src="https://img.shields.io/badge/Facebook-0866FF?style=flat-square&logo=facebook&logoColor=white" alt="Facebook" />
+  <img src="https://img.shields.io/badge/Discord-5865F2?style=flat-square&logo=discord&logoColor=white" alt="Discord" />
+  <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat-square" alt="Playwright" />
+  <img src="https://img.shields.io/badge/Tampermonkey-00485B?style=flat-square&logo=tampermonkey&logoColor=white" alt="Tampermonkey" />
 </p>
+
+</td>
+</tr>
+</table>
 
 <p align="center"><img src="assets/divider.svg" alt="" width="80%" /></p>
 
@@ -213,8 +232,30 @@ conmigo al mando.
 <table>
   <tr>
     <td width="50%" valign="top">
+      <h3>🧠 <a href="https://github.com/robgallardof/rekora">Rekora</a></h3>
+      <p>Memoria local y verificable para agentes de IA de código: decisiones y restricciones con sus fuentes, detección de desactualizados, tareas y handoffs entre agentes, servida por MCP a Claude Code y Codex.</p>
+      <p><code>🆕 Nuevo</code> <code>Rust</code> <code>MCP</code> <code>SQLite</code></p>
+      <p>
+        <img src="https://img.shields.io/github/languages/top/robgallardof/rekora?style=flat-square&color=6D28D9" alt="Top language" />
+        <img src="https://img.shields.io/github/stars/robgallardof/rekora?label=estrellas&style=flat-square&color=F59E0B&logo=github" alt="Stars" />
+        <img src="https://img.shields.io/github/last-commit/robgallardof/rekora?label=%C3%BAltimo%20commit&style=flat-square&color=0EA5E9" alt="Last commit" />
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🧼 <a href="https://github.com/robgallardof/RepoRinse">RepoRinse</a></h3>
+      <p>Mantiene limpios los repos y a los agentes bajo control: quita trailers de coautoría de IA (respeta a las personas), espacios e Unicode invisible, y agrega hooks de límites para Claude Code, Codex, Gemini CLI y Cursor.</p>
+      <p><code>🆕 Nuevo</code> <code>Rust</code> <code>Git hooks</code> <code>Hooks de agentes</code></p>
+      <p>
+        <img src="https://img.shields.io/github/languages/top/robgallardof/RepoRinse?style=flat-square&color=6D28D9" alt="Top language" />
+        <img src="https://img.shields.io/github/stars/robgallardof/RepoRinse?label=estrellas&style=flat-square&color=F59E0B&logo=github" alt="Stars" />
+        <img src="https://img.shields.io/github/last-commit/robgallardof/RepoRinse?label=%C3%BAltimo%20commit&style=flat-square&color=0EA5E9" alt="Last commit" />
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
       <h3>🎬 <a href="https://github.com/robgallardof/davinci-resolve-mcp">davinci-resolve-mcp</a></h3>
-      <p>Edita en DaVinci Resolve hablando con una IA que trabaja como productor: cortes verticales y horizontales, movimiento que no corta caras, subtítulos con diseño, música a tiempo y revisión antes de cada render.</p>
+      <p>Edita en DaVinci Resolve hablando con un productor de IA: cortes verticales y horizontales, movimiento que no corta caras, subtítulos con diseño, música a tiempo y revisión antes de cada render.</p>
       <p><code>MCP</code> <code>Python</code> <code>Video</code></p>
       <p>
         <img src="https://img.shields.io/github/languages/top/robgallardof/davinci-resolve-mcp?style=flat-square&color=6D28D9" alt="Top language" />
@@ -224,7 +265,7 @@ conmigo al mando.
     </td>
     <td width="50%" valign="top">
       <h3>📲 <a href="https://github.com/robgallardof/social-publisher-mcp">social-publisher-mcp</a></h3>
-      <p>Un community manager con IA para video corto, como servidor MCP: ve tus videos, escribe el copy de cada red, programa a las 05:00 y te dice qué funcionó.</p>
+      <p>Un community manager con IA para video corto: ve tus videos, escribe el texto de cada red, programa las publicaciones y te dice qué funcionó.</p>
       <p><code>MCP</code> <code>Python</code> <code>Redes</code></p>
       <p>
         <img src="https://img.shields.io/github/languages/top/robgallardof/social-publisher-mcp?style=flat-square&color=6D28D9" alt="Top language" />
@@ -259,7 +300,7 @@ conmigo al mando.
     <td width="50%" valign="top">
       <h3>🤖 <a href="https://github.com/robgallardof/wallybot">wallybot</a></h3>
       <p>Centro autoalojado de análisis de mercado, cartera y trading asistido por IA: propuestas explicadas, tu aprobación y controles de riesgo.</p>
-      <p><code>Python</code> <code>Autoalojado</code></p>
+      <p><code>Python</code> <code>IA</code> <code>Autoalojado</code></p>
       <p>
         <img src="https://img.shields.io/github/languages/top/robgallardof/wallybot?style=flat-square&color=6D28D9" alt="Top language" />
         <img src="https://img.shields.io/github/stars/robgallardof/wallybot?label=estrellas&style=flat-square&color=F59E0B&logo=github" alt="Stars" />
@@ -277,33 +318,9 @@ conmigo al mando.
       </p>
     </td>
   </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>⚡ <a href="https://github.com/robgallardof/arquest">arquest</a></h3>
-      <p>Cliente HTTP estilo Postman/Thunder con Next.js App Router: interfaz pensada en modo oscuro y PWA instalable con caché offline.</p>
-      <p><code>Next.js</code> <code>PWA</code></p>
-      <p>
-        <img src="https://img.shields.io/github/languages/top/robgallardof/arquest?style=flat-square&color=6D28D9" alt="Top language" />
-        <img src="https://img.shields.io/github/stars/robgallardof/arquest?label=estrellas&style=flat-square&color=F59E0B&logo=github" alt="Stars" />
-        <img src="https://img.shields.io/github/last-commit/robgallardof/arquest?label=%C3%BAltimo%20commit&style=flat-square&color=0EA5E9" alt="Last commit" />
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🎮 <a href="https://github.com/robgallardof/ruxtbot">ruxtbot</a></h3>
-      <p>Bot de Discord para Rust: planeación de raids con imágenes, crafteo, servidores en vivo, búsqueda de jugadores y alertas de BattleMetrics, en inglés y español.</p>
-      <p><code>Discord</code> <code>Bot</code></p>
-      <p>
-        <img src="https://img.shields.io/github/languages/top/robgallardof/ruxtbot?style=flat-square&color=6D28D9" alt="Top language" />
-        <img src="https://img.shields.io/github/stars/robgallardof/ruxtbot?label=estrellas&style=flat-square&color=F59E0B&logo=github" alt="Stars" />
-        <img src="https://img.shields.io/github/last-commit/robgallardof/ruxtbot?label=%C3%BAltimo%20commit&style=flat-square&color=0EA5E9" alt="Last commit" />
-      </p>
-    </td>
-  </tr>
 </table>
 
-<p align="center">
-  <a href="https://github.com/robgallardof?tab=repositories"><b>➜ Ver todos los repositorios</b></a>
-</p>
+<p align="center"><a href="https://github.com/robgallardof?tab=repositories"><b>➜ Ver todos los repositorios</b></a></p>
 
 <p align="center"><img src="assets/divider.svg" alt="" width="80%" /></p>
 
@@ -329,27 +346,46 @@ conmigo al mando.
 <p align="center"><img src="assets/sections/es-07.svg" alt="07 · Estadísticas de GitHub" width="100%" /></p>
 
 <p align="center">
-  <img src="./profile-summary-card-output/tokyonight/0-profile-details.svg" alt="Detalles del perfil" width="100%" />
-</p>
-<p align="center">
-  <img src="./profile-summary-card-output/tokyonight/1-repos-per-language.svg" alt="Repos por lenguaje" height="180" />
-  <img src="./profile-summary-card-output/tokyonight/2-most-commit-language.svg" alt="Lenguaje con más commits" height="180" />
-</p>
-<p align="center">
-  <img src="./profile-summary-card-output/tokyonight/3-stats.svg" alt="Estadísticas" height="180" />
-  <img src="./profile-summary-card-output/tokyonight/4-productive-time.svg" alt="Horario productivo" height="180" />
-</p>
-<p align="center">
-  <a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=robgallardof&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D&locale=es" alt="Racha en GitHub" /></a>
+  <img src="./profile-summary-card-output/tokyonight/0-profile-details.svg" alt="Profile details" width="100%" />
 </p>
 
-### 🐍 Serpiente de contribuciones
+<table>
+<tr>
+<td width="50%" align="center"><img src="./profile-summary-card-output/tokyonight/1-repos-per-language.svg" alt="Repos per language" width="100%" /></td>
+<td width="50%" align="center"><img src="./profile-summary-card-output/tokyonight/2-most-commit-language.svg" alt="Most commit language" width="100%" /></td>
+</tr>
+<tr>
+<td width="50%" align="center"><img src="./profile-summary-card-output/tokyonight/3-stats.svg" alt="Stats" width="100%" /></td>
+<td width="50%" align="center"><img src="./profile-summary-card-output/tokyonight/4-productive-time.svg" alt="Productive time" width="100%" /></td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+<h3 align="center">🔥 Racha</h3>
+<p align="center"><a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=robgallardof&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D" alt="GitHub streak" width="100%" /></a></p>
+
+</td>
+<td width="50%" valign="top">
+
+<h3 align="center">⚡ Actividad reciente</h3>
+
+<!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
+
+</td>
+</tr>
+</table>
+
+<h3 align="center">🐍 Serpiente de contribuciones</h3>
 
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/robgallardof/robgallardof/output/github-snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/robgallardof/robgallardof/output/github-snake.svg" />
-    <img alt="Serpiente de contribuciones" src="https://raw.githubusercontent.com/robgallardof/robgallardof/output/github-snake.svg" />
+    <img alt="Contribution snake" src="https://raw.githubusercontent.com/robgallardof/robgallardof/output/github-snake.svg" />
   </picture>
 </p>
 
