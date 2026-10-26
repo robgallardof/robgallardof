@@ -9,16 +9,16 @@
   <rect x="292" y="80" width="116" height="92" rx="14" fill="rgba(148,163,184,0.12)" stroke="#25304a"/><text x="308" y="128" style="font-size:32px;font-weight:800" fill="url(#brand)">7</text><text x="308" y="154" style="font-size:12.5px" fill="#8b949e">languages</text>
   <text x="36" y="202" style="font-size:13px;font-weight:700" fill="#e6edf3">Languages across my repositories</text>
   <rect x="36" y="214" width="356" height="10" rx="5" fill="#21283b"/>
-  <rect x="36.0" y="214" width="167.5" height="10" rx="3" fill="#3178c6"/>
-  <rect x="205.5" y="214" width="82.8" height="10" rx="3" fill="#3776ab"/>
-  <rect x="290.3" y="214" width="31.9" height="10" rx="3" fill="#f1e05a"/>
-  <rect x="324.2" y="214" width="31.9" height="10" rx="3" fill="#dea584"/>
-  <rect x="358.1" y="214" width="15.0" height="10" rx="3" fill="#9b4f96"/>
-  <rect x="375.0" y="214" width="15.0" height="10" rx="3" fill="#89e051"/>
-  <circle cx="41" cy="246" r="5" fill="#3178c6"/><text x="52" y="250" style="font-size:12.5px" fill="#e6edf3">TypeScript <tspan fill="#8b949e">48%</tspan></text>
-  <circle cx="163" cy="246" r="5" fill="#3776ab"/><text x="174" y="250" style="font-size:12.5px" fill="#e6edf3">Python <tspan fill="#8b949e">24%</tspan></text>
-  <circle cx="285" cy="246" r="5" fill="#f1e05a"/><text x="296" y="250" style="font-size:12.5px" fill="#e6edf3">JavaScript <tspan fill="#8b949e">10%</tspan></text>
-  <circle cx="41" cy="268" r="5" fill="#dea584"/><text x="52" y="272" style="font-size:12.5px" fill="#e6edf3">Rust <tspan fill="#8b949e">10%</tspan></text>
+  <rect x="36.0" y="214" width="159.8" height="10" rx="3" fill="#3178c6"/>
+  <rect x="197.8" y="214" width="95.1" height="10" rx="3" fill="#3776ab"/>
+  <rect x="294.9" y="214" width="30.4" height="10" rx="3" fill="#f1e05a"/>
+  <rect x="327.3" y="214" width="30.4" height="10" rx="3" fill="#dea584"/>
+  <rect x="359.6" y="214" width="14.2" height="10" rx="3" fill="#9b4f96"/>
+  <rect x="375.8" y="214" width="14.2" height="10" rx="3" fill="#89e051"/>
+  <circle cx="41" cy="246" r="5" fill="#3178c6"/><text x="52" y="250" style="font-size:12.5px" fill="#e6edf3">TypeScript <tspan fill="#8b949e">45%</tspan></text>
+  <circle cx="163" cy="246" r="5" fill="#3776ab"/><text x="174" y="250" style="font-size:12.5px" fill="#e6edf3">Python <tspan fill="#8b949e">27%</tspan></text>
+  <circle cx="285" cy="246" r="5" fill="#f1e05a"/><text x="296" y="250" style="font-size:12.5px" fill="#e6edf3">JavaScript <tspan fill="#8b949e">9%</tspan></text>
+  <circle cx="41" cy="268" r="5" fill="#dea584"/><text x="52" y="272" style="font-size:12.5px" fill="#e6edf3">Rust <tspan fill="#8b949e">9%</tspan></text>
   <circle cx="163" cy="268" r="5" fill="#9b4f96"/><text x="174" y="272" style="font-size:12.5px" fill="#e6edf3">C# <tspan fill="#8b949e">5%</tspan></text>
   <circle cx="285" cy="268" r="5" fill="#89e051"/><text x="296" y="272" style="font-size:12.5px" fill="#e6edf3">Shell <tspan fill="#8b949e">5%</tspan></text>
   <rect x="432" y="80" width="1" height="190" fill="#25304a"/>
