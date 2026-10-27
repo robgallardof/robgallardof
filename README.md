@@ -386,7 +386,7 @@ I build **MCP servers, skills, hooks and native mods** so agents can do real wor
 <h3 align="center"><img src="assets/icons/layers.svg" width="20" height="20" alt="" /> Recent activity</h3>
 
 <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#2](https://github.com/robgallardof/control-api/pull/2) in [robgallardof/control-api](https://github.com/robgallardof/control-api)
+1. <img src="assets/icons/lucide/git-branch.svg" width="16" height="16" alt="" /> Merged PR [#2](https://github.com/robgallardof/control-api/pull/2) in [robgallardof/control-api](https://github.com/robgallardof/control-api)
 <!--END_SECTION:activity-->
 
 </td>
