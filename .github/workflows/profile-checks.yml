@@ -14,3 +14,7 @@ jobs:
       - run: python scripts/check_profile.py
       - name: Reproducible vector assets
         run: git diff --exit-code -- assets/icons assets/widgets/ecosystem-* assets/widgets/workflow-*
+      - name: Kit blocks match kit.json
+        run: |
+          pip install --quiet "git+https://github.com/robgallardof/readme-builder@main"
+          python -m readme_builder kit render kit.json --check

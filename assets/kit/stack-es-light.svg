@@ -1,0 +1,281 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620" role="img" aria-label="Backend: C#, .NET Framework 2.0–4.8, .NET Core, .NET 5–11, ASP.NET Core, Minimal APIs, EF Core, SignalR, WCF, Web Forms, VB.NET, xUnit + Moq, Rust, Python, Java, Kotlin, Node.js · Frontend: TypeScript, React, Next.js, Vue, React Native, Tailwind, shadcn/ui, Framer Motion, PWA, i18n, Accesibilidad · Datos y nube: SQL Server, MongoDB Atlas, Pipelines de agregación, PostgreSQL, MySQL, SQLite · FTS5, Informix, SSRS, Azure Blob, Cloudflare, Vercel · DevOps y herramientas: Docker, Kubernetes, GitHub Actions, Azure DevOps, Nginx, Linux, PowerShell, Bash, Postman, Jira, Tree-sitter · Arquitectura: Clean Architecture, CQRS, SOLID · DRY · KISS, Microservicios, REST API design, Modernización legacy, Code review, Pruebas · IA y agentes: Claude Code, Codex, Antigravity, Gemini CLI, Cursor, OpenCode, DeepSeek, Ollama, MCP servers, RAG · embeddings, Agent hooks, faster-whisper" data-readme-component="panels"><title>Backend: C#, .NET Framework 2.0–4.8, .NET Core, .NET 5–11, ASP.NET Core, Minimal APIs, EF Core, SignalR, WCF, Web Forms, VB.NET, xUnit + Moq, Rust, Python, Java, Kotlin, Node.js · Frontend: TypeScript, React, Next.js, Vue, React Native, Tailwind, shadcn/ui, Framer Motion, PWA, i18n, Accesibilidad · Datos y nube: SQL Server, MongoDB Atlas, Pipelines de agregación, PostgreSQL, MySQL, SQLite · FTS5, Informix, SSRS, Azure Blob, Cloudflare, Vercel · DevOps y herramientas: Docker, Kubernetes, GitHub Actions, Azure DevOps, Nginx, Linux, PowerShell, Bash, Postman, Jira, Tree-sitter · Arquitectura: Clean Architecture, CQRS, SOLID · DRY · KISS, Microservicios, REST API design, Modernización legacy, Code review, Pruebas · IA y agentes: Claude Code, Codex, Antigravity, Gemini CLI, Cursor, OpenCode, DeepSeek, Ollama, MCP servers, RAG · embeddings, Agent hooks, faster-whisper</title><defs><linearGradient id="kb" x2="1" y2="0"><stop stop-color="#7c3aed"/><stop offset=".55" stop-color="#4f46e5"/><stop offset="1" stop-color="#0ea5e9"/></linearGradient><linearGradient id="kbd" x2="1" y2="1"><stop stop-color="#7c3aed"/><stop offset=".55" stop-color="#4f46e5"/><stop offset="1" stop-color="#0ea5e9"/></linearGradient></defs><style>text{font-family:'Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Inter,Arial,sans-serif}@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style><g transform="translate(0 0)"><rect x=".75" y=".75" width="389.167" height="320.5" rx="18" fill="#ffffff" stroke="#dfe5ef" stroke-width="1.5"/><path d="M24 .75h90" stroke="url(#kb)" stroke-width="3" stroke-linecap="round"/><g transform="translate(24 24) scale(0.916667)" fill="none" stroke="#6d28d9" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><!-- ISC License
+
+Copyright (c) 2026 Lucide Icons and Contributors
+
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted, provided that the above
+copyright notice and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
+OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+
+—-
+
+The following Lucide icons are derived from the Feather project:
+
+airplay, alert-circle, alert-octagon, alert-triangle, aperture, arrow-down-circle, arrow-down-left, arrow-down-right, arrow-down, arrow-left-circle, arrow-left, arrow-right-circle, arrow-right, arrow-up-circle, arrow-up-left, arrow-up-right, arrow-up, at-sign, calendar, cast, check, chevron-down, chevron-left, chevron-right, chevron-up, chevrons-down, chevrons-left, chevrons-right, chevrons-up, circle, clipboard, clock, code, columns, command, compass, corner-down-left, corner-down-right, corner-left-down, corner-left-up, corner-right-down, corner-right-up, corner-up-left, corner-up-right, crosshair, database, divide-circle, divide-square, dollar-sign, download, external-link, feather, frown, hash, headphones, help-circle, info, italic, key, layout, life-buoy, link-2, link, loader, lock, log-in, log-out, maximize, meh, minimize, minimize-2, minus-circle, minus-square, minus, monitor, moon, more-horizontal, more-vertical, move, music, navigation-2, navigation, octagon, pause-circle, percent, plus-circle, plus-square, plus, power, radio, rss, search, server, share, shopping-bag, sidebar, smartphone, smile, square, table-2, tablet, target, terminal, trash-2, trash, triangle, tv, type, upload, x-circle, x-octagon, x-square, x, zoom-in, zoom-out
+
+The MIT License (MIT) (for the icons listed above)
+
+Copyright (c) 2013-present Cole Bemis
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+ --><path d="m18 16 4-4-4-4" />
+  <path d="m6 8-4 4 4 4" />
+  <path d="m14.5 4-5 16" />
+</g><text x="56" y="42" font-size="19" font-weight="700" fill="#0f172a" text-anchor="start">Backend</text><path d="M24 58H366.667" stroke="#dfe5ef"/><rect x="24" y="74" width="39.6596" height="30" rx="9" fill="#f6f8fc" stroke="#dfe5ef"/><text x="43.8298" y="94" font-size="14" font-weight="600" fill="#0f172a" text-anchor="middle">C#</text><rect x="71.6596" y="74" width="199.783" height="30" rx="9" fill="#f6f8fc" stroke="#dfe5ef"/><text x="171.551" y="94" font-size="14" font-weight="600" fill="#0f172a" text-anchor="middle">.NET Framework 2.0–4.8</text><rect x="24" y="112" width="91.8964" height="30" rx="9" fill="#f6f8fc" stroke="#dfe5ef"/><text x="69.9482" y="132" font-size="14" font-weight="600" fill="#0f172a" text-anchor="middle">.NET Core</text><rect x="123.896" y="112" width="97.0904" height="30" rx="9" fill="#f6f8fc" stroke="#dfe5ef"/><text x="172.442" y="132" font-size="14" font-weight="600" fill="#0f172a" text-anchor="middle">.NET 5–11</text><rect x="228.987" y="112" width="120.389" height="30" rx="9" fill="#f6f8fc" stroke="#dfe5ef"/><text x="289.181" y="132" font-size="14" font-weight="600" fill="#0f172a" text-anchor="middle">ASP.NET Core</text><rect x="24" y="150" width="115.195" height="30" rx="9" fill="#f6f8fc" stroke="#dfe5ef"/><text x="81.5976" y="170" font-size="14" font-weight="600" fill="#0f172a" text-anchor="middle">Minimal APIs</text><rect x="147.195" y="150" width="78.0952" height="30" rx="9" fill="#f6f8fc" stroke="#dfe5ef"/><text x="186.243" y="170" font-size="14" font-weight="600" fill="#0f172a" text-anchor="middle">EF Core</text><rect x="233.29" y="150" width="74.0884" height="30" rx="9" fill="#f6f8fc" stroke="#dfe5ef"/><text x="270.335" y="170" font-size="14" font-weight="600" fill="#0f172a" text-anchor="middle">SignalR</text><rect x="24" y="188" width="53.7576" height="30" rx="9" fill="#f6f8fc" stroke="#dfe5ef"/><text x="50.8788" y="208" font-size="14" font-weight="600" fill="#0f172a" text-anchor="middle">WCF</text><rect x="85.7576" y="188" width="100.949" height="30" rx="9" fill="#f6f8fc" stroke="#dfe5ef"/><text x="136.232" y="208" font-size="14" font-weight="600" fill="#0f172a" text-anchor="middle">Web Forms</text><rect x="194.706" y="188" width="73.7916" height="30" rx="9" fill="#f6f8fc" stroke="#dfe5ef"/><text x="231.602" y="208" font-size="14" font-weight="600" fill="#0f172a" text-anchor="middle">VB.NET</text><rect x="24" y="226" width="106.291" height="30" rx="9" fill="#f6f8fc" stroke="#dfe5ef"/><text x="77.1456" y="246" font-size="14" font-weight="600" fill="#0f172a" text-anchor="middle">xUnit + Moq</text><rect x="138.291" y="226" width="53.4608" height="30" rx="9" fill="#f6f8fc" stroke="#dfe5ef"/><text x="165.022" y="246" font-size="14" font-weight="600" fill="#0f172a" text-anchor="middle">Rust</text><rect x="199.752" y="226" width="69.7848" height="30" rx="9" fill="#f6f8fc" stroke="#dfe5ef"/><text x="234.644" y="246" font-size="14" font-weight="600" fill="#0f172a" text-anchor="middle">Python</text><rect x="277.537" y="226" width="55.9836" height="30" rx="9" fill="#f6f8fc" stroke="#dfe5ef"/><text x="305.529" y="246" font-size="14" font-weight="600" fill="#0f172a" text-anchor="middle">Java</text><rect x="24" y="264" width="62.068" height="30" rx="9" fill="#f6f8fc" stroke="#dfe5ef"/><text x="55.034" y="284" font-size="14" font-weight="600" fill="#0f172a" text-anchor="middle">Kotlin</text><rect x="94.068" y="264" width="74.0884" height="30" rx="9" fill="#f6f8fc" stroke="#dfe5ef"/><text x="131.112" y="284" font-size="14" font-weight="600" fill="#0f172a" text-anchor="middle">Node.js</text></g><g transform="translate(404.667 0)"><rect x=".75" y=".75" width="389.167" height="320.5" rx="18" fill="#ffffff" stroke="#dfe5ef" stroke-width="1.5"/><path d="M24 .75h90" stroke="url(#kb)" stroke-width="3" stroke-linecap="round"/><g transform="translate(24 24) scale(0.916667)" fill="none" stroke="#6d28d9" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><!-- ISC License
+
+Copyright (c) 2026 Lucide Icons and Contributors
+
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted, provided that the above
+copyright notice and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
+OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+
+—-
+
+The following Lucide icons are derived from the Feather project:
+
+airplay, alert-circle, alert-octagon, alert-triangle, aperture, arrow-down-circle, arrow-down-left, arrow-down-right, arrow-down, arrow-left-circle, arrow-left, arrow-right-circle, arrow-right, arrow-up-circle, arrow-up-left, arrow-up-right, arrow-up, at-sign, calendar, cast, check, chevron-down, chevron-left, chevron-right, chevron-up, chevrons-down, chevrons-left, chevrons-right, chevrons-up, circle, clipboard, clock, code, columns, command, compass, corner-down-left, corner-down-right, corner-left-down, corner-left-up, corner-right-down, corner-right-up, corner-up-left, corner-up-right, crosshair, database, divide-circle, divide-square, dollar-sign, download, external-link, feather, frown, hash, headphones, help-circle, info, italic, key, layout, life-buoy, link-2, link, loader, lock, log-in, log-out, maximize, meh, minimize, minimize-2, minus-circle, minus-square, minus, monitor, moon, more-horizontal, more-vertical, move, music, navigation-2, navigation, octagon, pause-circle, percent, plus-circle, plus-square, plus, power, radio, rss, search, server, share, shopping-bag, sidebar, smartphone, smile, square, table-2, tablet, target, terminal, trash-2, trash, triangle, tv, type, upload, x-circle, x-octagon, x-square, x, zoom-in, zoom-out
+
+The MIT License (MIT) (for the icons listed above)
+
+Copyright (c) 2013-present Cole Bemis
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+ --><rect width="18" height="18" x="3" y="3" rx="2" />
+  <path d="M3 9h18" />
+  <path d="M9 21V9" />
+</g><text x="56" y="42" font-size="19" font-weight="700" fill="#0f172a" text-anchor="start">Frontend</text><path d="M24 58H366.667" stroke="#dfe5ef"/><rect x="24" y="74" width="97.3872" height="30" rx="9" fill="#f6f8fc" stroke="#dfe5ef"/><text x="72.6936" y="94" font-size="14" font-weight="600" fill="#0f172a" text-anchor="middle">TypeScript</text><rect x="129.387" y="74" width="61.6228" height="30" rx="9" fill="#f6f8fc" stroke="#dfe5ef"/><text x="160.199" y="94" font-size="14" font-weight="600" fill="#0f172a" text-anchor="middle">React</text><rect x="199.01" y="74" width="71.5656" height="30" rx="9" fill="#f6f8fc" stroke="#dfe5ef"/><text x="234.793" y="94" font-size="14" font-weight="600" fill="#0f172a" text-anchor="middle">Next.js</text><rect x="278.576" y="74" width="47.8216" height="30" rx="9" fill="#f6f8fc" stroke="#dfe5ef"/><text x="302.486" y="94" font-size="14" font-weight="600" fill="#0f172a" text-anchor="middle">Vue</text><rect x="24" y="112" width="111.188" height="30" rx="9" fill="#f6f8fc" stroke="#dfe5ef"/><text x="79.5942" y="132" font-size="14" font-weight="600" fill="#0f172a" text-anchor="middle">React Native</text><rect x="143.188" y="112" width="81.6568" height="30" rx="9" fill="#f6f8fc" stroke="#dfe5ef"/><text x="184.017" y="132" font-size="14" font-weight="600" fill="#0f172a" text-anchor="middle">Tailwind</text><rect x="232.845" y="112" width="89.0768" height="30" rx="9" fill="#f6f8fc" stroke="#dfe5ef"/><text x="277.384" y="132" font-size="14" font-weight="600" fill="#0f172a" text-anchor="middle">shadcn/ui</text><rect x="24" y="150" width="124.693" height="30" rx="9" fill="#f6f8fc" stroke="#dfe5ef"/><text x="86.3464" y="170" font-size="14" font-weight="600" fill="#0f172a" text-anchor="middle">Framer Motion</text><rect x="156.693" y="150" width="53.7576" height="30" rx="9" fill="#f6f8fc" stroke="#dfe5ef"/><text x="183.572" y="170" font-size="14" font-weight="600" fill="#0f172a" text-anchor="middle">PWA</text><rect x="218.45" y="150" width="53.4608" height="30" rx="9" fill="#f6f8fc" stroke="#dfe5ef"/><text x="245.181" y="170" font-size="14" font-weight="600" fill="#0f172a" text-anchor="middle">i18n</text><rect x="24" y="188" width="114.008" height="30" rx="9" fill="#f6f8fc" stroke="#dfe5ef"/><text x="81.004" y="208" font-size="14" font-weight="600" fill="#0f172a" text-anchor="middle">Accesibilidad</text></g><g transform="translate(809.333 0)"><rect x=".75" y=".75" width="389.167" height="320.5" rx="18" fill="#ffffff" stroke="#dfe5ef" stroke-width="1.5"/><path d="M24 .75h90" stroke="url(#kb)" stroke-width="3" stroke-linecap="round"/><g transform="translate(24 24) scale(0.916667)" fill="none" stroke="#6d28d9" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><!-- ISC License
+
+Copyright (c) 2026 Lucide Icons and Contributors
+
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted, provided that the above
+copyright notice and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
+OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+
+—-
+
+The following Lucide icons are derived from the Feather project:
+
+airplay, alert-circle, alert-octagon, alert-triangle, aperture, arrow-down-circle, arrow-down-left, arrow-down-right, arrow-down, arrow-left-circle, arrow-left, arrow-right-circle, arrow-right, arrow-up-circle, arrow-up-left, arrow-up-right, arrow-up, at-sign, calendar, cast, check, chevron-down, chevron-left, chevron-right, chevron-up, chevrons-down, chevrons-left, chevrons-right, chevrons-up, circle, clipboard, clock, code, columns, command, compass, corner-down-left, corner-down-right, corner-left-down, corner-left-up, corner-right-down, corner-right-up, corner-up-left, corner-up-right, crosshair, database, divide-circle, divide-square, dollar-sign, download, external-link, feather, frown, hash, headphones, help-circle, info, italic, key, layout, life-buoy, link-2, link, loader, lock, log-in, log-out, maximize, meh, minimize, minimize-2, minus-circle, minus-square, minus, monitor, moon, more-horizontal, more-vertical, move, music, navigation-2, navigation, octagon, pause-circle, percent, plus-circle, plus-square, plus, power, radio, rss, search, server, share, shopping-bag, sidebar, smartphone, smile, square, table-2, tablet, target, terminal, trash-2, trash, triangle, tv, type, upload, x-circle, x-octagon, x-square, x, zoom-in, zoom-out
+
+The MIT License (MIT) (for the icons listed above)
+
+Copyright (c) 2013-present Cole Bemis
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+ --><ellipse cx="12" cy="5" rx="9" ry="3" />
+  <path d="M3 5V19A9 3 0 0 0 21 19V5" />
+  <path d="M3 12A9 3 0 0 0 21 12" />
+</g><text x="56" y="42" font-size="19" font-weight="700" fill="#0f172a" text-anchor="start">Datos y nube</text><path d="M24 58H366.667" stroke="#dfe5ef"/><rect x="24" y="74" width="101.394" height="30" rx="9" fill="#f6f8fc" stroke="#dfe5ef"/><text x="74.697" y="94" font-size="14" font-weight="600" fill="#0f172a" text-anchor="middle">SQL Server</text><rect x="133.394" y="74" width="127.809" height="30" rx="9" fill="#f6f8fc" stroke="#dfe5ef"/><text x="197.299" y="94" font-size="14" font-weight="600" fill="#0f172a" text-anchor="middle">MongoDB Atlas</text><rect x="24" y="112" width="188.06" height="30" rx="9" fill="#f6f8fc" stroke="#dfe5ef"/><text x="118.03" y="132" font-size="14" font-weight="600" fill="#0f172a" text-anchor="middle">Pipelines de agregación</text><rect x="220.06" y="112" width="103.917" height="30" rx="9" fill="#f6f8fc" stroke="#dfe5ef"/><text x="272.018" y="132" font-size="14" font-weight="600" fill="#0f172a" text-anchor="middle">PostgreSQL</text><rect x="24" y="150" width="71.4172" height="30" rx="9" fill="#f6f8fc" stroke="#dfe5ef"/><text x="59.7086" y="170" font-size="14" font-weight="600" fill="#0f172a" text-anchor="middle">MySQL</text><rect x="103.417" y="150" width="122.17" height="30" rx="9" fill="#f6f8fc" stroke="#dfe5ef"/><text x="164.502" y="170" font-size="14" font-weight="600" fill="#0f172a" text-anchor="middle">SQLite · FTS5</text><rect x="233.587" y="150" width="80.4696" height="30" rx="9" fill="#f6f8fc" stroke="#dfe5ef"/><text x="273.822" y="170" font-size="14" font-weight="600" fill="#0f172a" text-anchor="middle">Informix</text><rect x="24" y="188" width="59.9904" height="30" rx="9" fill="#f6f8fc" stroke="#dfe5ef"/><text x="53.9952" y="208" font-size="14" font-weight="600" fill="#0f172a" text-anchor="middle">SSRS</text><rect x="91.9904" y="188" width="97.3872" height="30" rx="9" fill="#f6f8fc" stroke="#dfe5ef"/><text x="140.684" y="208" font-size="14" font-weight="600" fill="#0f172a" text-anchor="middle">Azure Blob</text><rect x="197.378" y="188" width="92.1932" height="30" rx="9" fill="#f6f8fc" stroke="#dfe5ef"/><text x="243.474" y="208" font-size="14" font-weight="600" fill="#0f172a" text-anchor="middle">Cloudflare</text><rect x="297.571" y="188" width="65.9264" height="30" rx="9" fill="#f6f8fc" stroke="#dfe5ef"/><text x="330.534" y="208" font-size="14" font-weight="600" fill="#0f172a" text-anchor="middle">Vercel</text></g><g transform="translate(0 336)"><rect x=".75" y=".75" width="389.167" height="282.5" rx="18" fill="#ffffff" stroke="#dfe5ef" stroke-width="1.5"/><path d="M24 .75h90" stroke="url(#kb)" stroke-width="3" stroke-linecap="round"/><g transform="translate(24 24) scale(0.916667)" fill="none" stroke="#6d28d9" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><!-- ISC License
+
+Copyright (c) 2026 Lucide Icons and Contributors
+
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted, provided that the above
+copyright notice and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
+OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+
+—-
+
+The following Lucide icons are derived from the Feather project:
+
+airplay, alert-circle, alert-octagon, alert-triangle, aperture, arrow-down-circle, arrow-down-left, arrow-down-right, arrow-down, arrow-left-circle, arrow-left, arrow-right-circle, arrow-right, arrow-up-circle, arrow-up-left, arrow-up-right, arrow-up, at-sign, calendar, cast, check, chevron-down, chevron-left, chevron-right, chevron-up, chevrons-down, chevrons-left, chevrons-right, chevrons-up, circle, clipboard, clock, code, columns, command, compass, corner-down-left, corner-down-right, corner-left-down, corner-left-up, corner-right-down, corner-right-up, corner-up-left, corner-up-right, crosshair, database, divide-circle, divide-square, dollar-sign, download, external-link, feather, frown, hash, headphones, help-circle, info, italic, key, layout, life-buoy, link-2, link, loader, lock, log-in, log-out, maximize, meh, minimize, minimize-2, minus-circle, minus-square, minus, monitor, moon, more-horizontal, more-vertical, move, music, navigation-2, navigation, octagon, pause-circle, percent, plus-circle, plus-square, plus, power, radio, rss, search, server, share, shopping-bag, sidebar, smartphone, smile, square, table-2, tablet, target, terminal, trash-2, trash, triangle, tv, type, upload, x-circle, x-octagon, x-square, x, zoom-in, zoom-out
+
+The MIT License (MIT) (for the icons listed above)
+
+Copyright (c) 2013-present Cole Bemis
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+ --><path d="M22 7.7c0-.6-.4-1.2-.8-1.5l-6.3-3.9a1.72 1.72 0 0 0-1.7 0l-10.3 6c-.5.2-.9.8-.9 1.4v6.6c0 .5.4 1.2.8 1.5l6.3 3.9a1.72 1.72 0 0 0 1.7 0l10.3-6c.5-.3.9-1 .9-1.5Z" />
+  <path d="M10 21.9V14L2.1 9.1" />
+  <path d="m10 14 11.9-6.9" />
+  <path d="M14 19.8v-8.1" />
+  <path d="M18 17.5V9.4" />
+</g><text x="56" y="42" font-size="19" font-weight="700" fill="#0f172a" text-anchor="start">DevOps y herramientas</text><path d="M24 58H366.667" stroke="#dfe5ef"/><rect x="24" y="74" width="69.7848" height="30" rx="9" fill="#f6f8fc" stroke="#dfe5ef"/><text x="58.8924" y="94" font-size="14" font-weight="600" fill="#0f172a" text-anchor="middle">Docker</text><rect x="101.785" y="74" width="99.91" height="30" rx="9" fill="#f6f8fc" stroke="#dfe5ef"/><text x="151.74" y="94" font-size="14" font-weight="600" fill="#0f172a" text-anchor="middle">Kubernetes</text><rect x="209.695" y="74" width="124.99" height="30" rx="9" fill="#f6f8fc" stroke="#dfe5ef"/><text x="272.19" y="94" font-size="14" font-weight="600" fill="#0f172a" text-anchor="middle">GitHub Actions</text><rect x="24" y="112" width="118.905" height="30" rx="9" fill="#f6f8fc" stroke="#dfe5ef"/><text x="83.4526" y="132" font-size="14" font-weight="600" fill="#0f172a" text-anchor="middle">Azure DevOps</text><rect x="150.905" y="112" width="60.2872" height="30" rx="9" fill="#f6f8fc" stroke="#dfe5ef"/><text x="181.049" y="132" font-size="14" font-weight="600" fill="#0f172a" text-anchor="middle">Nginx</text><rect x="219.192" y="112" width="60.2872" height="30" rx="9" fill="#f6f8fc" stroke="#dfe5ef"/><text x="249.336" y="132" font-size="14" font-weight="600" fill="#0f172a" text-anchor="middle">Linux</text><rect x="24" y="150" width="100.652" height="30" rx="9" fill="#f6f8fc" stroke="#dfe5ef"/><text x="74.326" y="170" font-size="14" font-weight="600" fill="#0f172a" text-anchor="middle">PowerShell</text><rect x="132.652" y="150" width="55.9836" height="30" rx="9" fill="#f6f8fc" stroke="#dfe5ef"/><text x="160.644" y="170" font-size="14" font-weight="600" fill="#0f172a" text-anchor="middle">Bash</text><rect x="196.636" y="150" width="82.5472" height="30" rx="9" fill="#f6f8fc" stroke="#dfe5ef"/><text x="237.909" y="170" font-size="14" font-weight="600" fill="#0f172a" text-anchor="middle">Postman</text><rect x="287.183" y="150" width="49.6024" height="30" rx="9" fill="#f6f8fc" stroke="#dfe5ef"/><text x="311.984" y="170" font-size="14" font-weight="600" fill="#0f172a" text-anchor="middle">Jira</text><rect x="24" y="188" width="96.6452" height="30" rx="9" fill="#f6f8fc" stroke="#dfe5ef"/><text x="72.3226" y="208" font-size="14" font-weight="600" fill="#0f172a" text-anchor="middle">Tree-sitter</text></g><g transform="translate(404.667 336)"><rect x=".75" y=".75" width="389.167" height="282.5" rx="18" fill="#ffffff" stroke="#dfe5ef" stroke-width="1.5"/><path d="M24 .75h90" stroke="url(#kb)" stroke-width="3" stroke-linecap="round"/><g transform="translate(24 24) scale(0.916667)" fill="none" stroke="#6d28d9" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><!-- ISC License
+
+Copyright (c) 2026 Lucide Icons and Contributors
+
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted, provided that the above
+copyright notice and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
+OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+
+—-
+
+The following Lucide icons are derived from the Feather project:
+
+airplay, alert-circle, alert-octagon, alert-triangle, aperture, arrow-down-circle, arrow-down-left, arrow-down-right, arrow-down, arrow-left-circle, arrow-left, arrow-right-circle, arrow-right, arrow-up-circle, arrow-up-left, arrow-up-right, arrow-up, at-sign, calendar, cast, check, chevron-down, chevron-left, chevron-right, chevron-up, chevrons-down, chevrons-left, chevrons-right, chevrons-up, circle, clipboard, clock, code, columns, command, compass, corner-down-left, corner-down-right, corner-left-down, corner-left-up, corner-right-down, corner-right-up, corner-up-left, corner-up-right, crosshair, database, divide-circle, divide-square, dollar-sign, download, external-link, feather, frown, hash, headphones, help-circle, info, italic, key, layout, life-buoy, link-2, link, loader, lock, log-in, log-out, maximize, meh, minimize, minimize-2, minus-circle, minus-square, minus, monitor, moon, more-horizontal, more-vertical, move, music, navigation-2, navigation, octagon, pause-circle, percent, plus-circle, plus-square, plus, power, radio, rss, search, server, share, shopping-bag, sidebar, smartphone, smile, square, table-2, tablet, target, terminal, trash-2, trash, triangle, tv, type, upload, x-circle, x-octagon, x-square, x, zoom-in, zoom-out
+
+The MIT License (MIT) (for the icons listed above)
+
+Copyright (c) 2013-present Cole Bemis
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+ --><path d="M15.536 11.293a1 1 0 0 0 0 1.414l2.376 2.377a1 1 0 0 0 1.414 0l2.377-2.377a1 1 0 0 0 0-1.414l-2.377-2.377a1 1 0 0 0-1.414 0z" />
+  <path d="M2.297 11.293a1 1 0 0 0 0 1.414l2.377 2.377a1 1 0 0 0 1.414 0l2.377-2.377a1 1 0 0 0 0-1.414L6.088 8.916a1 1 0 0 0-1.414 0z" />
+  <path d="M8.916 17.912a1 1 0 0 0 0 1.415l2.377 2.376a1 1 0 0 0 1.414 0l2.377-2.376a1 1 0 0 0 0-1.415l-2.377-2.376a1 1 0 0 0-1.414 0z" />
+  <path d="M8.916 4.674a1 1 0 0 0 0 1.414l2.377 2.376a1 1 0 0 0 1.414 0l2.377-2.376a1 1 0 0 0 0-1.414l-2.377-2.377a1 1 0 0 0-1.414 0z" />
+</g><text x="56" y="42" font-size="19" font-weight="700" fill="#0f172a" text-anchor="start">Arquitectura</text><path d="M24 58H366.667" stroke="#dfe5ef"/><rect x="24" y="74" width="151.256" height="30" rx="9" fill="#f6f8fc" stroke="#dfe5ef"/><text x="99.6282" y="94" font-size="14" font-weight="600" fill="#0f172a" text-anchor="middle">Clean Architecture</text><rect x="183.256" y="74" width="59.9904" height="30" rx="9" fill="#f6f8fc" stroke="#dfe5ef"/><text x="213.252" y="94" font-size="14" font-weight="600" fill="#0f172a" text-anchor="middle">CQRS</text><rect x="24" y="112" width="159.418" height="30" rx="9" fill="#f6f8fc" stroke="#dfe5ef"/><text x="103.709" y="132" font-size="14" font-weight="600" fill="#0f172a" text-anchor="middle">SOLID · DRY · KISS</text><rect x="191.418" y="112" width="124.248" height="30" rx="9" fill="#f6f8fc" stroke="#dfe5ef"/><text x="253.542" y="132" font-size="14" font-weight="600" fill="#0f172a" text-anchor="middle">Microservicios</text><rect x="24" y="150" width="141.017" height="30" rx="9" fill="#f6f8fc" stroke="#dfe5ef"/><text x="94.5084" y="170" font-size="14" font-weight="600" fill="#0f172a" text-anchor="middle">REST API design</text><rect x="173.017" y="150" width="173.22" height="30" rx="9" fill="#f6f8fc" stroke="#dfe5ef"/><text x="259.627" y="170" font-size="14" font-weight="600" fill="#0f172a" text-anchor="middle">Modernización legacy</text><rect x="24" y="188" width="108.814" height="30" rx="9" fill="#f6f8fc" stroke="#dfe5ef"/><text x="78.407" y="208" font-size="14" font-weight="600" fill="#0f172a" text-anchor="middle">Code review</text><rect x="140.814" y="188" width="77.9468" height="30" rx="9" fill="#f6f8fc" stroke="#dfe5ef"/><text x="179.787" y="208" font-size="14" font-weight="600" fill="#0f172a" text-anchor="middle">Pruebas</text></g><g transform="translate(809.333 336)"><rect x=".75" y=".75" width="389.167" height="282.5" rx="18" fill="#ffffff" stroke="#dfe5ef" stroke-width="1.5"/><path d="M24 .75h90" stroke="url(#kb)" stroke-width="3" stroke-linecap="round"/><g transform="translate(24 24) scale(0.916667)" fill="none" stroke="#6d28d9" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><!-- ISC License
+
+Copyright (c) 2026 Lucide Icons and Contributors
+
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted, provided that the above
+copyright notice and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
+OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+
+—-
+
+The following Lucide icons are derived from the Feather project:
+
+airplay, alert-circle, alert-octagon, alert-triangle, aperture, arrow-down-circle, arrow-down-left, arrow-down-right, arrow-down, arrow-left-circle, arrow-left, arrow-right-circle, arrow-right, arrow-up-circle, arrow-up-left, arrow-up-right, arrow-up, at-sign, calendar, cast, check, chevron-down, chevron-left, chevron-right, chevron-up, chevrons-down, chevrons-left, chevrons-right, chevrons-up, circle, clipboard, clock, code, columns, command, compass, corner-down-left, corner-down-right, corner-left-down, corner-left-up, corner-right-down, corner-right-up, corner-up-left, corner-up-right, crosshair, database, divide-circle, divide-square, dollar-sign, download, external-link, feather, frown, hash, headphones, help-circle, info, italic, key, layout, life-buoy, link-2, link, loader, lock, log-in, log-out, maximize, meh, minimize, minimize-2, minus-circle, minus-square, minus, monitor, moon, more-horizontal, more-vertical, move, music, navigation-2, navigation, octagon, pause-circle, percent, plus-circle, plus-square, plus, power, radio, rss, search, server, share, shopping-bag, sidebar, smartphone, smile, square, table-2, tablet, target, terminal, trash-2, trash, triangle, tv, type, upload, x-circle, x-octagon, x-square, x, zoom-in, zoom-out
+
+The MIT License (MIT) (for the icons listed above)
+
+Copyright (c) 2013-present Cole Bemis
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+ --><path d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z" />
+  <path d="M20 2v4" />
+  <path d="M22 4h-4" />
+  <circle cx="4" cy="20" r="2" />
+</g><text x="56" y="42" font-size="19" font-weight="700" fill="#0f172a" text-anchor="start">IA y agentes</text><path d="M24 58H366.667" stroke="#dfe5ef"/><rect x="24" y="74" width="108.072" height="30" rx="9" fill="#f6f8fc" stroke="#dfe5ef"/><text x="78.036" y="94" font-size="14" font-weight="600" fill="#0f172a" text-anchor="middle">Claude Code</text><rect x="140.072" y="74" width="64.1456" height="30" rx="9" fill="#f6f8fc" stroke="#dfe5ef"/><text x="172.145" y="94" font-size="14" font-weight="600" fill="#0f172a" text-anchor="middle">Codex</text><rect x="212.218" y="74" width="97.8324" height="30" rx="9" fill="#f6f8fc" stroke="#dfe5ef"/><text x="261.134" y="94" font-size="14" font-weight="600" fill="#0f172a" text-anchor="middle">Antigravity</text><rect x="24" y="112" width="99.4648" height="30" rx="9" fill="#f6f8fc" stroke="#dfe5ef"/><text x="73.7324" y="132" font-size="14" font-weight="600" fill="#0f172a" text-anchor="middle">Gemini CLI</text><rect x="131.465" y="112" width="67.262" height="30" rx="9" fill="#f6f8fc" stroke="#dfe5ef"/><text x="165.096" y="132" font-size="14" font-weight="600" fill="#0f172a" text-anchor="middle">Cursor</text><rect x="206.727" y="112" width="89.9672" height="30" rx="9" fill="#f6f8fc" stroke="#dfe5ef"/><text x="251.71" y="132" font-size="14" font-weight="600" fill="#0f172a" text-anchor="middle">OpenCode</text><rect x="24" y="150" width="89.9672" height="30" rx="9" fill="#f6f8fc" stroke="#dfe5ef"/><text x="68.9836" y="170" font-size="14" font-weight="600" fill="#0f172a" text-anchor="middle">DeepSeek</text><rect x="121.967" y="150" width="69.1912" height="30" rx="9" fill="#f6f8fc" stroke="#dfe5ef"/><text x="156.563" y="170" font-size="14" font-weight="600" fill="#0f172a" text-anchor="middle">Ollama</text><rect x="199.158" y="150" width="111.485" height="30" rx="9" fill="#f6f8fc" stroke="#dfe5ef"/><text x="254.901" y="170" font-size="14" font-weight="600" fill="#0f172a" text-anchor="middle">MCP servers</text><rect x="24" y="188" width="148.437" height="30" rx="9" fill="#f6f8fc" stroke="#dfe5ef"/><text x="98.2184" y="208" font-size="14" font-weight="600" fill="#0f172a" text-anchor="middle">RAG · embeddings</text><rect x="180.437" y="188" width="108.072" height="30" rx="9" fill="#f6f8fc" stroke="#dfe5ef"/><text x="234.473" y="208" font-size="14" font-weight="600" fill="#0f172a" text-anchor="middle">Agent hooks</text><rect x="24" y="226" width="124.396" height="30" rx="9" fill="#f6f8fc" stroke="#dfe5ef"/><text x="86.198" y="246" font-size="14" font-weight="600" fill="#0f172a" text-anchor="middle">faster-whisper</text></g></svg>

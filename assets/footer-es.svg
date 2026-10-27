@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150" role="img" aria-label="Gracias por pasar  ·  robertogallardo.dev">
-  <defs>
-    <linearGradient id="w" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#0ea5e9"/><stop offset="0.5" stop-color="#6d28d9"/><stop offset="1" stop-color="#4f46e5"/></linearGradient>
-    <style>text { font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif; }</style>
-  </defs>
-  <path d="M0 52 C 200 12, 400 92, 600 52 S 1000 12, 1200 52 V150 H0 Z" fill="url(#w)" opacity="0.35"/>
-  <path d="M0 72 C 220 32, 420 112, 640 70 S 1020 34, 1200 74 V150 H0 Z" fill="url(#w)"/>
-  <text x="600" y="122" text-anchor="middle" style="font-size:18px;font-weight:600;fill:#ffffff">Gracias por pasar  ·  robertogallardo.dev</text>
-</svg>
