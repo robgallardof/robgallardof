@@ -374,7 +374,7 @@ I build **MCP servers, skills and hooks** so agents can do real work on my machi
 <h3 align="center"><img src="assets/icons/layers.svg" width="20" height="20" alt="" /> Recent activity</h3>
 
 <!--START_SECTION:activity-->
-<sub> Updates automatically every 6 hours with my latest pull requests, issues and releases.</sub>
+1. 🎉 Merged PR [#2](https://github.com/robgallardof/control-api/pull/2) in [robgallardof/control-api](https://github.com/robgallardof/control-api)
 <!--END_SECTION:activity-->
 
 </td>
