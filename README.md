@@ -156,7 +156,7 @@
 <h3 align="center"><img src="assets/icons/lucide/git-branch.svg" width="20" height="20" alt="" /> Recent activity</h3>
 
 <!--START_SECTION:activity-->
-1. <img src="assets/icons/lucide/git-branch.svg" width="16" height="16" alt="" /> Merged PR [#2](https://github.com/robgallardof/control-api/pull/2) in [robgallardof/control-api](https://github.com/robgallardof/control-api)
+1. 🎉 Merged PR [#10](https://github.com/robgallardof/wallybot/pull/10) in [robgallardof/wallybot](https://github.com/robgallardof/wallybot)
 <!--END_SECTION:activity-->
 
 <!-- kit:wave -->
