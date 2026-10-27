@@ -1,164 +1,877 @@
 {
-  "version": 1,
-  "theme": "nebula",
-  "assets": "assets/kit",
-  "documents": {"README.md": "en", "README.es.md": "es"},
-  "blocks": [
-    {"id": "lang", "type": "buttons", "align": "right", "items": [
-      {"label": "English", "href": "README.md", "icon": "lucide-globe", "small": true, "variant": {"en": "primary", "es": "outline"}},
-      {"label": "Español", "href": "README.es.md", "icon": "lucide-globe", "small": true, "variant": {"en": "outline", "es": "primary"}}
-    ]},
-    {"id": "links", "type": "buttons", "items": [
-      {"label": "robertogallardo.dev", "href": "https://robertogallardo.dev", "icon": "lucide-globe", "variant": "primary", "trailing": true},
-      {"label": "LinkedIn", "href": "https://linkedin.com/in/robgallardof", "icon": "lucide-briefcase-business"},
-      {"label": {"en": "Repositories", "es": "Repositorios"}, "href": "https://github.com/robgallardof?tab=repositories", "icon": "lucide-folder-code"}
-    ]},
-    {"id": "facts", "type": "stats", "items": [
-      {"value": "7+", "label": {"en": "years building software", "es": "años construyendo software"}},
-      {"value": "2.0 → 11", "label": {"en": "every .NET generation", "es": "todas las versiones de .NET"}},
-      {"value": {"en": "4 yrs", "es": "4 años"}, "label": {"en": "working with AI agents", "es": "trabajando con agentes de IA"}},
-      {"value": "MSc", "label": {"en": "Software Architecture", "es": "Arquitectura de Software"}},
-      {"value": "GDL", "label": {"en": "Guadalajara · EN / ES", "es": "Guadalajara · ES / EN"}}
-    ]},
-    {"id": "nav", "type": "buttons", "items": [
-      {"label": {"en": "01 About", "es": "01 Sobre mí"}, "href": {"en": "#about", "es": "#sobre-mi"}, "small": true},
-      {"label": {"en": "02 Building", "es": "02 Ahora"}, "href": {"en": "#building", "es": "#construyendo"}, "small": true},
-      {"label": {"en": "03 Projects", "es": "03 Proyectos"}, "href": {"en": "#projects", "es": "#proyectos"}, "small": true},
-      {"label": {"en": "04 AI toolbox", "es": "04 Herramientas"}, "href": {"en": "#toolbox", "es": "#herramientas"}, "small": true},
-      {"label": {"en": "05 Experience", "es": "05 Experiencia"}, "href": {"en": "#experience", "es": "#experiencia"}, "small": true},
-      {"label": "06 Stack", "href": {"en": "#stack", "es": "#tecnologias"}, "small": true},
-      {"label": {"en": "07 Stats", "es": "07 Números"}, "href": {"en": "#stats", "es": "#estadisticas"}, "small": true}
-    ]},
-    {"id": "wave", "type": "divider"},
-
-    {"id": "h-about", "type": "heading", "number": "01", "icon": "lucide-brain-circuit",
-     "kicker": {"en": "About", "es": "Sobre mí"},
-     "title": {"en": "I read the legacy code before judging it", "es": "Leo el código legacy antes de juzgarlo"}},
-    {"id": "about", "type": "bento", "cells": [
-      {"span": 2, "icon": "lucide-briefcase-business", "kicker": {"en": "By day", "es": "De día"},
-       "title": {"en": "Backend services in .NET", "es": "Servicios backend en .NET"},
-       "text": {"en": "For a global logistics company: APIs, integrations and the migrations nobody else wants to touch.", "es": "Para una empresa global de logística: APIs, integraciones y las migraciones que nadie más quiere tocar."}},
-      {"icon": "clock", "kicker": {"en": "Every generation", "es": "Todas las versiones"},
-       "title": ".NET 2.0 → 11",
-       "text": {"en": "Framework 2.0 / 3.5 / 4.x, .NET Core and .NET 5 → 11.", "es": "Framework 2.0 / 3.5 / 4.x, .NET Core y .NET 5 → 11."}},
-      {"icon": "lucide-bot", "kicker": {"en": "4 years with AI", "es": "4 años con IA"},
-       "title": {"en": "Reviewed, never blind", "es": "Con revisión, no a ciegas"},
-       "text": {"en": "From ChatGPT to Codex, Claude Code and Antigravity.", "es": "De ChatGPT a Codex, Claude Code y Antigravity."}},
-      {"span": 2, "icon": "lucide-sparkles", "kicker": {"en": "By night", "es": "De noche"},
-       "title": {"en": "AI agents that do real work", "es": "Agentes de IA que hacen trabajo real"},
-       "text": {"en": "They edit my videos, publish them and even do my taxes. Locally, with me in control.", "es": "Editan mis videos, los publican y hasta hacen mi declaración. En local, conmigo al mando."}},
-      {"span": 2, "icon": "lucide-graduation-cap", "kicker": {"en": "Education", "es": "Formación"},
-       "title": {"en": "MSc in Software Architecture", "es": "Maestría en Arquitectura de Software"},
-       "text": {"en": "Plus a Bachelor's in Administrative Computer Systems. Based in Guadalajara, Jalisco.", "es": "Y licenciatura en Sistemas Computacionales Administrativos. Desde Guadalajara, Jalisco."}},
-      {"icon": "lucide-code-xml", "kicker": {"en": "Ask me about", "es": "Pregúntame de"},
-       "title": {"en": "C#, migrations, design", "es": "C#, migraciones, diseño"},
-       "text": {"en": "MongoDB, Vue / Next.js, DevOps and AI agents.", "es": "MongoDB, Vue / Next.js, DevOps y agentes de IA."}}
-    ]},
-
-    {"id": "h-building", "type": "heading", "number": "02", "icon": "lucide-wand-sparkles",
-     "kicker": {"en": "Building now", "es": "Construyendo"},
-     "title": {"en": "Local tools for AI coding agents", "es": "Herramientas locales para agentes de código"}},
-    {"id": "building", "type": "terminal", "title": {"en": "three commands, three jobs", "es": "tres comandos, tres trabajos"}, "lines": [
-      "$ reporinse install --provider git --all --yes",
-      {"en": "# clean every commit message", "es": "# limpia cada mensaje de commit"},
-      "$ reporinse install --provider opencode,deepseek --all --yes",
-      {"en": "# guardrails for your agents", "es": "# límites para tus agentes"},
-      "$ rekora agent install claude --confirm",
-      {"en": "# give Claude Code a memory", "es": "# dale memoria a Claude Code"}
-    ]},
-
-    {"id": "h-projects", "type": "heading", "number": "03", "icon": "lucide-folder-code",
-     "kicker": {"en": "Projects", "es": "Proyectos"},
-     "title": {"en": "Things I built and use every week", "es": "Cosas que construí y uso cada semana"}},
-    {"id": "projects", "type": "cards", "items": [
-      {"title": "Rekora", "href": "https://github.com/robgallardof/rekora", "icon": "lucide-brain-circuit", "badge": {"en": "New", "es": "Nuevo"},
-       "kicker": {"en": "Agent memory", "es": "Memoria para agentes"}, "tags": ["Rust", "MCP", "SQLite"],
-       "text": {"en": "Local-first, verifiable memory for AI coding agents: decisions with their sources, stale detection, tasks and handoffs between Claude Code, Codex, OpenCode and DeepSeek Harness.",
-                "es": "Memoria local y verificable para agentes de código: decisiones con sus fuentes, detección de desactualizados, tareas y handoffs entre Claude Code, Codex, OpenCode y DeepSeek Harness."}},
-      {"title": "RepoRinse", "href": "https://github.com/robgallardof/RepoRinse", "icon": "lucide-shield-check", "badge": {"en": "New", "es": "Nuevo"},
-       "kicker": {"en": "Git and agent hooks", "es": "Hooks de Git y agentes"}, "tags": ["Rust", "Git hooks", "Agent hooks"],
-       "text": {"en": "Keeps repos clean and agents in check: removes AI co-author trailers (keeps the humans), whitespace and invisible Unicode, and adds guardrail hooks for six agents.",
-                "es": "Mantiene limpios los repos y a los agentes bajo control: quita trailers de coautoría de IA (respeta a las personas), espacios e Unicode invisible, y agrega hooks para seis agentes."}},
-      {"title": "davinci-resolve-mcp", "href": "https://github.com/robgallardof/davinci-resolve-mcp", "icon": "lucide-clapperboard",
-       "kicker": {"en": "Video editing", "es": "Edición de video"}, "tags": ["MCP", "Python", "Video"],
-       "text": {"en": "Edit in DaVinci Resolve by talking to an AI producer: vertical and horizontal cuts, motion that keeps faces whole, designed captions, music on the beat and QA before every render.",
-                "es": "Edita en DaVinci Resolve hablando con un productor de IA: cortes verticales y horizontales, movimiento que no corta caras, subtítulos con diseño, música a tiempo y QA antes de cada render."}},
-      {"title": "social-publisher-mcp", "href": "https://github.com/robgallardof/social-publisher-mcp", "icon": "lucide-send",
-       "kicker": {"en": "Publishing", "es": "Publicación"}, "tags": ["MCP", "Python", "Social"],
-       "text": {"en": "An AI community manager for short-form video: watches your videos, writes the copy for every network, schedules the posts and tells you what worked.",
-                "es": "Un community manager con IA para video corto: ve tus videos, escribe el texto de cada red, programa las publicaciones y te dice qué funcionó."}},
-      {"title": "declaracion", "href": "https://github.com/robgallardof/declaracion", "icon": "lucide-receipt-text",
-       "kicker": {"en": "Mexican taxes", "es": "Impuestos en México"}, "tags": ["MCP", "Python", "SAT"],
-       "text": {"en": "A personal tax assistant for Mexico inside your AI agent: reads CFDI, computes ISR and IVA (RESICO) and guides the filing. Your data stays on your PC.",
-                "es": "Tu asistente de impuestos personales en México dentro de tu agente: lee CFDI, calcula ISR e IVA (RESICO) y te guía al declarar. Tus datos se quedan en tu PC."}},
-      {"title": "Agent Mods", "href": "https://github.com/robgallardof/agent-mods", "icon": "lucide-panels-top-left",
-       "kicker": {"en": "Claude Code mods", "es": "Mods de Claude Code"}, "tags": ["Native mods", "Claude Code"],
-       "text": {"en": "See what your coding session is using: context, cost, quotas, Git branch, MCP tools, memory and tool activity. Install only the displays you want.",
-                "es": "Mira qué usa tu sesión de código: contexto, costo, cuotas, rama de Git, herramientas MCP, memoria y actividad. Instala solo las vistas que quieras."}},
-      {"title": "readme-builder", "href": "https://github.com/robgallardof/readme-builder", "icon": "lucide-layout-template",
-       "kicker": {"en": "README design system", "es": "Sistema visual de README"}, "tags": ["Python", "SVG", "Offline"],
-       "text": {"en": "The kit behind this page: buttons, cards, wave dividers, headings and an offline generator. Original SVGs, no services, no tracking.",
-                "es": "El kit detrás de esta página: botones, tarjetas, separadores, encabezados y un generador offline. SVG propios, sin servicios ni rastreo."}},
-      {"title": "wikdoc", "href": "https://github.com/robgallardof/wikdoc", "icon": "lucide-book-open",
-       "kicker": {"en": "Local RAG", "es": "RAG local"}, "tags": ["Python", "Ollama", "RAG"],
-       "text": {"en": "Turn any folder of code into a local knowledge base you can chat with. Embeddings and RAG over Ollama; nothing leaves your machine.",
-                "es": "Convierte cualquier carpeta de código en una base de conocimiento local con la que puedes chatear. Embeddings y RAG con Ollama; nada sale de tu equipo."}},
-      {"title": "wallybot", "href": "https://github.com/robgallardof/wallybot", "icon": "lucide-chart-no-axes-combined",
-       "kicker": {"en": "Self-hosted trading hub", "es": "Trading autoalojado"}, "tags": ["Python", "Next.js", "Self-hosted"],
-       "text": {"en": "Market analysis, portfolio and AI-assisted trading: explained proposals, your approval and risk controls.",
-                "es": "Análisis de mercado, portafolio y trading asistido por IA: propuestas explicadas, tu aprobación y controles de riesgo."}},
-      {"title": "multig", "href": "https://github.com/robgallardof/multig", "icon": "lucide-blocks",
-       "kicker": {"en": "Browser profiles", "es": "Perfiles de navegador"}, "tags": ["Next.js", "Python", "Camoufox"],
-       "text": {"en": "Manage many persistent, isolated browser profiles with Camoufox, a Next.js dashboard and a Python backend.",
-                "es": "Administra muchos perfiles de navegador persistentes y aislados con Camoufox, un panel en Next.js y un backend en Python."}}
-    ]},
-    {"id": "all-repos", "type": "buttons", "items": [
-      {"label": {"en": "See all repositories", "es": "Ver todos los repositorios"}, "href": "https://github.com/robgallardof?tab=repositories", "icon": "lucide-folder-code", "variant": "primary", "trailing": true}
-    ]},
-
-    {"id": "h-toolbox", "type": "heading", "number": "04", "icon": "lucide-bot",
-     "kicker": {"en": "AI toolbox", "es": "Herramientas IA"},
-     "title": {"en": "MCP servers, skills, hooks and mods", "es": "Servidores MCP, skills, hooks y mods"}},
-    {"id": "toolbox", "type": "panels", "style": "list", "groups": [
-      {"title": {"en": "MCP servers", "es": "Servidores MCP"}, "icon": "lucide-network", "items": [
-        {"en": "davinci-resolve-mcp — video editing", "es": "davinci-resolve-mcp — edición de video"},
-        {"en": "social-publisher-mcp — publishing", "es": "social-publisher-mcp — publicación"},
-        {"en": "declaracion — Mexican taxes", "es": "declaracion — impuestos en México"}]},
-      {"title": {"en": "Skills & agent roles", "es": "Skills y roles"}, "icon": "lucide-bot", "items": [
-        {"en": "Producer, editors, colorist and QA for Resolve", "es": "Productor, editores, colorista y QA para Resolve"},
-        {"en": "Copywriter, strategist and analyst for social", "es": "Copywriter, estratega y analista para redes"},
-        {"en": "Accountant and auditor for tax returns", "es": "Contador y auditor para declaraciones"}]},
-      {"title": {"en": "Memory & guardrails", "es": "Memoria y límites"}, "icon": "lucide-shield-check", "items": [
-        {"en": "Rekora — verifiable memory for agents", "es": "Rekora — memoria verificable"},
-        {"en": "RepoRinse — Git and agent hooks", "es": "RepoRinse — hooks de Git y agentes"},
-        {"en": "Agent Mods — native session displays", "es": "Agent Mods — vistas nativas de sesión"}]}
-    ]},
-    {"id": "toolbox-links", "type": "buttons", "items": [
-      {"label": {"en": "MCP adapters", "es": "Adaptadores MCP"}, "href": "https://github.com/robgallardof/rekora/blob/main/docs/architecture/ADAPTERS.md", "icon": "lucide-waypoints", "small": true},
-      {"label": {"en": "Agent hooks", "es": "Hooks de agentes"}, "href": "https://github.com/robgallardof/RepoRinse/blob/main/docs/integrations/opencode-deepseek.md", "icon": "shield", "small": true}
-    ]},
-
-    {"id": "h-experience", "type": "heading", "number": "05", "icon": "lucide-graduation-cap",
-     "kicker": {"en": "Experience", "es": "Experiencia"},
-     "title": {"en": "Logistics, banking, telecom and a master's", "es": "Logística, banca, telecom y una maestría"}},
-
-    {"id": "h-stack", "type": "heading", "number": "06", "icon": "lucide-cpu",
-     "kicker": "Stack", "title": {"en": "What I reach for", "es": "Con lo que trabajo"}},
-    {"id": "stack", "type": "panels", "style": "chips", "groups": [
-      {"title": "Backend", "icon": "lucide-code-xml", "items": ["C#", ".NET Framework 2.0–4.8", ".NET Core", ".NET 5–11", "ASP.NET Core", "Minimal APIs", "EF Core", "SignalR", "WCF", "Web Forms", "VB.NET", "xUnit + Moq", "Rust", "Python", "Java", "Kotlin", "Node.js"]},
-      {"title": "Frontend", "icon": "lucide-panels-top-left", "items": ["TypeScript", "React", "Next.js", "Vue", "React Native", "Tailwind", "shadcn/ui", "Framer Motion", "PWA", "i18n", {"en": "Accessibility", "es": "Accesibilidad"}]},
-      {"title": {"en": "Data & cloud", "es": "Datos y nube"}, "icon": "lucide-database", "items": ["SQL Server", "MongoDB Atlas", {"en": "Aggregation pipelines", "es": "Pipelines de agregación"}, "PostgreSQL", "MySQL", "SQLite · FTS5", "Informix", "SSRS", "Azure Blob", "Cloudflare", "Vercel"]},
-      {"title": {"en": "DevOps & tools", "es": "DevOps y herramientas"}, "icon": "lucide-container", "items": ["Docker", "Kubernetes", "GitHub Actions", "Azure DevOps", "Nginx", "Linux", "PowerShell", "Bash", "Postman", "Jira", "Tree-sitter"]},
-      {"title": {"en": "Architecture", "es": "Arquitectura"}, "icon": "lucide-component", "items": ["Clean Architecture", "CQRS", "SOLID · DRY · KISS", {"en": "Microservices", "es": "Microservicios"}, "REST API design", {"en": "Legacy modernization", "es": "Modernización legacy"}, "Code review", {"en": "Testing", "es": "Pruebas"}]},
-      {"title": {"en": "AI & agents", "es": "IA y agentes"}, "icon": "lucide-sparkles", "items": ["Claude Code", "Codex", "Antigravity", "Gemini CLI", "Cursor", "OpenCode", "DeepSeek", "Ollama", "MCP servers", "RAG · embeddings", "Agent hooks", "faster-whisper"]}
-    ]},
-
-    {"id": "h-stats", "type": "heading", "number": "07", "icon": "lucide-chart-no-axes-combined",
-     "kicker": {"en": "Stats", "es": "Estadísticas"}, "title": {"en": "Numbers GitHub keeps for me", "es": "Los números que GitHub lleva por mí"}},
-    {"id": "h-arcade", "type": "heading", "number": "08", "icon": "lucide-git-branch",
-     "kicker": "Arcade", "title": {"en": "My real contribution calendar", "es": "Mi calendario real de contribuciones"}},
-    {"id": "top", "type": "buttons", "items": [
-      {"label": {"en": "Back to top", "es": "Volver arriba"}, "href": "#top", "icon": "arrow-up", "small": true}
-    ]}
-  ]
+ "version": 1,
+ "theme": "nebula",
+ "assets": "assets/kit",
+ "documents": {
+  "README.md": "en",
+  "README.es.md": "es"
+ },
+ "blocks": [
+  {
+   "id": "lang",
+   "type": "buttons",
+   "align": "right",
+   "items": [
+    {
+     "label": "English",
+     "href": "README.md",
+     "icon": "lucide-globe",
+     "small": true,
+     "variant": {
+      "en": "primary",
+      "es": "outline"
+     }
+    },
+    {
+     "label": "Español",
+     "href": "README.es.md",
+     "icon": "lucide-globe",
+     "small": true,
+     "variant": {
+      "en": "outline",
+      "es": "primary"
+     }
+    }
+   ]
+  },
+  {
+   "id": "links",
+   "type": "buttons",
+   "items": [
+    {
+     "label": "robertogallardo.dev",
+     "href": "https://robertogallardo.dev",
+     "icon": "lucide-globe",
+     "variant": "primary",
+     "trailing": true
+    },
+    {
+     "label": "LinkedIn",
+     "href": "https://linkedin.com/in/robgallardof",
+     "icon": "lucide-briefcase-business"
+    },
+    {
+     "label": {
+      "en": "Repositories",
+      "es": "Repositorios"
+     },
+     "href": "https://github.com/robgallardof?tab=repositories",
+     "icon": "lucide-folder-code"
+    }
+   ]
+  },
+  {
+   "id": "facts",
+   "type": "stats",
+   "items": [
+    {
+     "value": "7+",
+     "label": {
+      "en": "years writing software",
+      "es": "años programando"
+     }
+    },
+    {
+     "value": "2.0 → 11",
+     "label": {
+      "en": "every .NET I've lived through",
+      "es": "todas las versiones de .NET"
+     }
+    },
+    {
+     "value": {
+      "en": "4 yrs",
+      "es": "4 años"
+     },
+     "label": {
+      "en": "using AI every day",
+      "es": "usando IA a diario"
+     }
+    },
+    {
+     "value": "MSc",
+     "label": {
+      "en": "Software Architecture",
+      "es": "Arquitectura de Software"
+     }
+    },
+    {
+     "value": "México",
+     "label": {
+      "en": "Guadalajara, Jalisco",
+      "es": "Guadalajara, Jalisco"
+     }
+    }
+   ]
+  },
+  {
+   "id": "nav",
+   "type": "buttons",
+   "items": [
+    {
+     "label": {
+      "en": "01 About",
+      "es": "01 Sobre mí"
+     },
+     "href": {
+      "en": "#about",
+      "es": "#sobre-mi"
+     },
+     "small": true
+    },
+    {
+     "label": {
+      "en": "02 Building",
+      "es": "02 Ahora"
+     },
+     "href": {
+      "en": "#building",
+      "es": "#construyendo"
+     },
+     "small": true
+    },
+    {
+     "label": {
+      "en": "03 Projects",
+      "es": "03 Proyectos"
+     },
+     "href": {
+      "en": "#projects",
+      "es": "#proyectos"
+     },
+     "small": true
+    },
+    {
+     "label": {
+      "en": "04 AI toolbox",
+      "es": "04 Herramientas"
+     },
+     "href": {
+      "en": "#toolbox",
+      "es": "#herramientas"
+     },
+     "small": true
+    },
+    {
+     "label": {
+      "en": "05 Experience",
+      "es": "05 Experiencia"
+     },
+     "href": {
+      "en": "#experience",
+      "es": "#experiencia"
+     },
+     "small": true
+    },
+    {
+     "label": "06 Stack",
+     "href": {
+      "en": "#stack",
+      "es": "#tecnologias"
+     },
+     "small": true
+    },
+    {
+     "label": {
+      "en": "07 Stats",
+      "es": "07 Números"
+     },
+     "href": {
+      "en": "#stats",
+      "es": "#estadisticas"
+     },
+     "small": true
+    }
+   ]
+  },
+  {
+   "id": "wave",
+   "type": "divider"
+  },
+  {
+   "id": "h-about",
+   "type": "heading",
+   "number": "01",
+   "icon": "lucide-brain-circuit",
+   "kicker": {
+    "en": "About",
+    "es": "Sobre mí"
+   },
+   "title": {
+    "en": "Hi, I'm Roberto",
+    "es": "Hola, soy Roberto"
+   }
+  },
+  {
+   "id": "about",
+   "type": "bento",
+   "cells": [
+    {
+     "span": 2,
+     "icon": "lucide-briefcase-business",
+     "kicker": {
+      "en": "By day",
+      "es": "De día"
+     },
+     "title": {
+      "en": "I write .NET backends",
+      "es": "Hago backends en .NET"
+     },
+     "text": {
+      "en": "At a logistics company: APIs, integrations, and more migrations of old code than I can count.",
+      "es": "En una empresa de logística: APIs, integraciones y más migraciones de código viejo de las que puedo contar."
+     }
+    },
+    {
+     "icon": "clock",
+     "kicker": {
+      "en": "Since 2.0",
+      "es": "Desde la 2.0"
+     },
+     "title": ".NET 2.0 → 11",
+     "text": {
+      "en": "I started on Framework 2.0 and I've migrated pretty much every version since.",
+      "es": "Empecé con Framework 2.0 y he migrado casi todas las versiones desde entonces."
+     }
+    },
+    {
+     "icon": "lucide-bot",
+     "kicker": {
+      "en": "AI",
+      "es": "IA"
+     },
+     "title": {
+      "en": "Every day, since 2022",
+      "es": "A diario, desde 2022"
+     },
+     "text": {
+      "en": "Mostly Codex and Claude Code now. I still read everything they write.",
+      "es": "Ahora sobre todo Codex y Claude Code. Igual leo todo lo que escriben."
+     }
+    },
+    {
+     "span": 2,
+     "icon": "lucide-sparkles",
+     "kicker": {
+      "en": "By night",
+      "es": "De noche"
+     },
+     "title": {
+      "en": "Agents for my own stuff",
+      "es": "Agentes para mis cosas"
+     },
+     "text": {
+      "en": "One edits my videos, another one posts them, and another helps me file my taxes.",
+      "es": "Uno edita mis videos, otro los publica y otro me ayuda con mi declaración."
+     }
+    },
+    {
+     "span": 2,
+     "icon": "lucide-graduation-cap",
+     "kicker": {
+      "en": "School",
+      "es": "Escuela"
+     },
+     "title": {
+      "en": "Master's in Software Architecture",
+      "es": "Maestría en Arquitectura de Software"
+     },
+     "text": {
+      "en": "And before that, a bachelor's in Administrative Computer Systems.",
+      "es": "Y antes, la licenciatura en Sistemas Computacionales Administrativos."
+     }
+    },
+    {
+     "icon": "lucide-code-xml",
+     "kicker": {
+      "en": "Talk to me about",
+      "es": "Platícame de"
+     },
+     "title": {
+      "en": "C# and old .NET",
+      "es": "C# y .NET viejito"
+     },
+     "text": {
+      "en": "Also MongoDB, Vue / Next.js, DevOps and agents.",
+      "es": "También MongoDB, Vue / Next.js, DevOps y agentes."
+     }
+    }
+   ]
+  },
+  {
+   "id": "h-building",
+   "type": "heading",
+   "number": "02",
+   "icon": "lucide-wand-sparkles",
+   "kicker": {
+    "en": "Lately",
+    "es": "Últimamente"
+   },
+   "title": {
+    "en": "What I'm working on",
+    "es": "En lo que ando"
+   }
+  },
+  {
+   "id": "building",
+   "type": "terminal",
+   "title": {
+    "en": "how I use them",
+    "es": "cómo los uso"
+   },
+   "lines": [
+    "$ reporinse install --provider git --all --yes",
+    {
+     "en": "# no more AI co-author lines in my commits",
+     "es": "# adiós a las firmas de IA en mis commits"
+    },
+    "$ reporinse install --provider opencode,deepseek --all --yes",
+    {
+     "en": "# stop agents from running what they shouldn't",
+     "es": "# que los agentes no corran lo que no deben"
+    },
+    "$ rekora agent install claude --confirm",
+    {
+     "en": "# so Claude remembers what we already decided",
+     "es": "# para que Claude recuerde lo que ya decidimos"
+    }
+   ]
+  },
+  {
+   "id": "h-projects",
+   "type": "heading",
+   "number": "03",
+   "icon": "lucide-folder-code",
+   "kicker": {
+    "en": "Projects",
+    "es": "Proyectos"
+   },
+   "title": {
+    "en": "Some things I've built",
+    "es": "Algunas cosas que he hecho"
+   }
+  },
+  {
+   "id": "projects",
+   "type": "cards",
+   "items": [
+    {
+     "title": "Rekora",
+     "href": "https://github.com/robgallardof/rekora",
+     "icon": "lucide-brain-circuit",
+     "badge": {
+      "en": "New",
+      "es": "Nuevo"
+     },
+     "kicker": {
+      "en": "Agent memory",
+      "es": "Memoria para agentes"
+     },
+     "tags": [
+      "Rust",
+      "MCP",
+      "SQLite"
+     ],
+     "text": {
+      "en": "Memory for coding agents. It keeps decisions and where they came from, warns you when something is out of date, and lets Claude Code, Codex and others hand work to each other.",
+      "es": "Memoria para agentes de código. Guarda decisiones y de dónde salieron, avisa cuando algo ya no aplica y deja que Claude Code, Codex y otros se pasen el trabajo."
+     }
+    },
+    {
+     "title": "RepoRinse",
+     "href": "https://github.com/robgallardof/RepoRinse",
+     "icon": "lucide-shield-check",
+     "badge": {
+      "en": "New",
+      "es": "Nuevo"
+     },
+     "kicker": {
+      "en": "Git and agent hooks",
+      "es": "Hooks de Git y agentes"
+     },
+     "tags": [
+      "Rust",
+      "Git hooks",
+      "Agent hooks"
+     ],
+     "text": {
+      "en": "I got tired of AI tools signing my commits. This cleans them up (human co-authors stay) and adds hooks so agents don't run things they shouldn't.",
+      "es": "Me cansé de que las herramientas de IA firmaran mis commits. Esto los limpia (los coautores humanos se quedan) y agrega hooks para que los agentes no hagan de las suyas."
+     }
+    },
+    {
+     "title": "davinci-resolve-mcp",
+     "href": "https://github.com/robgallardof/davinci-resolve-mcp",
+     "icon": "lucide-clapperboard",
+     "kicker": {
+      "en": "Video editing",
+      "es": "Edición de video"
+     },
+     "tags": [
+      "MCP",
+      "Python",
+      "Video"
+     ],
+     "text": {
+      "en": "I edit my videos in DaVinci Resolve by talking to an agent. It cuts vertical and horizontal versions, adds captions, follows the music and checks everything before rendering.",
+      "es": "Edito mis videos en DaVinci Resolve hablándole a un agente. Saca versiones vertical y horizontal, pone subtítulos, sigue la música y revisa todo antes de renderizar."
+     }
+    },
+    {
+     "title": "social-publisher-mcp",
+     "href": "https://github.com/robgallardof/social-publisher-mcp",
+     "icon": "lucide-send",
+     "kicker": {
+      "en": "Publishing",
+      "es": "Publicación"
+     },
+     "tags": [
+      "MCP",
+      "Python",
+      "Social"
+     ],
+     "text": {
+      "en": "Watches my videos, writes the post for each network, schedules them and later tells me what worked. Basically my community manager.",
+      "es": "Ve mis videos, escribe el texto de cada red, los programa y después me dice qué funcionó. Básicamente mi community manager."
+     }
+    },
+    {
+     "title": "declaracion",
+     "href": "https://github.com/robgallardof/declaracion",
+     "icon": "lucide-receipt-text",
+     "kicker": {
+      "en": "Mexican taxes",
+      "es": "Impuestos en México"
+     },
+     "tags": [
+      "MCP",
+      "Python",
+      "SAT"
+     ],
+     "text": {
+      "en": "I do my monthly Mexican tax return with this. It reads my CFDI, works out ISR and IVA under RESICO and walks me through the SAT portal. Nothing leaves my PC.",
+      "es": "Con esto hago mi declaración mensual. Lee mis CFDI, calcula ISR e IVA en RESICO y me guía en el portal del SAT. Nada sale de mi PC."
+     }
+    },
+    {
+     "title": "Agent Mods",
+     "href": "https://github.com/robgallardof/agent-mods",
+     "icon": "lucide-panels-top-left",
+     "kicker": {
+      "en": "Claude Code mods",
+      "es": "Mods de Claude Code"
+     },
+     "tags": [
+      "Native mods",
+      "Claude Code"
+     ],
+     "text": {
+      "en": "Small displays inside Claude Code: how much context and money I've used, quotas, the Git branch, which tools are on. Install only the ones you like.",
+      "es": "Pequeñas vistas dentro de Claude Code: cuánto contexto y dinero llevo, cuotas, la rama de Git, qué herramientas hay. Instala solo las que te gusten."
+     }
+    },
+    {
+     "title": "readme-builder",
+     "href": "https://github.com/robgallardof/readme-builder",
+     "icon": "lucide-layout-template",
+     "kicker": {
+      "en": "README design system",
+      "es": "Sistema visual de README"
+     },
+     "tags": [
+      "Python",
+      "SVG",
+      "Offline"
+     ],
+     "text": {
+      "en": "What I used to make this page: the buttons, the cards, the wavy separators. Just SVG files, no outside services.",
+      "es": "Con lo que hice esta página: los botones, las tarjetas, los separadores de onda. Puros archivos SVG, sin servicios externos."
+     }
+    },
+    {
+     "title": "wikdoc",
+     "href": "https://github.com/robgallardof/wikdoc",
+     "icon": "lucide-book-open",
+     "kicker": {
+      "en": "Local RAG",
+      "es": "RAG local"
+     },
+     "tags": [
+      "Python",
+      "Ollama",
+      "RAG"
+     ],
+     "text": {
+      "en": "Point it at a folder of code and chat with it. It runs on Ollama, so nothing leaves your computer.",
+      "es": "Apúntalo a una carpeta de código y platica con él. Corre con Ollama, así que nada sale de tu compu."
+     }
+    },
+    {
+     "title": "wallybot",
+     "href": "https://github.com/robgallardof/wallybot",
+     "icon": "lucide-chart-no-axes-combined",
+     "kicker": {
+      "en": "Self-hosted trading hub",
+      "es": "Trading autoalojado"
+     },
+     "tags": [
+      "Python",
+      "Next.js",
+      "Self-hosted"
+     ],
+     "text": {
+      "en": "My self-hosted trading playground. It suggests trades and explains why, but nothing happens until I say yes.",
+      "es": "Mi laboratorio de trading en casa. Sugiere operaciones y explica por qué, pero nada pasa hasta que yo digo que sí."
+     }
+    },
+    {
+     "title": "multig",
+     "href": "https://github.com/robgallardof/multig",
+     "icon": "lucide-blocks",
+     "kicker": {
+      "en": "Browser profiles",
+      "es": "Perfiles de navegador"
+     },
+     "tags": [
+      "Next.js",
+      "Python",
+      "Camoufox"
+     ],
+     "text": {
+      "en": "Lots of separate browser profiles that keep their sessions. Camoufox underneath, a Next.js dashboard and a Python backend.",
+      "es": "Muchos perfiles de navegador separados que conservan su sesión. Camoufox por debajo, un panel en Next.js y backend en Python."
+     }
+    }
+   ]
+  },
+  {
+   "id": "all-repos",
+   "type": "buttons",
+   "items": [
+    {
+     "label": {
+      "en": "See all repositories",
+      "es": "Ver todos los repositorios"
+     },
+     "href": "https://github.com/robgallardof?tab=repositories",
+     "icon": "lucide-folder-code",
+     "variant": "primary",
+     "trailing": true
+    }
+   ]
+  },
+  {
+   "id": "h-toolbox",
+   "type": "heading",
+   "number": "04",
+   "icon": "lucide-bot",
+   "kicker": {
+    "en": "AI setup",
+    "es": "Setup de IA"
+   },
+   "title": {
+    "en": "How I work with agents",
+    "es": "Cómo trabajo con agentes"
+   }
+  },
+  {
+   "id": "toolbox",
+   "type": "panels",
+   "style": "list",
+   "groups": [
+    {
+     "title": {
+      "en": "MCP servers",
+      "es": "Servidores MCP"
+     },
+     "icon": "lucide-network",
+     "items": [
+      {
+       "en": "davinci-resolve-mcp, for video",
+       "es": "davinci-resolve-mcp, para video"
+      },
+      {
+       "en": "social-publisher-mcp, for posting",
+       "es": "social-publisher-mcp, para publicar"
+      },
+      {
+       "en": "declaracion, for my taxes",
+       "es": "declaracion, para mis impuestos"
+      }
+     ]
+    },
+    {
+     "title": {
+      "en": "Agent roles",
+      "es": "Roles de agentes"
+     },
+     "icon": "lucide-bot",
+     "items": [
+      {
+       "en": "A producer, editors and a colorist for Resolve",
+       "es": "Productor, editores y colorista para Resolve"
+      },
+      {
+       "en": "A copywriter and an analyst for social",
+       "es": "Copywriter y analista para redes"
+      },
+      {
+       "en": "An accountant and an auditor for taxes",
+       "es": "Contador y auditor para impuestos"
+      }
+     ]
+    },
+    {
+     "title": {
+      "en": "Memory & limits",
+      "es": "Memoria y límites"
+     },
+     "icon": "lucide-shield-check",
+     "items": [
+      {
+       "en": "Rekora, so they remember",
+       "es": "Rekora, para que recuerden"
+      },
+      {
+       "en": "RepoRinse, so they behave",
+       "es": "RepoRinse, para que se porten bien"
+      },
+      {
+       "en": "Agent Mods, so I can see what's going on",
+       "es": "Agent Mods, para ver qué está pasando"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "toolbox-links",
+   "type": "buttons",
+   "items": [
+    {
+     "label": {
+      "en": "MCP adapters",
+      "es": "Adaptadores MCP"
+     },
+     "href": "https://github.com/robgallardof/rekora/blob/main/docs/architecture/ADAPTERS.md",
+     "icon": "lucide-waypoints",
+     "small": true
+    },
+    {
+     "label": {
+      "en": "Agent hooks",
+      "es": "Hooks de agentes"
+     },
+     "href": "https://github.com/robgallardof/RepoRinse/blob/main/docs/integrations/opencode-deepseek.md",
+     "icon": "shield",
+     "small": true
+    }
+   ]
+  },
+  {
+   "id": "h-experience",
+   "type": "heading",
+   "number": "05",
+   "icon": "lucide-graduation-cap",
+   "kicker": {
+    "en": "Experience",
+    "es": "Experiencia"
+   },
+   "title": {
+    "en": "Logistics, banking and telecom",
+    "es": "Logística, banca y telecom"
+   }
+  },
+  {
+   "id": "h-stack",
+   "type": "heading",
+   "number": "06",
+   "icon": "lucide-cpu",
+   "kicker": "Stack",
+   "title": {
+    "en": "What I use",
+    "es": "Con qué trabajo"
+   }
+  },
+  {
+   "id": "stack",
+   "type": "panels",
+   "style": "chips",
+   "groups": [
+    {
+     "title": "Backend",
+     "icon": "lucide-code-xml",
+     "items": [
+      "C#",
+      ".NET Framework 2.0–4.8",
+      ".NET Core",
+      ".NET 5–11",
+      "ASP.NET Core",
+      "Minimal APIs",
+      "EF Core",
+      "SignalR",
+      "WCF",
+      "Web Forms",
+      "VB.NET",
+      "xUnit + Moq",
+      "Rust",
+      "Python",
+      "Java",
+      "Kotlin",
+      "Node.js"
+     ]
+    },
+    {
+     "title": "Frontend",
+     "icon": "lucide-panels-top-left",
+     "items": [
+      "TypeScript",
+      "React",
+      "Next.js",
+      "Vue",
+      "React Native",
+      "Tailwind",
+      "shadcn/ui",
+      "Framer Motion",
+      "PWA",
+      "i18n",
+      {
+       "en": "Accessibility",
+       "es": "Accesibilidad"
+      }
+     ]
+    },
+    {
+     "title": {
+      "en": "Data & cloud",
+      "es": "Datos y nube"
+     },
+     "icon": "lucide-database",
+     "items": [
+      "SQL Server",
+      "MongoDB Atlas",
+      {
+       "en": "Aggregation pipelines",
+       "es": "Pipelines de agregación"
+      },
+      "PostgreSQL",
+      "MySQL",
+      "SQLite · FTS5",
+      "Informix",
+      "SSRS",
+      "Azure Blob",
+      "Cloudflare",
+      "Vercel"
+     ]
+    },
+    {
+     "title": {
+      "en": "DevOps & tools",
+      "es": "DevOps y herramientas"
+     },
+     "icon": "lucide-container",
+     "items": [
+      "Docker",
+      "Kubernetes",
+      "GitHub Actions",
+      "Azure DevOps",
+      "Nginx",
+      "Linux",
+      "PowerShell",
+      "Bash",
+      "Postman",
+      "Jira",
+      "Tree-sitter"
+     ]
+    },
+    {
+     "title": {
+      "en": "Architecture",
+      "es": "Arquitectura"
+     },
+     "icon": "lucide-component",
+     "items": [
+      "Clean Architecture",
+      "CQRS",
+      "SOLID · DRY · KISS",
+      {
+       "en": "Microservices",
+       "es": "Microservicios"
+      },
+      "REST API design",
+      {
+       "en": "Legacy modernization",
+       "es": "Modernización legacy"
+      },
+      "Code review",
+      {
+       "en": "Testing",
+       "es": "Pruebas"
+      }
+     ]
+    },
+    {
+     "title": {
+      "en": "AI & agents",
+      "es": "IA y agentes"
+     },
+     "icon": "lucide-sparkles",
+     "items": [
+      "Claude Code",
+      "Codex",
+      "Antigravity",
+      "Gemini CLI",
+      "Cursor",
+      "OpenCode",
+      "DeepSeek",
+      "Ollama",
+      "MCP servers",
+      "RAG · embeddings",
+      "Agent hooks",
+      "faster-whisper"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "h-stats",
+   "type": "heading",
+   "number": "07",
+   "icon": "lucide-chart-no-axes-combined",
+   "kicker": {
+    "en": "Stats",
+    "es": "Estadísticas"
+   },
+   "title": {
+    "en": "GitHub stats",
+    "es": "Estadísticas de GitHub"
+   }
+  },
+  {
+   "id": "h-arcade",
+   "type": "heading",
+   "number": "08",
+   "icon": "lucide-git-branch",
+   "kicker": "Arcade",
+   "title": {
+    "en": "My contributions",
+    "es": "Mis contribuciones"
+   }
+  },
+  {
+   "id": "top",
+   "type": "buttons",
+   "items": [
+    {
+     "label": {
+      "en": "Back to top",
+      "es": "Volver arriba"
+     },
+     "href": "#top",
+     "icon": "arrow-up",
+     "small": true
+    }
+   ]
+  }
+ ]
 }

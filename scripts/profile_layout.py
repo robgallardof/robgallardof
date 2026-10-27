@@ -24,20 +24,20 @@ def main():
     for name in ICONS:
         (folder / "lucide" / f"{name}.svg").write_text(icon(name), encoding="utf-8")
     for lang in ("en", "es"):
-        title = "One ecosystem. From intent to delivery." if lang == "en" else "Un ecosistema. De la idea a la entrega."
-        subtitle = "Local tools / explicit controls / reproducible checks" if lang == "en" else "Herramientas locales / control explicito / pruebas reproducibles"
+        title = "How my projects fit together" if lang == "en" else "Cómo se conectan mis proyectos"
+        subtitle = "They all run locally and talk to each other" if lang == "en" else "Todos corren en local y se hablan entre sí"
         names = [("01", "Rekora", "Context + memory" if lang=="en" else "Contexto + memoria"),
-                 ("02", "RepoRinse", "Git + tool policies" if lang=="en" else "Git + politicas"),
-                 ("03", "Resolve Forge", "Edit + review" if lang=="en" else "Edicion + revision"),
+                 ("02", "RepoRinse", "Git + guardrails" if lang=="en" else "Git + límites"),
+                 ("03", "Resolve Forge", "Edit + review" if lang=="en" else "Edición + revisión"),
                  ("04", "Social Forge", "Plan + publish" if lang=="en" else "Planear + publicar"),
-                 ("05", "Declara MX", "Documents + calculations" if lang=="en" else "Documentos + calculos"),
-                 ("06", "readme-builder", "Design + generate" if lang=="en" else "Disenar + generar")]
+                 ("05", "Declara MX", "Taxes" if lang=="en" else "Impuestos"),
+                 ("06", "readme-builder", "Design + generate" if lang=="en" else "Diseñar + generar")]
         for theme in ("dark", "light"):
             bg, ink, muted, border = ("#0d1117", "#e6edf3", "#9caac0", "#27344c") if theme=="dark" else ("#ffffff", "#172033", "#59677b", "#dce3ee")
             parts=[f'<rect x=".5" y=".5" width="979" height="337" rx="20" fill="{bg}" stroke="{border}"/>',f'<text x="490" y="42" text-anchor="middle" font-size="23" font-weight="700" fill="{ink}">{escape(title)}</text>',f'<text x="490" y="67" text-anchor="middle" font-size="13" fill="{muted}">{escape(subtitle)}</text>']
             for i,(number,name,desc) in enumerate(names):
                 x,y=24+(i%3)*318,92+(i//3)*112
-                parts += [f'<rect x="{x}" y="{y}" width="296" height="92" rx="13" fill="{bg}" stroke="{border}"/>',f'<text x="{x+148}" text-anchor="middle" y="{y+27}" font-size="11" fill="#8b5cf6" font-weight="700">{number} / BUILDING BLOCK</text>',f'<text x="{x+148}" text-anchor="middle" y="{y+51}" font-size="19" fill="{ink}" font-weight="650">{name}</text>',f'<text x="{x+148}" text-anchor="middle" y="{y+74}" font-size="13" fill="{muted}">{escape(desc)}</text>']
+                parts += [f'<rect x="{x}" y="{y}" width="296" height="92" rx="13" fill="{bg}" stroke="{border}"/>',f'<text x="{x+148}" text-anchor="middle" y="{y+27}" font-size="11" fill="#8b5cf6" font-weight="700">{number}</text>',f'<text x="{x+148}" text-anchor="middle" y="{y+51}" font-size="19" fill="{ink}" font-weight="650">{name}</text>',f'<text x="{x+148}" text-anchor="middle" y="{y+74}" font-size="13" fill="{muted}">{escape(desc)}</text>']
             (ROOT / f"assets/widgets/ecosystem-{lang}-{theme}.svg").write_text('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 338" width="980" height="338" role="img" aria-label="'+escape(title)+'"><style>text{font-family:Segoe UI,Arial,sans-serif}</style>'+''.join(parts)+'</svg>\n',encoding="utf-8")
             stages = ["PLAN", "BUILD", "VERIFY", "SHIP"] if lang=="en" else ["PLANEAR", "CONSTRUIR", "VERIFICAR", "ENTREGAR"]
             parts=[f'<rect x=".5" y=".5" width="979" height="119" rx="18" fill="{bg}" stroke="{border}"/>']

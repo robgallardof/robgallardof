@@ -19,7 +19,7 @@
 </p>
 
 <!-- kit:facts -->
-<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/kit/facts-en-dark.svg" /><img src="assets/kit/facts-en-light.svg" alt="7+ years building software · 2.0 → 11 every .NET generation · 4 yrs working with AI agents · MSc Software Architecture · GDL Guadalajara · EN / ES" width="100%" /></picture></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/kit/facts-en-dark.svg" /><img src="assets/kit/facts-en-light.svg" alt="7+ years writing software · 2.0 → 11 every .NET I&#x27;ve lived through · 4 yrs using AI every day · MSc Software Architecture · México Guadalajara, Jalisco" width="100%" /></picture></p>
 <!-- /kit:facts -->
 
 <!-- kit:nav -->
@@ -39,13 +39,13 @@
 <a id="about"></a>
 
 <!-- kit:h-about -->
-<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/kit/h-about-en-dark.svg" /><img src="assets/kit/h-about-en-light.svg" alt="I read the legacy code before judging it" width="100%" /></picture></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/kit/h-about-en-dark.svg" /><img src="assets/kit/h-about-en-light.svg" alt="Hi, I&#x27;m Roberto" width="100%" /></picture></p>
 <!-- /kit:h-about -->
 
 <p align="center"><img src="assets/widgets/ide-en.svg" alt="Developer.cs" width="100%" /></p>
 
 <!-- kit:about -->
-<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/kit/about-en-dark.svg" /><img src="assets/kit/about-en-light.svg" alt="Backend services in .NET: For a global logistics company: APIs, integrations and the migrations nobody else wants to touch. · .NET 2.0 → 11: Framework 2.0 / 3.5 / 4.x, .NET Core and .NET 5 → 11. · Reviewed, never blind: From ChatGPT to Codex, Claude Code and Antigravity. · AI agents that do real work: They edit my videos, publish them and even do my taxes. Locally, with me in control. · MSc in Software Architecture: Plus a Bachelor&#x27;s in Administrative Computer Systems. Based in Guadalajara, Jalisco. · C#, migrations, design: MongoDB, Vue / Next.js, DevOps and AI agents." width="100%" /></picture></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/kit/about-en-dark.svg" /><img src="assets/kit/about-en-light.svg" alt="I write .NET backends: At a logistics company: APIs, integrations, and more migrations of old code than I can count. · .NET 2.0 → 11: I started on Framework 2.0 and I&#x27;ve migrated pretty much every version since. · Every day, since 2022: Mostly Codex and Claude Code now. I still read everything they write. · Agents for my own stuff: One edits my videos, another one posts them, and another helps me file my taxes. · Master&#x27;s in Software Architecture: And before that, a bachelor&#x27;s in Administrative Computer Systems. · C# and old .NET: Also MongoDB, Vue / Next.js, DevOps and agents." width="100%" /></picture></p>
 <!-- /kit:about -->
 
 <!-- kit:wave -->
@@ -55,13 +55,13 @@
 <a id="building"></a>
 
 <!-- kit:h-building -->
-<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/kit/h-building-en-dark.svg" /><img src="assets/kit/h-building-en-light.svg" alt="Local tools for AI coding agents" width="100%" /></picture></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/kit/h-building-en-dark.svg" /><img src="assets/kit/h-building-en-light.svg" alt="What I&#x27;m working on" width="100%" /></picture></p>
 <!-- /kit:h-building -->
 
-<p align="center">Local tools that help AI coding agents work safely, remember what matters and make session activity visible. No telemetry.</p>
+<p align="center">Small tools for AI coding agents. I made them because I needed them, and they all run on my own machine.</p>
 
 <!-- kit:building -->
-<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/kit/building-en-dark.svg" /><img src="assets/kit/building-en-light.svg" alt="$ reporinse install --provider git --all --yes / # clean every commit message / $ reporinse install --provider opencode,deepseek --all --yes / # guardrails for your agents / $ rekora agent install claude --confirm / # give Claude Code a memory" width="100%" /></picture></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/kit/building-en-dark.svg" /><img src="assets/kit/building-en-light.svg" alt="$ reporinse install --provider git --all --yes / # no more AI co-author lines in my commits / $ reporinse install --provider opencode,deepseek --all --yes / # stop agents from running what they shouldn&#x27;t / $ rekora agent install claude --confirm / # so Claude remembers what we already decided" width="100%" /></picture></p>
 <!-- /kit:building -->
 
 <!-- kit:wave -->
@@ -71,11 +71,11 @@
 <a id="projects"></a>
 
 <!-- kit:h-projects -->
-<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/kit/h-projects-en-dark.svg" /><img src="assets/kit/h-projects-en-light.svg" alt="Things I built and use every week" width="100%" /></picture></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/kit/h-projects-en-dark.svg" /><img src="assets/kit/h-projects-en-light.svg" alt="Some things I&#x27;ve built" width="100%" /></picture></p>
 <!-- /kit:h-projects -->
 
 <!-- kit:projects -->
-<p align="center"><a href="https://github.com/robgallardof/rekora"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/kit/projects-en-01-dark.svg" /><img src="assets/kit/projects-en-01-light.svg" alt="Rekora: Local-first, verifiable memory for AI coding agents: decisions with their sources, stale detection, tasks and handoffs between Claude Code, Codex, OpenCode and DeepSeek Harness." width="49%" /></picture></a><a href="https://github.com/robgallardof/RepoRinse"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/kit/projects-en-02-dark.svg" /><img src="assets/kit/projects-en-02-light.svg" alt="RepoRinse: Keeps repos clean and agents in check: removes AI co-author trailers (keeps the humans), whitespace and invisible Unicode, and adds guardrail hooks for six agents." width="49%" /></picture></a><a href="https://github.com/robgallardof/davinci-resolve-mcp"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/kit/projects-en-03-dark.svg" /><img src="assets/kit/projects-en-03-light.svg" alt="davinci-resolve-mcp: Edit in DaVinci Resolve by talking to an AI producer: vertical and horizontal cuts, motion that keeps faces whole, designed captions, music on the beat and QA before every render." width="49%" /></picture></a><a href="https://github.com/robgallardof/social-publisher-mcp"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/kit/projects-en-04-dark.svg" /><img src="assets/kit/projects-en-04-light.svg" alt="social-publisher-mcp: An AI community manager for short-form video: watches your videos, writes the copy for every network, schedules the posts and tells you what worked." width="49%" /></picture></a><a href="https://github.com/robgallardof/declaracion"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/kit/projects-en-05-dark.svg" /><img src="assets/kit/projects-en-05-light.svg" alt="declaracion: A personal tax assistant for Mexico inside your AI agent: reads CFDI, computes ISR and IVA (RESICO) and guides the filing. Your data stays on your PC." width="49%" /></picture></a><a href="https://github.com/robgallardof/agent-mods"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/kit/projects-en-06-dark.svg" /><img src="assets/kit/projects-en-06-light.svg" alt="Agent Mods: See what your coding session is using: context, cost, quotas, Git branch, MCP tools, memory and tool activity. Install only the displays you want." width="49%" /></picture></a><a href="https://github.com/robgallardof/readme-builder"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/kit/projects-en-07-dark.svg" /><img src="assets/kit/projects-en-07-light.svg" alt="readme-builder: The kit behind this page: buttons, cards, wave dividers, headings and an offline generator. Original SVGs, no services, no tracking." width="49%" /></picture></a><a href="https://github.com/robgallardof/wikdoc"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/kit/projects-en-08-dark.svg" /><img src="assets/kit/projects-en-08-light.svg" alt="wikdoc: Turn any folder of code into a local knowledge base you can chat with. Embeddings and RAG over Ollama; nothing leaves your machine." width="49%" /></picture></a><a href="https://github.com/robgallardof/wallybot"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/kit/projects-en-09-dark.svg" /><img src="assets/kit/projects-en-09-light.svg" alt="wallybot: Market analysis, portfolio and AI-assisted trading: explained proposals, your approval and risk controls." width="49%" /></picture></a><a href="https://github.com/robgallardof/multig"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/kit/projects-en-10-dark.svg" /><img src="assets/kit/projects-en-10-light.svg" alt="multig: Manage many persistent, isolated browser profiles with Camoufox, a Next.js dashboard and a Python backend." width="49%" /></picture></a></p>
+<p align="center"><a href="https://github.com/robgallardof/rekora"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/kit/projects-en-01-dark.svg" /><img src="assets/kit/projects-en-01-light.svg" alt="Rekora: Memory for coding agents. It keeps decisions and where they came from, warns you when something is out of date, and lets Claude Code, Codex and others hand work to each other." width="49%" /></picture></a><a href="https://github.com/robgallardof/RepoRinse"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/kit/projects-en-02-dark.svg" /><img src="assets/kit/projects-en-02-light.svg" alt="RepoRinse: I got tired of AI tools signing my commits. This cleans them up (human co-authors stay) and adds hooks so agents don&#x27;t run things they shouldn&#x27;t." width="49%" /></picture></a><a href="https://github.com/robgallardof/davinci-resolve-mcp"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/kit/projects-en-03-dark.svg" /><img src="assets/kit/projects-en-03-light.svg" alt="davinci-resolve-mcp: I edit my videos in DaVinci Resolve by talking to an agent. It cuts vertical and horizontal versions, adds captions, follows the music and checks everything before rendering." width="49%" /></picture></a><a href="https://github.com/robgallardof/social-publisher-mcp"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/kit/projects-en-04-dark.svg" /><img src="assets/kit/projects-en-04-light.svg" alt="social-publisher-mcp: Watches my videos, writes the post for each network, schedules them and later tells me what worked. Basically my community manager." width="49%" /></picture></a><a href="https://github.com/robgallardof/declaracion"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/kit/projects-en-05-dark.svg" /><img src="assets/kit/projects-en-05-light.svg" alt="declaracion: I do my monthly Mexican tax return with this. It reads my CFDI, works out ISR and IVA under RESICO and walks me through the SAT portal. Nothing leaves my PC." width="49%" /></picture></a><a href="https://github.com/robgallardof/agent-mods"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/kit/projects-en-06-dark.svg" /><img src="assets/kit/projects-en-06-light.svg" alt="Agent Mods: Small displays inside Claude Code: how much context and money I&#x27;ve used, quotas, the Git branch, which tools are on. Install only the ones you like." width="49%" /></picture></a><a href="https://github.com/robgallardof/readme-builder"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/kit/projects-en-07-dark.svg" /><img src="assets/kit/projects-en-07-light.svg" alt="readme-builder: What I used to make this page: the buttons, the cards, the wavy separators. Just SVG files, no outside services." width="49%" /></picture></a><a href="https://github.com/robgallardof/wikdoc"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/kit/projects-en-08-dark.svg" /><img src="assets/kit/projects-en-08-light.svg" alt="wikdoc: Point it at a folder of code and chat with it. It runs on Ollama, so nothing leaves your computer." width="49%" /></picture></a><a href="https://github.com/robgallardof/wallybot"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/kit/projects-en-09-dark.svg" /><img src="assets/kit/projects-en-09-light.svg" alt="wallybot: My self-hosted trading playground. It suggests trades and explains why, but nothing happens until I say yes." width="49%" /></picture></a><a href="https://github.com/robgallardof/multig"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/kit/projects-en-10-dark.svg" /><img src="assets/kit/projects-en-10-light.svg" alt="multig: Lots of separate browser profiles that keep their sessions. Camoufox underneath, a Next.js dashboard and a Python backend." width="49%" /></picture></a></p>
 <!-- /kit:projects -->
 
 <!-- kit:all-repos -->
@@ -89,16 +89,16 @@
 <a id="toolbox"></a>
 
 <!-- kit:h-toolbox -->
-<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/kit/h-toolbox-en-dark.svg" /><img src="assets/kit/h-toolbox-en-light.svg" alt="MCP servers, skills, hooks and mods" width="100%" /></picture></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/kit/h-toolbox-en-dark.svg" /><img src="assets/kit/h-toolbox-en-light.svg" alt="How I work with agents" width="100%" /></picture></p>
 <!-- /kit:h-toolbox -->
 
 <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/widgets/ecosystem-en-dark.svg" /><img src="assets/widgets/ecosystem-en-light.svg" alt="Six connected open-source projects" width="100%" /></picture></p>
 
 <!-- kit:toolbox -->
-<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/kit/toolbox-en-dark.svg" /><img src="assets/kit/toolbox-en-light.svg" alt="MCP servers: davinci-resolve-mcp — video editing, social-publisher-mcp — publishing, declaracion — Mexican taxes · Skills &amp; agent roles: Producer, editors, colorist and QA for Resolve, Copywriter, strategist and analyst for social, Accountant and auditor for tax returns · Memory &amp; guardrails: Rekora — verifiable memory for agents, RepoRinse — Git and agent hooks, Agent Mods — native session displays" width="100%" /></picture></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/kit/toolbox-en-dark.svg" /><img src="assets/kit/toolbox-en-light.svg" alt="MCP servers: davinci-resolve-mcp, for video, social-publisher-mcp, for posting, declaracion, for my taxes · Agent roles: A producer, editors and a colorist for Resolve, A copywriter and an analyst for social, An accountant and an auditor for taxes · Memory &amp; limits: Rekora, so they remember, RepoRinse, so they behave, Agent Mods, so I can see what&#x27;s going on" width="100%" /></picture></p>
 <!-- /kit:toolbox -->
 
-<p align="center">I build <b>MCP servers, skills, hooks and native mods</b> so agents can do real work on my machine, locally, with me in control. Project-scoped adapters for OpenCode and DeepSeek Harness; real host tests run in CI.</p>
+<p align="center">I like agents that actually get things done, as long as they run on my computer and I can see what they're up to. That's why most of my side projects end up being MCP servers, skills or hooks.</p>
 
 <!-- kit:toolbox-links -->
 <p align="center"><a href="https://github.com/robgallardof/rekora/blob/main/docs/architecture/ADAPTERS.md"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/kit/toolbox-links-en-01-dark.svg" /><img src="assets/kit/toolbox-links-en-01-light.svg" alt="MCP adapters" height="34" /></picture></a>&nbsp;
@@ -114,7 +114,7 @@
 <a id="experience"></a>
 
 <!-- kit:h-experience -->
-<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/kit/h-experience-en-dark.svg" /><img src="assets/kit/h-experience-en-light.svg" alt="Logistics, banking, telecom and a master&#x27;s" width="100%" /></picture></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/kit/h-experience-en-dark.svg" /><img src="assets/kit/h-experience-en-light.svg" alt="Logistics, banking and telecom" width="100%" /></picture></p>
 <!-- /kit:h-experience -->
 
 <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/widgets/timeline-en-dark.svg" /><img src="assets/widgets/timeline-en-light.svg" alt="Experience and education timeline" width="100%" /></picture></p>
@@ -126,7 +126,7 @@
 <a id="stack"></a>
 
 <!-- kit:h-stack -->
-<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/kit/h-stack-en-dark.svg" /><img src="assets/kit/h-stack-en-light.svg" alt="What I reach for" width="100%" /></picture></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/kit/h-stack-en-dark.svg" /><img src="assets/kit/h-stack-en-light.svg" alt="What I use" width="100%" /></picture></p>
 <!-- /kit:h-stack -->
 
 <p align="center"><img src="https://skillicons.dev/icons?theme=dark&perline=16&i=cs,dotnet,rust,python,ts,react,nextjs,vue,tailwind,mongodb,postgres,azure,docker,kubernetes,githubactions,linux" alt="C#, .NET, Rust, Python, TypeScript, React, Next.js, Vue, Tailwind, MongoDB, PostgreSQL, Azure, Docker, Kubernetes, GitHub Actions, Linux" /></p>
@@ -142,7 +142,7 @@
 <a id="stats"></a>
 
 <!-- kit:h-stats -->
-<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/kit/h-stats-en-dark.svg" /><img src="assets/kit/h-stats-en-light.svg" alt="Numbers GitHub keeps for me" width="100%" /></picture></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/kit/h-stats-en-dark.svg" /><img src="assets/kit/h-stats-en-light.svg" alt="GitHub stats" width="100%" /></picture></p>
 <!-- /kit:h-stats -->
 
 <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/widgets/overview-en-dark.svg" /><img src="assets/widgets/overview-en-light.svg" alt="GitHub overview" width="100%" /></picture></p>
@@ -166,16 +166,16 @@
 <a id="arcade"></a>
 
 <!-- kit:h-arcade -->
-<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/kit/h-arcade-en-dark.svg" /><img src="assets/kit/h-arcade-en-light.svg" alt="My real contribution calendar" width="100%" /></picture></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/kit/h-arcade-en-dark.svg" /><img src="assets/kit/h-arcade-en-light.svg" alt="My contributions" width="100%" /></picture></p>
 <!-- /kit:h-arcade -->
 
 <p align="center"><a href="https://github.com/robgallardof?tab=overview"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/robgallardof/robgallardof/output/contributions-dark.svg" /><img src="https://raw.githubusercontent.com/robgallardof/robgallardof/output/contributions-light.svg" alt="Actual GitHub contribution calendar for robgallardof" width="100%" /></picture></a></p>
-<p align="center"><sub>My real GitHub calendar, refreshed hourly. Contributions include commits and other activity recorded by GitHub.</sub></p>
+<p align="center"><sub>Straight from GitHub, updated every hour.</sub></p>
 
 <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/robgallardof/robgallardof/output/pacman-contribution-graph-dark.svg" /><img src="https://raw.githubusercontent.com/robgallardof/robgallardof/output/pacman-contribution-graph.svg" alt="Pac-Man contribution calendar" width="100%" /></picture></p>
 
 <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/robgallardof/robgallardof/output/github-snake-dark.svg" /><img src="https://raw.githubusercontent.com/robgallardof/robgallardof/output/github-snake.svg" alt="Contribution snake" width="100%" /></picture></p>
-<p align="center"><sub>Refreshed hourly with <a href="https://github.com/abozanona/pacman-contribution-graph">Arcade Contribution Graph</a> and <a href="https://github.com/Platane/snk">snk</a>.</sub></p>
+<p align="center"><sub>Made with <a href="https://github.com/abozanona/pacman-contribution-graph">Arcade Contribution Graph</a> and <a href="https://github.com/Platane/snk">snk</a>.</sub></p>
 
 <p align="center"><i>“Make it work, make it right, make it fast.” — Kent Beck</i></p>
 
