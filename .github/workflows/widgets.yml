@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: ["scripts/widgets.py"]
+    paths: ["scripts/widgets.py", "scripts/profile_layout.py"]
 
 permissions:
   contents: write
@@ -27,7 +27,9 @@ jobs:
       - name: Build widgets
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python scripts/widgets.py
+        run: |
+          python scripts/widgets.py
+          python scripts/profile_layout.py
       - name: Commit if changed
         run: |
           git config user.name "github-actions[bot]"

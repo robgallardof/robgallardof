@@ -12,7 +12,7 @@
 
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&duration=3200&pause=1100&color=8B5CF6&center=true&vCenter=true&width=720&lines=Hey%2C+I%27m+Roberto+%F0%9F%91%8B+software+architect+from+Guadalajara;From+.NET+Framework+2.0+to+.NET+10+%26+11;Building+Rekora%3A+memory+for+AI+agents+%F0%9F%A7%A0;Now+shipping+RepoRinse+%F0%9F%A7%BC+in+Rust;Teaching+AI+agents+to+edit+my+videos+%F0%9F%8E%AC;If+it%27s+not+clear%2C+it%27s+not+done+%E2%9C%A8" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&duration=3200&pause=1100&color=8B5CF6&center=true&vCenter=true&width=720&lines=Software+architect+%2F+Guadalajara%2C+Mexico%3BModern+.NET+%2F+Rust+%2F+Python%3BRekora+%2B+RepoRinse+%2B+MCP+tooling%3BOpenCode+%2B+DeepSeek+Harness%3BDesigning+useful+tools%2C+with+verifiable+results" alt="Typing SVG" />
   </a>
 </p>
 
@@ -25,7 +25,7 @@
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=robgallardof&label=Profile%20views&color=6D28D9&style=flat-square" alt="Profile views" />
   <img src="https://img.shields.io/github/followers/robgallardof?label=Followers&style=flat-square&color=0EA5E9&logo=github" alt="Followers" />
-  <img src="https://img.shields.io/badge/%F0%9F%93%8D-Guadalajara%2C%20Jalisco%20%F0%9F%87%B2%F0%9F%87%BD-512BD4?style=flat-square" alt="Location" />
+  <img src="https://img.shields.io/badge/Guadalajara-Jalisco%2C%20Mexico-512BD4?style=flat-square" alt="Guadalajara, Mexico" />
 </p>
 
 <p align="center">
@@ -43,84 +43,88 @@
   <a href="#projects"><img src="https://img.shields.io/badge/Projects-2563EB?style=for-the-badge" alt="Projects" /></a>
   <a href="#experience"><img src="https://img.shields.io/badge/Experience-0284C7?style=for-the-badge" alt="Experience" /></a>
   <a href="#stats"><img src="https://img.shields.io/badge/Stats-0EA5E9?style=for-the-badge" alt="Stats" /></a>
+<a href="#arcade"><img src="https://img.shields.io/badge/Arcade-0EA5E9?style=for-the-badge" alt="Arcade" /></a>
 </p>
 
-<p align="center"><img src="assets/divider.svg" alt="" width="80%" /></p>
+<p align="center"><img src="assets/divider.svg" alt="" width="92%" /></p>
 
 <a id="about"></a>
 <p align="center"><img src="assets/sections/en-01.svg" alt="01 · About me" width="100%" /></p>
 
-<p align="center"><img src="assets/widgets/ide-en.svg" alt="Developer.cs" width="88%" /></p>
+<p align="center"><img src="assets/widgets/ide-en.svg" alt="Developer.cs" width="100%" /></p>
 
 <p align="center"><i>I read the legacy code before judging it — then leave it better than I found it.</i></p>
 
-<table>
+<table align="center" width="100%">
 <tr>
 <td width="50%" valign="top">
 
-🏗️ **By day:** backend services in **.NET** for a global logistics company.
+<img src="assets/icons/layout.svg" width="20" height="20" alt="" /> **By day:** backend services in **.NET** for a global logistics company.
 
 </td>
 <td width="50%" valign="top">
 
-🔄 **Every .NET generation:** from **.NET Framework 2.0 / 3.5 / 4.x** through .NET Core and **.NET 5 → 10 and 11** — and the migrations in between.
+<img src="assets/icons/clock.svg" width="20" height="20" alt="" /> **Every .NET generation:** from **.NET Framework 2.0 / 3.5 / 4.x** through .NET Core and **.NET 5 → 10 and 11** — and the migrations in between.
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-🤖 **4 years with AI:** from ChatGPT to Codex, Claude Code and Antigravity — reviewed and guarded, never blind.
+<img src="assets/icons/network.svg" width="20" height="20" alt="" /> **4 years with AI:** from ChatGPT to Codex, Claude Code and Antigravity — reviewed and guarded, never blind.
 
 </td>
 <td width="50%" valign="top">
 
-🌙 **By night:** AI agents that do real work — editing my videos, publishing them, even doing my taxes.
+<img src="assets/icons/arrow.svg" width="20" height="20" alt="" /> **By night:** AI agents that do real work — editing my videos, publishing them, even doing my taxes.
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-🔨 **Right now:** building [**RepoRinse**](https://github.com/robgallardof/RepoRinse) and [**Rekora**](https://github.com/robgallardof/rekora), Rust tools for AI coding agents.
+<img src="assets/icons/clock.svg" width="20" height="20" alt="" /> **Right now:** building [**RepoRinse**](https://github.com/robgallardof/RepoRinse) and [**Rekora**](https://github.com/robgallardof/rekora), Rust tools for AI coding agents.
 
 </td>
 <td width="50%" valign="top">
 
-💬 **Ask me about:** C#, .NET migrations, software design, MongoDB, Vue/Next.js, DevOps and AI agents.
+<img src="assets/icons/code.svg" width="20" height="20" alt="" /> **Ask me about:** C#, .NET migrations, software design, MongoDB, Vue/Next.js, DevOps and AI agents.
 
 </td>
 </tr>
 </table>
 
-<p align="center"><img src="assets/divider.svg" alt="" width="80%" /></p>
+<p align="center"><img src="assets/divider.svg" alt="" width="92%" /></p>
 
 <a id="building"></a>
 <p align="center"><img src="assets/sections/en-02.svg" alt="02 · What I'm building now" width="100%" /></p>
 
 Tools that let AI coding agents work safely and remember what matters — local, no telemetry, written in Rust.
 
-- 🧠 **[Rekora](https://github.com/robgallardof/rekora)** — verifiable memory for agents: every decision cites its source, stale knowledge is flagged, and tasks hand off cleanly between Claude Code and Codex.
-- 🧼 **[RepoRinse](https://github.com/robgallardof/RepoRinse)** — clean commit history and guardrail hooks for Claude Code, Codex, Gemini CLI and Cursor.
+- <img src="assets/icons/network.svg" width="20" height="20" alt="" /> **[Rekora](https://github.com/robgallardof/rekora)** — verifiable memory for agents: every decision cites its source, stale knowledge is flagged, and tasks hand off cleanly between Claude Code, Codex, OpenCode and DeepSeek Harness.
+- <img src="assets/icons/clock.svg" width="20" height="20" alt="" /> **[RepoRinse](https://github.com/robgallardof/RepoRinse)** — clean commit history and guardrail hooks for Claude Code, Codex, Gemini CLI, Cursor, OpenCode and DeepSeek Harness.
 
 ```sh
 reporinse install --provider git --all --yes            # clean every commit message
-reporinse install --provider claude,codex --all --yes   # guardrails for your agents
+reporinse install --provider opencode,deepseek --all --yes   # guardrails for your agents
 rekora agent install claude --confirm                   # give Claude Code a memory
 ```
 
-<p align="center"><img src="assets/divider.svg" alt="" width="80%" /></p>
+<p align="center"><img src="assets/divider.svg" alt="" width="92%" /></p>
 
 <a id="toolbox"></a>
 <p align="center"><img src="assets/sections/en-03.svg" alt="03 · My AI agent toolbox" width="100%" /></p>
 
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/widgets/ecosystem-en-dark.svg" /><img src="assets/widgets/ecosystem-en-light.svg" alt="Six connected open-source projects" width="100%" /></picture></p>
+
+
 I build **MCP servers, skills and hooks** so agents can do real work on my machine — locally, with me in control.
 
-<table>
+<table align="center" width="100%">
   <tr>
-    <th width="33%">🔌 MCP servers</th>
-    <th width="33%">🎯 Skills &amp; agent roles</th>
-    <th width="33%">🧠 Memory &amp; guardrails</th>
+    <th width="33%"><img src="assets/icons/network.svg" width="20" height="20" alt="" /> MCP servers</th>
+    <th width="33%"><img src="assets/icons/arrow.svg" width="20" height="20" alt="" /> Skills &amp; agent roles</th>
+    <th width="33%"><img src="assets/icons/network.svg" width="20" height="20" alt="" /> Memory &amp; guardrails</th>
   </tr>
   <tr>
     <td valign="top">
@@ -148,27 +152,31 @@ I build **MCP servers, skills and hooks** so agents can do real work on my machi
   <img src="https://img.shields.io/badge/Ollama-local%20RAG-000000?style=for-the-badge&logo=ollama&logoColor=white" alt="Ollama" />
 </p>
 
-<p align="center"><img src="assets/divider.svg" alt="" width="80%" /></p>
+<p align="center">Project-scoped adapters for OpenCode and DeepSeek Harness; optional Docker with configurable ports. Real host tests run in CI.<br/><a href="https://github.com/robgallardof/rekora/blob/main/docs/architecture/ADAPTERS.md">MCP adapters</a> · <a href="https://github.com/robgallardof/RepoRinse/blob/main/docs/integrations/opencode-deepseek.md">Agent hooks</a></p>
+
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/widgets/workflow-en-dark.svg" /><img src="assets/widgets/workflow-en-light.svg" alt="Plan, build, verify, ship" width="100%" /></picture></p>
+
+<p align="center"><img src="assets/divider.svg" alt="" width="92%" /></p>
 
 <a id="stack"></a>
 <p align="center"><img src="assets/sections/en-04.svg" alt="04 · Tech stack" width="100%" /></p>
 
-<table>
+<table align="center" width="100%">
 <tr>
 <td width="50%" valign="top">
 
-<h3 align="center">⚙️ Backend</h3>
+<h3 align="center"><img src="assets/icons/arrow.svg" width="20" height="20" alt="" /> Backend</h3>
 <p align="center">
-  <img src="https://skillicons.dev/icons?theme=dark&perline=5&i=cs,dotnet,rust,python,java,kotlin,nodejs" alt="⚙️ Backend" /><br/><br/>
+  <img src="https://skillicons.dev/icons?theme=dark&perline=5&i=cs,dotnet,rust,python,java,kotlin,nodejs" alt=" Backend" /><br/><br/>
   <code>.NET Framework 2.0–4.8</code> <code>.NET Core</code> <code>.NET 5–11</code> <code>ASP.NET Core</code> <code>Minimal APIs</code> <code>EF Core</code> <code>SignalR</code> <code>WCF</code> <code>ASP.NET Web Forms</code> <code>VB.NET</code> <code>JWT auth</code> <code>xUnit + Moq</code> <code>Mulesoft (SOA)</code>
 </p>
 
 </td>
 <td width="50%" valign="top">
 
-<h3 align="center">🎨 Frontend</h3>
+<h3 align="center"><img src="assets/icons/clock.svg" width="20" height="20" alt="" /> Frontend</h3>
 <p align="center">
-  <img src="https://skillicons.dev/icons?theme=dark&perline=5&i=ts,js,react,nextjs,vue,tailwind,html,css" alt="🎨 Frontend" /><br/><br/>
+  <img src="https://skillicons.dev/icons?theme=dark&perline=5&i=ts,js,react,nextjs,vue,tailwind,html,css" alt=" Frontend" /><br/><br/>
   <code>React Native</code> <code>shadcn/ui</code> <code>Framer Motion</code> <code>PWA</code> <code>i18n</code> <code>Accessibility</code>
 </p>
 
@@ -177,18 +185,18 @@ I build **MCP servers, skills and hooks** so agents can do real work on my machi
 <tr>
 <td width="50%" valign="top">
 
-<h3 align="center">🗄️ Data & Cloud</h3>
+<h3 align="center"><img src="assets/icons/clock.svg" width="20" height="20" alt="" /> Data & Cloud</h3>
 <p align="center">
-  <img src="https://skillicons.dev/icons?theme=dark&perline=5&i=mongodb,sqlite,postgres,mysql,azure,cloudflare,vercel" alt="🗄️ Data & Cloud" /><br/><br/>
+  <img src="https://skillicons.dev/icons?theme=dark&perline=5&i=mongodb,sqlite,postgres,mysql,azure,cloudflare,vercel" alt=" Data & Cloud" /><br/><br/>
   <code>SQL Server</code> <code>MongoDB Atlas</code> <code>Aggregation pipelines</code> <code>Informix</code> <code>SSRS</code> <code>SQLite · FTS5</code> <code>Azure Blob · SAS</code> <code>Cloudflare Zero Trust</code>
 </p>
 
 </td>
 <td width="50%" valign="top">
 
-<h3 align="center">🚢 DevOps & Tools</h3>
+<h3 align="center"><img src="assets/icons/clock.svg" width="20" height="20" alt="" /> DevOps & Tools</h3>
 <p align="center">
-  <img src="https://skillicons.dev/icons?theme=dark&perline=5&i=docker,kubernetes,githubactions,nginx,linux,ubuntu,git,github,vscode,visualstudio,androidstudio,postman,powershell,bash" alt="🚢 DevOps & Tools" /><br/><br/>
+  <img src="https://skillicons.dev/icons?theme=dark&perline=5&i=docker,kubernetes,githubactions,nginx,linux,ubuntu,git,github,vscode,visualstudio,androidstudio,postman,powershell,bash" alt=" DevOps & Tools" /><br/><br/>
   <code>Azure DevOps</code> <code>CI/CD</code> <code>Jira</code> <code>Tree-sitter</code> <code>PDFSharp · iText7</code>
 </p>
 
@@ -197,7 +205,7 @@ I build **MCP servers, skills and hooks** so agents can do real work on my machi
 <tr>
 <td width="50%" valign="top">
 
-<h3 align="center">🏛️ Architecture & practices</h3>
+<h3 align="center"><img src="assets/icons/layers.svg" width="20" height="20" alt="" /> Architecture & practices</h3>
 <p align="center">
   <code>Clean Architecture</code> <code>CQRS</code> <code>SOLID · DRY · KISS</code> <code>Microservices</code> <code>REST API design</code> <code>Legacy modernization</code> <code>Code review</code> <code>Unit & integration testing</code> <code>Technical documentation</code>
 </p>
@@ -205,7 +213,7 @@ I build **MCP servers, skills and hooks** so agents can do real work on my machi
 </td>
 <td width="50%" valign="top">
 
-<h3 align="center">🤖 AI & agents</h3>
+<h3 align="center"><img src="assets/icons/network.svg" width="20" height="20" alt="" /> AI & agents</h3>
 <p align="center">
   <img src="https://img.shields.io/badge/Codex-412991?style=flat-square" alt="Codex" />
   <img src="https://img.shields.io/badge/Claude%20Code-D97757?style=flat-square&logo=claude&logoColor=white" alt="Claude Code" />
@@ -213,6 +221,7 @@ I build **MCP servers, skills and hooks** so agents can do real work on my machi
   <img src="https://img.shields.io/badge/ChatGPT-10A37F?style=flat-square" alt="ChatGPT" />
   <img src="https://img.shields.io/badge/Gemini%20CLI-8E75B2?style=flat-square&logo=googlegemini&logoColor=white" alt="Gemini CLI" />
   <img src="https://img.shields.io/badge/Cursor-000000?style=flat-square&logo=cursor&logoColor=white" alt="Cursor" />
+  <img src="https://img.shields.io/badge/OpenCode-334155?style=flat-square" alt="OpenCode" />
   <img src="https://img.shields.io/badge/DeepSeek-4D6BFE?style=flat-square&logo=deepseek&logoColor=white" alt="DeepSeek" />
   <img src="https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white" alt="Ollama" />
   <img src="https://img.shields.io/badge/MCP%20servers-8A2BE2?style=flat-square&logo=anthropic&logoColor=white" alt="MCP servers" />
@@ -224,9 +233,9 @@ I build **MCP servers, skills and hooks** so agents can do real work on my machi
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
+<td colspan="2" width="100%" valign="top">
 
-<h3 align="center">🎬 Content & automation</h3>
+<h3 align="center"><img src="assets/icons/network.svg" width="20" height="20" alt="" /> Content & automation</h3>
 <p align="center">
   <img src="https://img.shields.io/badge/DaVinci%20Resolve-233A51?style=flat-square&logo=davinciresolve&logoColor=white" alt="DaVinci Resolve" />
   <img src="https://img.shields.io/badge/FFmpeg-007808?style=flat-square&logo=ffmpeg&logoColor=white" alt="FFmpeg" />
@@ -244,17 +253,17 @@ I build **MCP servers, skills and hooks** so agents can do real work on my machi
 </tr>
 </table>
 
-<p align="center"><img src="assets/divider.svg" alt="" width="80%" /></p>
+<p align="center"><img src="assets/divider.svg" alt="" width="92%" /></p>
 
 <a id="projects"></a>
 <p align="center"><img src="assets/sections/en-05.svg" alt="05 · Featured projects" width="100%" /></p>
 
-<table>
+<table align="center" width="100%">
   <tr>
     <td width="50%" valign="top">
-      <h3>🧠 <a href="https://github.com/robgallardof/rekora">Rekora</a></h3>
-      <p>Local-first, verifiable memory for AI coding agents: decisions and constraints with their sources, stale detection, tasks and handoffs between agents, served over MCP to Claude Code and Codex.</p>
-      <p><code>🆕 New</code> <code>Rust</code> <code>MCP</code> <code>SQLite</code></p>
+      <h3 align="center"><img src="assets/icons/network.svg" width="20" height="20" alt="" /> <a href="https://github.com/robgallardof/rekora">Rekora</a></h3>
+      <p>Local-first, verifiable memory for AI coding agents: decisions and constraints with their sources, stale detection, tasks and handoffs between agents, served over MCP to Claude Code, Codex, OpenCode and DeepSeek Harness.</p>
+      <p><code><img src="assets/icons/layers.svg" width="20" height="20" alt="" /> New</code> <code>Rust</code> <code>MCP</code> <code>SQLite</code></p>
       <p>
         <a href="https://github.com/robgallardof/rekora"><img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" alt="Rust" /></a>
         <a href="https://github.com/robgallardof/rekora/stargazers"><img src="https://img.shields.io/github/stars/robgallardof/rekora?label=stars&style=flat-square&color=F59E0B&logo=github" alt="Stars" /></a>
@@ -262,9 +271,9 @@ I build **MCP servers, skills and hooks** so agents can do real work on my machi
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3>🧼 <a href="https://github.com/robgallardof/RepoRinse">RepoRinse</a></h3>
-      <p>Keeps repos clean and agents in check: removes AI co-author trailers (keeps the humans), whitespace and invisible Unicode, and adds guardrail hooks for Claude Code, Codex, Gemini CLI and Cursor.</p>
-      <p><code>🆕 New</code> <code>Rust</code> <code>Git hooks</code> <code>Agent hooks</code></p>
+      <h3 align="center"><img src="assets/icons/clock.svg" width="20" height="20" alt="" /> <a href="https://github.com/robgallardof/RepoRinse">RepoRinse</a></h3>
+      <p>Keeps repos clean and agents in check: removes AI co-author trailers (keeps the humans), whitespace and invisible Unicode, and adds guardrail hooks for Claude Code, Codex, Gemini CLI, Cursor, OpenCode and DeepSeek Harness.</p>
+      <p><code><img src="assets/icons/layers.svg" width="20" height="20" alt="" /> New</code> <code>Rust</code> <code>Git hooks</code> <code>Agent hooks</code></p>
       <p>
         <a href="https://github.com/robgallardof/RepoRinse"><img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" alt="Rust" /></a>
         <a href="https://github.com/robgallardof/RepoRinse/stargazers"><img src="https://img.shields.io/github/stars/robgallardof/RepoRinse?label=stars&style=flat-square&color=F59E0B&logo=github" alt="Stars" /></a>
@@ -274,7 +283,7 @@ I build **MCP servers, skills and hooks** so agents can do real work on my machi
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>🎬 <a href="https://github.com/robgallardof/davinci-resolve-mcp">davinci-resolve-mcp</a></h3>
+      <h3 align="center"><img src="assets/icons/network.svg" width="20" height="20" alt="" /> <a href="https://github.com/robgallardof/davinci-resolve-mcp">davinci-resolve-mcp</a></h3>
       <p>Edit in DaVinci Resolve by talking to an AI producer: vertical & horizontal cuts, motion that keeps faces whole, designed captions, music on the beat and QA before every render.</p>
       <p><code>MCP</code> <code>Python</code> <code>Video</code></p>
       <p>
@@ -284,7 +293,7 @@ I build **MCP servers, skills and hooks** so agents can do real work on my machi
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3>📲 <a href="https://github.com/robgallardof/social-publisher-mcp">social-publisher-mcp</a></h3>
+      <h3 align="center"><img src="assets/icons/clock.svg" width="20" height="20" alt="" /> <a href="https://github.com/robgallardof/social-publisher-mcp">social-publisher-mcp</a></h3>
       <p>An AI community manager for short-form video: watches your videos, writes the copy for every network, schedules the posts and tells you what worked.</p>
       <p><code>MCP</code> <code>Python</code> <code>Social</code></p>
       <p>
@@ -296,7 +305,7 @@ I build **MCP servers, skills and hooks** so agents can do real work on my machi
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>🧾 <a href="https://github.com/robgallardof/declaracion">declaracion</a></h3>
+      <h3 align="center"><img src="assets/icons/code.svg" width="20" height="20" alt="" /> <a href="https://github.com/robgallardof/declaracion">declaracion</a></h3>
       <p>A personal tax assistant for Mexico inside your AI agent: reads CFDI, computes ISR and IVA (RESICO) and guides the filing. Your data stays on your PC.</p>
       <p><code>MCP</code> <code>Python</code> <code>SAT</code></p>
       <p>
@@ -306,7 +315,7 @@ I build **MCP servers, skills and hooks** so agents can do real work on my machi
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3>📚 <a href="https://github.com/robgallardof/wikdoc">wikdoc</a></h3>
+      <h3 align="center"><img src="assets/icons/clock.svg" width="20" height="20" alt="" /> <a href="https://github.com/robgallardof/wikdoc">wikdoc</a></h3>
       <p>Turn any folder of code into a local knowledge base you can chat with — embeddings + RAG over Ollama, nothing leaves your machine.</p>
       <p><code>Python</code> <code>Ollama</code> <code>RAG</code></p>
       <p>
@@ -318,7 +327,7 @@ I build **MCP servers, skills and hooks** so agents can do real work on my machi
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>🤖 <a href="https://github.com/robgallardof/wallybot">wallybot</a></h3>
+      <h3 align="center"><img src="assets/icons/network.svg" width="20" height="20" alt="" /> <a href="https://github.com/robgallardof/wallybot">wallybot</a></h3>
       <p>Self-hosted hub for market analysis, portfolio and AI-assisted trading: explained proposals, your approval and risk controls.</p>
       <p><code>Python</code> <code>AI</code> <code>Self-hosted</code></p>
       <p>
@@ -328,7 +337,7 @@ I build **MCP servers, skills and hooks** so agents can do real work on my machi
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3>🦊 <a href="https://github.com/robgallardof/multig">multig</a></h3>
+      <h3 align="center"><img src="assets/icons/clock.svg" width="20" height="20" alt="" /> <a href="https://github.com/robgallardof/multig">multig</a></h3>
       <p>Manage many persistent, isolated browser profiles with Camoufox, a Next.js dashboard and a Python backend.</p>
       <p><code>Next.js</code> <code>Python</code> <code>Camoufox</code></p>
       <p>
@@ -338,11 +347,16 @@ I build **MCP servers, skills and hooks** so agents can do real work on my machi
       </p>
     </td>
   </tr>
+  <tr><td colspan="2" align="center">
+      <h3 align="center"><img src="assets/icons/layout.svg" width="20" height="20" alt="" /> <a href="https://github.com/robgallardof/readme-builder">readme-builder</a></h3>
+      <p>Reusable README design system: prompts, original SVG widgets, separators and an offline generator.</p>
+      <p><code>Python</code> <code>SVG</code> <code>EN / ES</code> <code>Offline</code></p>
+    </td></tr>
 </table>
 
-<p align="center"><a href="https://github.com/robgallardof?tab=repositories"><b>➜ See all repositories</b></a></p>
+<p align="center"><a href="https://github.com/robgallardof?tab=repositories"><b><img src="assets/icons/code.svg" width="20" height="20" alt="" /> See all repositories</b></a></p>
 
-<p align="center"><img src="assets/divider.svg" alt="" width="80%" /></p>
+<p align="center"><img src="assets/divider.svg" alt="" width="92%" /></p>
 
 <a id="experience"></a>
 <p align="center"><img src="assets/sections/en-06.svg" alt="06 · Experience & education" width="100%" /></p>
@@ -354,7 +368,7 @@ I build **MCP servers, skills and hooks** so agents can do real work on my machi
   </picture>
 </p>
 
-<p align="center"><img src="assets/divider.svg" alt="" width="80%" /></p>
+<p align="center"><img src="assets/divider.svg" alt="" width="92%" /></p>
 
 <a id="stats"></a>
 <p align="center"><img src="assets/sections/en-07.svg" alt="07 · GitHub stats" width="100%" /></p>
@@ -366,7 +380,7 @@ I build **MCP servers, skills and hooks** so agents can do real work on my machi
   </picture>
 </p>
 
-<table>
+<table align="center" width="100%">
 <tr>
 <td width="50%" align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="./profile-summary-card-output/github_dark/1-repos-per-language.svg" /><img src="./profile-summary-card-output/github/1-repos-per-language.svg" alt="Repos per language" width="100%" /></picture></td>
 <td width="50%" align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="./profile-summary-card-output/github_dark/2-most-commit-language.svg" /><img src="./profile-summary-card-output/github/2-most-commit-language.svg" alt="Most commit language" width="100%" /></picture></td>
@@ -377,37 +391,49 @@ I build **MCP servers, skills and hooks** so agents can do real work on my machi
 </tr>
 </table>
 
-<table>
+<table align="center" width="100%">
 <tr>
-<td width="50%" valign="top">
+<td colspan="2" width="100%" valign="top">
 
-<h3 align="center">🔥 Streak</h3>
-<p align="center"><a href="https://git.io/streak-stats"><picture><source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=robgallardof&hide_border=true&date_format=j%20M%5B%20Y%5D&theme=github-dark-blue" /><img src="https://streak-stats.demolab.com?user=robgallardof&hide_border=true&date_format=j%20M%5B%20Y%5D&theme=default" alt="GitHub streak" width="100%" /></picture></a></p>
+<h3 align="center"><img src="assets/icons/layers.svg" width="20" height="20" alt="" /> Streak</h3>
+<p align="center"><a href="https://git.io/streak-stats"><picture><source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=robgallardof&hide_border=true&date_format=j%20M%5B%20Y%5D&theme=github-dark-blue" /><img src="https://streak-stats.demolab.com?user=robgallardof&hide_border=true&date_format=j%20M%5B%20Y%5D&theme=default" alt="GitHub streak" width="55%" /></picture></a></p>
 
 </td>
-<td width="50%" valign="top">
+</tr>
+<tr>
+<td colspan="2" width="100%" valign="top">
 
-<h3 align="center">⚡ Recent activity</h3>
+<h3 align="center"><img src="assets/icons/layers.svg" width="20" height="20" alt="" /> Recent activity</h3>
 
 <!--START_SECTION:activity-->
-<sub>⏳ Updates automatically every 6 hours with my latest pull requests, issues and releases.</sub>
+<sub> Updates automatically every 6 hours with my latest pull requests, issues and releases.</sub>
 <!--END_SECTION:activity-->
 
 </td>
 </tr>
 </table>
 
-<h3 align="center">🐍 Contribution snake</h3>
+<p align="center"><img src="assets/divider.svg" alt="" width="92%" /></p>
+<a id="arcade"></a>
+<h2 align="center">Contribution arcade</h2>
+<p align="center">Pac-Man / Snake · GitHub contributions · SVG · Light + dark</p>
+<h3 align="center">Pac-Man</h3>
+<p align="center"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/robgallardof/robgallardof/output/pacman-contribution-graph-dark.svg" />
+  <img src="https://raw.githubusercontent.com/robgallardof/robgallardof/output/pacman-contribution-graph.svg" alt="Pac-Man contribution calendar" width="100%" />
+</picture></p>
+<p align="center"><sub>Generated daily with <a href="https://github.com/abozanona/pacman-contribution-graph">Arcade Contribution Graph</a> and <a href="https://github.com/Platane/snk">snk</a>.</sub></p>
+<h3 align="center"><img src="assets/icons/layout.svg" width="20" height="20" alt="" /> Contribution snake</h3>
 
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/robgallardof/robgallardof/output/github-snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/robgallardof/robgallardof/output/github-snake.svg" />
-    <img alt="Contribution snake" src="https://raw.githubusercontent.com/robgallardof/robgallardof/output/github-snake.svg" />
+    <img width="100%" alt="Contribution snake" src="https://raw.githubusercontent.com/robgallardof/robgallardof/output/github-snake.svg" />
   </picture>
 </p>
 
-<p align="center"><img src="assets/divider.svg" alt="" width="80%" /></p>
+<p align="center"><img src="assets/divider.svg" alt="" width="92%" /></p>
 
 <p align="center">
   <i>“Make it work, make it right, make it fast.” — Kent Beck</i>
