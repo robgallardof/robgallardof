@@ -57,36 +57,36 @@
 
 <table align="center" width="100%">
 <tr>
-<td width="50%" valign="top">
+<td width="50%" valign="top" align="center">
 
 <img src="assets/icons/layout.svg" width="20" height="20" alt="" /> **By day:** backend services in **.NET** for a global logistics company.
 
 </td>
-<td width="50%" valign="top">
+<td width="50%" valign="top" align="center">
 
 <img src="assets/icons/clock.svg" width="20" height="20" alt="" /> **Every .NET generation:** from **.NET Framework 2.0 / 3.5 / 4.x** through .NET Core and **.NET 5 → 10 and 11** — and the migrations in between.
 
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
+<td width="50%" valign="top" align="center">
 
 <img src="assets/icons/network.svg" width="20" height="20" alt="" /> **4 years with AI:** from ChatGPT to Codex, Claude Code and Antigravity — reviewed and guarded, never blind.
 
 </td>
-<td width="50%" valign="top">
+<td width="50%" valign="top" align="center">
 
 <img src="assets/icons/arrow.svg" width="20" height="20" alt="" /> **By night:** AI agents that do real work — editing my videos, publishing them, even doing my taxes.
 
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
+<td width="50%" valign="top" align="center">
 
 <img src="assets/icons/clock.svg" width="20" height="20" alt="" /> **Right now:** building [**RepoRinse**](https://github.com/robgallardof/RepoRinse) and [**Rekora**](https://github.com/robgallardof/rekora), Rust tools for AI coding agents.
 
 </td>
-<td width="50%" valign="top">
+<td width="50%" valign="top" align="center">
 
 <img src="assets/icons/code.svg" width="20" height="20" alt="" /> **Ask me about:** C#, .NET migrations, software design, MongoDB, Vue/Next.js, DevOps and AI agents.
 
@@ -163,7 +163,7 @@ I build **MCP servers, skills and hooks** so agents can do real work on my machi
 
 <table align="center" width="100%">
 <tr>
-<td width="50%" valign="top">
+<td width="50%" valign="top" align="center">
 
 <h3 align="center"><img src="assets/icons/arrow.svg" width="20" height="20" alt="" /> Backend</h3>
 <p align="center">
@@ -172,7 +172,7 @@ I build **MCP servers, skills and hooks** so agents can do real work on my machi
 </p>
 
 </td>
-<td width="50%" valign="top">
+<td width="50%" valign="top" align="center">
 
 <h3 align="center"><img src="assets/icons/clock.svg" width="20" height="20" alt="" /> Frontend</h3>
 <p align="center">
@@ -183,7 +183,7 @@ I build **MCP servers, skills and hooks** so agents can do real work on my machi
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
+<td width="50%" valign="top" align="center">
 
 <h3 align="center"><img src="assets/icons/clock.svg" width="20" height="20" alt="" /> Data & Cloud</h3>
 <p align="center">
@@ -192,7 +192,7 @@ I build **MCP servers, skills and hooks** so agents can do real work on my machi
 </p>
 
 </td>
-<td width="50%" valign="top">
+<td width="50%" valign="top" align="center">
 
 <h3 align="center"><img src="assets/icons/clock.svg" width="20" height="20" alt="" /> DevOps & Tools</h3>
 <p align="center">
@@ -203,7 +203,7 @@ I build **MCP servers, skills and hooks** so agents can do real work on my machi
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
+<td width="50%" valign="top" align="center">
 
 <h3 align="center"><img src="assets/icons/layers.svg" width="20" height="20" alt="" /> Architecture & practices</h3>
 <p align="center">
@@ -211,7 +211,7 @@ I build **MCP servers, skills and hooks** so agents can do real work on my machi
 </p>
 
 </td>
-<td width="50%" valign="top">
+<td width="50%" valign="top" align="center">
 
 <h3 align="center"><img src="assets/icons/network.svg" width="20" height="20" alt="" /> AI & agents</h3>
 <p align="center">
@@ -260,8 +260,8 @@ I build **MCP servers, skills and hooks** so agents can do real work on my machi
 
 <table align="center" width="100%">
   <tr>
-    <td width="50%" valign="top">
-      <h3 align="center"><img src="assets/icons/network.svg" width="20" height="20" alt="" /> <a href="https://github.com/robgallardof/rekora">Rekora</a></h3>
+    <td width="50%" valign="top" align="center">
+      <h3 align="center"><img src="assets/icons/lucide/brain-circuit.svg" width="20" height="20" alt="" /> <a href="https://github.com/robgallardof/rekora">Rekora</a></h3>
       <p>Local-first, verifiable memory for AI coding agents: decisions and constraints with their sources, stale detection, tasks and handoffs between agents, served over MCP to Claude Code, Codex, OpenCode and DeepSeek Harness.</p>
       <p><code><img src="assets/icons/layers.svg" width="20" height="20" alt="" /> New</code> <code>Rust</code> <code>MCP</code> <code>SQLite</code></p>
       <p>
@@ -270,8 +270,8 @@ I build **MCP servers, skills and hooks** so agents can do real work on my machi
         <a href="https://github.com/robgallardof/rekora/commits"><img src="https://img.shields.io/github/last-commit/robgallardof/rekora?label=last%20commit&style=flat-square&color=0EA5E9" alt="Last commit" /></a>
       </p>
     </td>
-    <td width="50%" valign="top">
-      <h3 align="center"><img src="assets/icons/clock.svg" width="20" height="20" alt="" /> <a href="https://github.com/robgallardof/RepoRinse">RepoRinse</a></h3>
+    <td width="50%" valign="top" align="center">
+      <h3 align="center"><img src="assets/icons/lucide/shield-check.svg" width="20" height="20" alt="" /> <a href="https://github.com/robgallardof/RepoRinse">RepoRinse</a></h3>
       <p>Keeps repos clean and agents in check: removes AI co-author trailers (keeps the humans), whitespace and invisible Unicode, and adds guardrail hooks for Claude Code, Codex, Gemini CLI, Cursor, OpenCode and DeepSeek Harness.</p>
       <p><code><img src="assets/icons/layers.svg" width="20" height="20" alt="" /> New</code> <code>Rust</code> <code>Git hooks</code> <code>Agent hooks</code></p>
       <p>
@@ -282,8 +282,8 @@ I build **MCP servers, skills and hooks** so agents can do real work on my machi
     </td>
   </tr>
   <tr>
-    <td width="50%" valign="top">
-      <h3 align="center"><img src="assets/icons/network.svg" width="20" height="20" alt="" /> <a href="https://github.com/robgallardof/davinci-resolve-mcp">davinci-resolve-mcp</a></h3>
+    <td width="50%" valign="top" align="center">
+      <h3 align="center"><img src="assets/icons/lucide/clapperboard.svg" width="20" height="20" alt="" /> <a href="https://github.com/robgallardof/davinci-resolve-mcp">davinci-resolve-mcp</a></h3>
       <p>Edit in DaVinci Resolve by talking to an AI producer: vertical & horizontal cuts, motion that keeps faces whole, designed captions, music on the beat and QA before every render.</p>
       <p><code>MCP</code> <code>Python</code> <code>Video</code></p>
       <p>
@@ -292,8 +292,8 @@ I build **MCP servers, skills and hooks** so agents can do real work on my machi
         <a href="https://github.com/robgallardof/davinci-resolve-mcp/commits"><img src="https://img.shields.io/github/last-commit/robgallardof/davinci-resolve-mcp?label=last%20commit&style=flat-square&color=0EA5E9" alt="Last commit" /></a>
       </p>
     </td>
-    <td width="50%" valign="top">
-      <h3 align="center"><img src="assets/icons/clock.svg" width="20" height="20" alt="" /> <a href="https://github.com/robgallardof/social-publisher-mcp">social-publisher-mcp</a></h3>
+    <td width="50%" valign="top" align="center">
+      <h3 align="center"><img src="assets/icons/lucide/send.svg" width="20" height="20" alt="" /> <a href="https://github.com/robgallardof/social-publisher-mcp">social-publisher-mcp</a></h3>
       <p>An AI community manager for short-form video: watches your videos, writes the copy for every network, schedules the posts and tells you what worked.</p>
       <p><code>MCP</code> <code>Python</code> <code>Social</code></p>
       <p>
@@ -304,8 +304,8 @@ I build **MCP servers, skills and hooks** so agents can do real work on my machi
     </td>
   </tr>
   <tr>
-    <td width="50%" valign="top">
-      <h3 align="center"><img src="assets/icons/code.svg" width="20" height="20" alt="" /> <a href="https://github.com/robgallardof/declaracion">declaracion</a></h3>
+    <td width="50%" valign="top" align="center">
+      <h3 align="center"><img src="assets/icons/lucide/receipt-text.svg" width="20" height="20" alt="" /> <a href="https://github.com/robgallardof/declaracion">declaracion</a></h3>
       <p>A personal tax assistant for Mexico inside your AI agent: reads CFDI, computes ISR and IVA (RESICO) and guides the filing. Your data stays on your PC.</p>
       <p><code>MCP</code> <code>Python</code> <code>SAT</code></p>
       <p>
@@ -314,8 +314,8 @@ I build **MCP servers, skills and hooks** so agents can do real work on my machi
         <a href="https://github.com/robgallardof/declaracion/commits"><img src="https://img.shields.io/github/last-commit/robgallardof/declaracion?label=last%20commit&style=flat-square&color=0EA5E9" alt="Last commit" /></a>
       </p>
     </td>
-    <td width="50%" valign="top">
-      <h3 align="center"><img src="assets/icons/clock.svg" width="20" height="20" alt="" /> <a href="https://github.com/robgallardof/wikdoc">wikdoc</a></h3>
+    <td width="50%" valign="top" align="center">
+      <h3 align="center"><img src="assets/icons/lucide/book-open.svg" width="20" height="20" alt="" /> <a href="https://github.com/robgallardof/wikdoc">wikdoc</a></h3>
       <p>Turn any folder of code into a local knowledge base you can chat with — embeddings + RAG over Ollama, nothing leaves your machine.</p>
       <p><code>Python</code> <code>Ollama</code> <code>RAG</code></p>
       <p>
@@ -326,8 +326,8 @@ I build **MCP servers, skills and hooks** so agents can do real work on my machi
     </td>
   </tr>
   <tr>
-    <td width="50%" valign="top">
-      <h3 align="center"><img src="assets/icons/network.svg" width="20" height="20" alt="" /> <a href="https://github.com/robgallardof/wallybot">wallybot</a></h3>
+    <td width="50%" valign="top" align="center">
+      <h3 align="center"><img src="assets/icons/lucide/bot.svg" width="20" height="20" alt="" /> <a href="https://github.com/robgallardof/wallybot">wallybot</a></h3>
       <p>Self-hosted hub for market analysis, portfolio and AI-assisted trading: explained proposals, your approval and risk controls.</p>
       <p><code>Python</code> <code>AI</code> <code>Self-hosted</code></p>
       <p>
@@ -336,8 +336,8 @@ I build **MCP servers, skills and hooks** so agents can do real work on my machi
         <a href="https://github.com/robgallardof/wallybot/commits"><img src="https://img.shields.io/github/last-commit/robgallardof/wallybot?label=last%20commit&style=flat-square&color=0EA5E9" alt="Last commit" /></a>
       </p>
     </td>
-    <td width="50%" valign="top">
-      <h3 align="center"><img src="assets/icons/clock.svg" width="20" height="20" alt="" /> <a href="https://github.com/robgallardof/multig">multig</a></h3>
+    <td width="50%" valign="top" align="center">
+      <h3 align="center"><img src="assets/icons/lucide/panels-top-left.svg" width="20" height="20" alt="" /> <a href="https://github.com/robgallardof/multig">multig</a></h3>
       <p>Manage many persistent, isolated browser profiles with Camoufox, a Next.js dashboard and a Python backend.</p>
       <p><code>Next.js</code> <code>Python</code> <code>Camoufox</code></p>
       <p>
@@ -348,7 +348,7 @@ I build **MCP servers, skills and hooks** so agents can do real work on my machi
     </td>
   </tr>
   <tr><td colspan="2" align="center">
-      <h3 align="center"><img src="assets/icons/layout.svg" width="20" height="20" alt="" /> <a href="https://github.com/robgallardof/readme-builder">readme-builder</a></h3>
+      <h3 align="center"><img src="assets/icons/lucide/layout-template.svg" width="20" height="20" alt="" /> <a href="https://github.com/robgallardof/readme-builder">readme-builder</a></h3>
       <p>Reusable README design system: prompts, original SVG widgets, separators and an offline generator.</p>
       <p><code>Python</code> <code>SVG</code> <code>EN / ES</code> <code>Offline</code></p>
     </td></tr>
@@ -416,13 +416,14 @@ I build **MCP servers, skills and hooks** so agents can do real work on my machi
 <p align="center"><img src="assets/divider.svg" alt="" width="92%" /></p>
 <a id="arcade"></a>
 <h2 align="center">Contribution arcade</h2>
-<p align="center">Pac-Man / Snake · GitHub contributions · SVG · Light + dark</p>
+<p align="center"><a href="https://github.com/robgallardof?tab=overview"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/robgallardof/robgallardof/output/contributions-dark.svg" /><img src="https://raw.githubusercontent.com/robgallardof/robgallardof/output/contributions-light.svg" alt="Actual GitHub contribution calendar for robgallardof" width="100%" /></picture></a></p>
+<p align="center"><sub>My real GitHub calendar, refreshed hourly. Contributions include commits and other activity recorded by GitHub.</sub></p>
 <h3 align="center">Pac-Man</h3>
 <p align="center"><picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/robgallardof/robgallardof/output/pacman-contribution-graph-dark.svg" />
   <img src="https://raw.githubusercontent.com/robgallardof/robgallardof/output/pacman-contribution-graph.svg" alt="Pac-Man contribution calendar" width="100%" />
 </picture></p>
-<p align="center"><sub>Generated daily with <a href="https://github.com/abozanona/pacman-contribution-graph">Arcade Contribution Graph</a> and <a href="https://github.com/Platane/snk">snk</a>.</sub></p>
+<p align="center"><sub>Refreshed hourly with <a href="https://github.com/abozanona/pacman-contribution-graph">Arcade Contribution Graph</a> and <a href="https://github.com/Platane/snk">snk</a>.</sub></p>
 <h3 align="center"><img src="assets/icons/layout.svg" width="20" height="20" alt="" /> Contribution snake</h3>
 
 <p align="center">

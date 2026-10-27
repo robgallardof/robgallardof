@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: ["scripts/widgets.py", "scripts/profile_layout.py"]
+    paths: ["scripts/widgets.py", "scripts/profile_layout.py", "scripts/svg_motion.py", "scripts/profile_icons.py"]
 
 permissions:
   contents: write

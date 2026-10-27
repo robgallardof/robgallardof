@@ -18,6 +18,7 @@ from collections import Counter
 from datetime import datetime, timezone
 from html import escape
 from pathlib import Path
+from svg_motion import animate_svg
 
 USER = "robgallardof"
 # Deprecated or meta repositories that should not appear as "latest projects".
@@ -258,10 +259,10 @@ def main() -> None:
     OUT.mkdir(parents=True, exist_ok=True)
     data = fetch()
     for lang in ("en", "es"):
-        (OUT / f"ide-{lang}.svg").write_text(ide(lang), encoding="utf-8")
+        (OUT / f"ide-{lang}.svg").write_text(animate_svg(ide(lang)), encoding="utf-8")
         for theme in THEMES:
-            (OUT / f"timeline-{lang}-{theme}.svg").write_text(timeline(lang, theme), encoding="utf-8")
-            (OUT / f"overview-{lang}-{theme}.svg").write_text(overview(data, lang, theme), encoding="utf-8")
+            (OUT / f"timeline-{lang}-{theme}.svg").write_text(animate_svg(timeline(lang, theme)), encoding="utf-8")
+            (OUT / f"overview-{lang}-{theme}.svg").write_text(animate_svg(overview(data, lang, theme)), encoding="utf-8")
     print(f"widgets written to {OUT} · repos={data['repos']} years={data['years']} langs={data['langs']}")
 
 

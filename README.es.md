@@ -57,36 +57,36 @@
 
 <table align="center" width="100%">
 <tr>
-<td width="50%" valign="top">
+<td width="50%" valign="top" align="center">
 
 <img src="assets/icons/layout.svg" width="20" height="20" alt="" /> **De día:** servicios backend en **.NET** para una empresa global de logística.
 
 </td>
-<td width="50%" valign="top">
+<td width="50%" valign="top" align="center">
 
 <img src="assets/icons/clock.svg" width="20" height="20" alt="" /> **Todas las generaciones de .NET:** desde **.NET Framework 2.0 / 3.5 / 4.x**, pasando por .NET Core, hasta **.NET 5 → 10 y 11** — y las migraciones entre ellas.
 
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
+<td width="50%" valign="top" align="center">
 
 <img src="assets/icons/network.svg" width="20" height="20" alt="" /> **4 años con IA:** de ChatGPT a Codex, Claude Code y Antigravity — con revisión y límites, no a ciegas.
 
 </td>
-<td width="50%" valign="top">
+<td width="50%" valign="top" align="center">
 
 <img src="assets/icons/arrow.svg" width="20" height="20" alt="" /> **De noche:** agentes de IA que hacen trabajo real — editan mis videos, los publican y hasta hacen mi declaración.
 
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
+<td width="50%" valign="top" align="center">
 
 <img src="assets/icons/clock.svg" width="20" height="20" alt="" /> **Ahora mismo:** construyendo [**RepoRinse**](https://github.com/robgallardof/RepoRinse) y [**Rekora**](https://github.com/robgallardof/rekora), herramientas en Rust para agentes de IA.
 
 </td>
-<td width="50%" valign="top">
+<td width="50%" valign="top" align="center">
 
 <img src="assets/icons/code.svg" width="20" height="20" alt="" /> **Platícame de:** C#, migraciones de .NET, diseño de software, MongoDB, Vue/Next.js, DevOps y agentes de IA.
 
@@ -164,7 +164,7 @@ conmigo al mando.
 
 <table align="center" width="100%">
 <tr>
-<td width="50%" valign="top">
+<td width="50%" valign="top" align="center">
 
 <h3 align="center"><img src="assets/icons/arrow.svg" width="20" height="20" alt="" /> Backend</h3>
 <p align="center">
@@ -173,7 +173,7 @@ conmigo al mando.
 </p>
 
 </td>
-<td width="50%" valign="top">
+<td width="50%" valign="top" align="center">
 
 <h3 align="center"><img src="assets/icons/clock.svg" width="20" height="20" alt="" /> Frontend</h3>
 <p align="center">
@@ -184,7 +184,7 @@ conmigo al mando.
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
+<td width="50%" valign="top" align="center">
 
 <h3 align="center"><img src="assets/icons/clock.svg" width="20" height="20" alt="" /> Datos y nube</h3>
 <p align="center">
@@ -193,7 +193,7 @@ conmigo al mando.
 </p>
 
 </td>
-<td width="50%" valign="top">
+<td width="50%" valign="top" align="center">
 
 <h3 align="center"><img src="assets/icons/clock.svg" width="20" height="20" alt="" /> DevOps y herramientas</h3>
 <p align="center">
@@ -204,7 +204,7 @@ conmigo al mando.
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
+<td width="50%" valign="top" align="center">
 
 <h3 align="center"><img src="assets/icons/layers.svg" width="20" height="20" alt="" /> Arquitectura y prácticas</h3>
 <p align="center">
@@ -212,7 +212,7 @@ conmigo al mando.
 </p>
 
 </td>
-<td width="50%" valign="top">
+<td width="50%" valign="top" align="center">
 
 <h3 align="center"><img src="assets/icons/network.svg" width="20" height="20" alt="" /> IA y agentes</h3>
 <p align="center">
@@ -261,8 +261,8 @@ conmigo al mando.
 
 <table align="center" width="100%">
   <tr>
-    <td width="50%" valign="top">
-      <h3 align="center"><img src="assets/icons/network.svg" width="20" height="20" alt="" /> <a href="https://github.com/robgallardof/rekora">Rekora</a></h3>
+    <td width="50%" valign="top" align="center">
+      <h3 align="center"><img src="assets/icons/lucide/brain-circuit.svg" width="20" height="20" alt="" /> <a href="https://github.com/robgallardof/rekora">Rekora</a></h3>
       <p>Memoria local y verificable para agentes de IA de código: decisiones y restricciones con sus fuentes, detección de desactualizados, tareas y handoffs entre agentes, servida por MCP a Claude Code, Codex, OpenCode y DeepSeek Harness.</p>
       <p><code><img src="assets/icons/layers.svg" width="20" height="20" alt="" /> Nuevo</code> <code>Rust</code> <code>MCP</code> <code>SQLite</code></p>
       <p>
@@ -271,8 +271,8 @@ conmigo al mando.
         <a href="https://github.com/robgallardof/rekora/commits"><img src="https://img.shields.io/github/last-commit/robgallardof/rekora?label=%C3%BAltimo%20commit&style=flat-square&color=0EA5E9" alt="Last commit" /></a>
       </p>
     </td>
-    <td width="50%" valign="top">
-      <h3 align="center"><img src="assets/icons/clock.svg" width="20" height="20" alt="" /> <a href="https://github.com/robgallardof/RepoRinse">RepoRinse</a></h3>
+    <td width="50%" valign="top" align="center">
+      <h3 align="center"><img src="assets/icons/lucide/shield-check.svg" width="20" height="20" alt="" /> <a href="https://github.com/robgallardof/RepoRinse">RepoRinse</a></h3>
       <p>Mantiene limpios los repos y a los agentes bajo control: quita trailers de coautoría de IA (respeta a las personas), espacios e Unicode invisible, y agrega hooks de límites para Claude Code, Codex, Gemini CLI, Cursor, OpenCode y DeepSeek Harness.</p>
       <p><code><img src="assets/icons/layers.svg" width="20" height="20" alt="" /> Nuevo</code> <code>Rust</code> <code>Git hooks</code> <code>Hooks de agentes</code></p>
       <p>
@@ -283,8 +283,8 @@ conmigo al mando.
     </td>
   </tr>
   <tr>
-    <td width="50%" valign="top">
-      <h3 align="center"><img src="assets/icons/network.svg" width="20" height="20" alt="" /> <a href="https://github.com/robgallardof/davinci-resolve-mcp">davinci-resolve-mcp</a></h3>
+    <td width="50%" valign="top" align="center">
+      <h3 align="center"><img src="assets/icons/lucide/clapperboard.svg" width="20" height="20" alt="" /> <a href="https://github.com/robgallardof/davinci-resolve-mcp">davinci-resolve-mcp</a></h3>
       <p>Edita en DaVinci Resolve hablando con un productor de IA: cortes verticales y horizontales, movimiento que no corta caras, subtítulos con diseño, música a tiempo y revisión antes de cada render.</p>
       <p><code>MCP</code> <code>Python</code> <code>Video</code></p>
       <p>
@@ -293,8 +293,8 @@ conmigo al mando.
         <a href="https://github.com/robgallardof/davinci-resolve-mcp/commits"><img src="https://img.shields.io/github/last-commit/robgallardof/davinci-resolve-mcp?label=%C3%BAltimo%20commit&style=flat-square&color=0EA5E9" alt="Last commit" /></a>
       </p>
     </td>
-    <td width="50%" valign="top">
-      <h3 align="center"><img src="assets/icons/clock.svg" width="20" height="20" alt="" /> <a href="https://github.com/robgallardof/social-publisher-mcp">social-publisher-mcp</a></h3>
+    <td width="50%" valign="top" align="center">
+      <h3 align="center"><img src="assets/icons/lucide/send.svg" width="20" height="20" alt="" /> <a href="https://github.com/robgallardof/social-publisher-mcp">social-publisher-mcp</a></h3>
       <p>Un community manager con IA para video corto: ve tus videos, escribe el texto de cada red, programa las publicaciones y te dice qué funcionó.</p>
       <p><code>MCP</code> <code>Python</code> <code>Redes</code></p>
       <p>
@@ -305,8 +305,8 @@ conmigo al mando.
     </td>
   </tr>
   <tr>
-    <td width="50%" valign="top">
-      <h3 align="center"><img src="assets/icons/code.svg" width="20" height="20" alt="" /> <a href="https://github.com/robgallardof/declaracion">declaracion</a></h3>
+    <td width="50%" valign="top" align="center">
+      <h3 align="center"><img src="assets/icons/lucide/receipt-text.svg" width="20" height="20" alt="" /> <a href="https://github.com/robgallardof/declaracion">declaracion</a></h3>
       <p>Tu asistente de impuestos personales en México dentro de tu agente de IA: lee CFDI, calcula ISR e IVA (RESICO) y te guía al declarar. Tus datos se quedan en tu PC.</p>
       <p><code>MCP</code> <code>Python</code> <code>SAT</code></p>
       <p>
@@ -315,8 +315,8 @@ conmigo al mando.
         <a href="https://github.com/robgallardof/declaracion/commits"><img src="https://img.shields.io/github/last-commit/robgallardof/declaracion?label=%C3%BAltimo%20commit&style=flat-square&color=0EA5E9" alt="Last commit" /></a>
       </p>
     </td>
-    <td width="50%" valign="top">
-      <h3 align="center"><img src="assets/icons/clock.svg" width="20" height="20" alt="" /> <a href="https://github.com/robgallardof/wikdoc">wikdoc</a></h3>
+    <td width="50%" valign="top" align="center">
+      <h3 align="center"><img src="assets/icons/lucide/book-open.svg" width="20" height="20" alt="" /> <a href="https://github.com/robgallardof/wikdoc">wikdoc</a></h3>
       <p>Convierte cualquier carpeta de código en una base de conocimiento local con la que puedes chatear — embeddings + RAG con Ollama, nada sale de tu equipo.</p>
       <p><code>Python</code> <code>Ollama</code> <code>RAG</code></p>
       <p>
@@ -327,8 +327,8 @@ conmigo al mando.
     </td>
   </tr>
   <tr>
-    <td width="50%" valign="top">
-      <h3 align="center"><img src="assets/icons/network.svg" width="20" height="20" alt="" /> <a href="https://github.com/robgallardof/wallybot">wallybot</a></h3>
+    <td width="50%" valign="top" align="center">
+      <h3 align="center"><img src="assets/icons/lucide/bot.svg" width="20" height="20" alt="" /> <a href="https://github.com/robgallardof/wallybot">wallybot</a></h3>
       <p>Centro autoalojado de análisis de mercado, cartera y trading asistido por IA: propuestas explicadas, tu aprobación y controles de riesgo.</p>
       <p><code>Python</code> <code>IA</code> <code>Autoalojado</code></p>
       <p>
@@ -337,8 +337,8 @@ conmigo al mando.
         <a href="https://github.com/robgallardof/wallybot/commits"><img src="https://img.shields.io/github/last-commit/robgallardof/wallybot?label=%C3%BAltimo%20commit&style=flat-square&color=0EA5E9" alt="Last commit" /></a>
       </p>
     </td>
-    <td width="50%" valign="top">
-      <h3 align="center"><img src="assets/icons/clock.svg" width="20" height="20" alt="" /> <a href="https://github.com/robgallardof/multig">multig</a></h3>
+    <td width="50%" valign="top" align="center">
+      <h3 align="center"><img src="assets/icons/lucide/panels-top-left.svg" width="20" height="20" alt="" /> <a href="https://github.com/robgallardof/multig">multig</a></h3>
       <p>Administra muchos perfiles de navegador persistentes y aislados con Camoufox, un panel en Next.js y un backend en Python.</p>
       <p><code>Next.js</code> <code>Python</code> <code>Camoufox</code></p>
       <p>
@@ -349,7 +349,7 @@ conmigo al mando.
     </td>
   </tr>
   <tr><td colspan="2" align="center">
-      <h3 align="center"><img src="assets/icons/layout.svg" width="20" height="20" alt="" /> <a href="https://github.com/robgallardof/readme-builder">readme-builder</a></h3>
+      <h3 align="center"><img src="assets/icons/lucide/layout-template.svg" width="20" height="20" alt="" /> <a href="https://github.com/robgallardof/readme-builder">readme-builder</a></h3>
       <p>Sistema reutilizable para READMEs: prompts, widgets SVG originales, separadores y generador sin conexion.</p>
       <p><code>Python</code> <code>SVG</code> <code>EN / ES</code> <code>Offline</code></p>
     </td></tr>
@@ -417,13 +417,14 @@ conmigo al mando.
 <p align="center"><img src="assets/divider.svg" alt="" width="92%" /></p>
 <a id="arcade"></a>
 <h2 align="center">Arcade de contribuciones</h2>
-<p align="center">Pac-Man / Snake · GitHub contributions · SVG · Light + dark</p>
+<p align="center"><a href="https://github.com/robgallardof?tab=overview"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/robgallardof/robgallardof/output/contributions-dark.svg" /><img src="https://raw.githubusercontent.com/robgallardof/robgallardof/output/contributions-light.svg" alt="Actual GitHub contribution calendar for robgallardof" width="100%" /></picture></a></p>
+<p align="center"><sub>Mi calendario real de GitHub, actualizado cada hora. Las contribuciones incluyen commits y otras actividades registradas por GitHub.</sub></p>
 <h3 align="center">Pac-Man</h3>
 <p align="center"><picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/robgallardof/robgallardof/output/pacman-contribution-graph-dark.svg" />
   <img src="https://raw.githubusercontent.com/robgallardof/robgallardof/output/pacman-contribution-graph.svg" alt="Pac-Man contribution calendar" width="100%" />
 </picture></p>
-<p align="center"><sub>Generated daily with <a href="https://github.com/abozanona/pacman-contribution-graph">Arcade Contribution Graph</a> and <a href="https://github.com/Platane/snk">snk</a>.</sub></p>
+<p align="center"><sub>Refreshed hourly with <a href="https://github.com/abozanona/pacman-contribution-graph">Arcade Contribution Graph</a> and <a href="https://github.com/Platane/snk">snk</a>.</sub></p>
 <h3 align="center"><img src="assets/icons/layout.svg" width="20" height="20" alt="" /> Serpiente de contribuciones</h3>
 
 <p align="center">
