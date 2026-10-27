@@ -29,8 +29,7 @@
 <a href="#toolbox"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/kit/nav-en-04-dark.svg" /><img src="assets/kit/nav-en-04-light.svg" alt="04 AI toolbox" height="34" /></picture></a>&nbsp;
 <a href="#experience"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/kit/nav-en-05-dark.svg" /><img src="assets/kit/nav-en-05-light.svg" alt="05 Experience" height="34" /></picture></a>&nbsp;
 <a href="#stack"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/kit/nav-en-06-dark.svg" /><img src="assets/kit/nav-en-06-light.svg" alt="06 Stack" height="34" /></picture></a>&nbsp;
-<a href="#stats"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/kit/nav-en-07-dark.svg" /><img src="assets/kit/nav-en-07-light.svg" alt="07 Stats" height="34" /></picture></a>&nbsp;
-<a href="#arcade"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/kit/nav-en-08-dark.svg" /><img src="assets/kit/nav-en-08-light.svg" alt="08 Arcade" height="34" /></picture></a></p>
+<a href="#stats"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/kit/nav-en-07-dark.svg" /><img src="assets/kit/nav-en-07-light.svg" alt="07 Stats" height="34" /></picture></a></p>
 <!-- /kit:nav -->
 
 <!-- kit:wave -->

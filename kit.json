@@ -22,13 +22,12 @@
     ]},
     {"id": "nav", "type": "buttons", "items": [
       {"label": {"en": "01 About", "es": "01 Sobre mí"}, "href": {"en": "#about", "es": "#sobre-mi"}, "small": true},
-      {"label": {"en": "02 Building", "es": "02 Construyendo"}, "href": {"en": "#building", "es": "#construyendo"}, "small": true},
+      {"label": {"en": "02 Building", "es": "02 Ahora"}, "href": {"en": "#building", "es": "#construyendo"}, "small": true},
       {"label": {"en": "03 Projects", "es": "03 Proyectos"}, "href": {"en": "#projects", "es": "#proyectos"}, "small": true},
-      {"label": {"en": "04 AI toolbox", "es": "04 Herramientas IA"}, "href": {"en": "#toolbox", "es": "#herramientas"}, "small": true},
+      {"label": {"en": "04 AI toolbox", "es": "04 Herramientas"}, "href": {"en": "#toolbox", "es": "#herramientas"}, "small": true},
       {"label": {"en": "05 Experience", "es": "05 Experiencia"}, "href": {"en": "#experience", "es": "#experiencia"}, "small": true},
       {"label": "06 Stack", "href": {"en": "#stack", "es": "#tecnologias"}, "small": true},
-      {"label": {"en": "07 Stats", "es": "07 Estadísticas"}, "href": {"en": "#stats", "es": "#estadisticas"}, "small": true},
-      {"label": "08 Arcade", "href": "#arcade", "small": true}
+      {"label": {"en": "07 Stats", "es": "07 Números"}, "href": {"en": "#stats", "es": "#estadisticas"}, "small": true}
     ]},
     {"id": "wave", "type": "divider"},
 

@@ -24,13 +24,12 @@
 
 <!-- kit:nav -->
 <p align="center"><a href="#sobre-mi"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/kit/nav-es-01-dark.svg" /><img src="assets/kit/nav-es-01-light.svg" alt="01 Sobre mí" height="34" /></picture></a>&nbsp;
-<a href="#construyendo"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/kit/nav-es-02-dark.svg" /><img src="assets/kit/nav-es-02-light.svg" alt="02 Construyendo" height="34" /></picture></a>&nbsp;
+<a href="#construyendo"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/kit/nav-es-02-dark.svg" /><img src="assets/kit/nav-es-02-light.svg" alt="02 Ahora" height="34" /></picture></a>&nbsp;
 <a href="#proyectos"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/kit/nav-es-03-dark.svg" /><img src="assets/kit/nav-es-03-light.svg" alt="03 Proyectos" height="34" /></picture></a>&nbsp;
-<a href="#herramientas"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/kit/nav-es-04-dark.svg" /><img src="assets/kit/nav-es-04-light.svg" alt="04 Herramientas IA" height="34" /></picture></a>&nbsp;
+<a href="#herramientas"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/kit/nav-es-04-dark.svg" /><img src="assets/kit/nav-es-04-light.svg" alt="04 Herramientas" height="34" /></picture></a>&nbsp;
 <a href="#experiencia"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/kit/nav-es-05-dark.svg" /><img src="assets/kit/nav-es-05-light.svg" alt="05 Experiencia" height="34" /></picture></a>&nbsp;
 <a href="#tecnologias"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/kit/nav-es-06-dark.svg" /><img src="assets/kit/nav-es-06-light.svg" alt="06 Stack" height="34" /></picture></a>&nbsp;
-<a href="#estadisticas"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/kit/nav-es-07-dark.svg" /><img src="assets/kit/nav-es-07-light.svg" alt="07 Estadísticas" height="34" /></picture></a>&nbsp;
-<a href="#arcade"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/kit/nav-es-08-dark.svg" /><img src="assets/kit/nav-es-08-light.svg" alt="08 Arcade" height="34" /></picture></a></p>
+<a href="#estadisticas"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/kit/nav-es-07-dark.svg" /><img src="assets/kit/nav-es-07-light.svg" alt="07 Números" height="34" /></picture></a></p>
 <!-- /kit:nav -->
 
 <!-- kit:wave -->
