@@ -1,3 +1,5 @@
+<a id="top"></a>
+
 <!-- Encabezado -->
 <p align="right">
   <a href="README.md">English</a> · <b>Español</b>
@@ -49,7 +51,7 @@
 <p align="center"><img src="assets/divider.svg" alt="" width="92%" /></p>
 
 <a id="sobre-mi"></a>
-<p align="center"><img src="assets/sections/es-01.svg" alt="01 · Sobre mí" width="100%" /></p>
+<h2 align="center"><img src="assets/sections/es-01.svg" alt="01 · Sobre mí" width="100%" /></h2>
 
 <p align="center"><img src="assets/widgets/ide-es.svg" alt="Developer.cs" width="100%" /></p>
 
@@ -97,7 +99,7 @@
 <p align="center"><img src="assets/divider.svg" alt="" width="92%" /></p>
 
 <a id="construyendo"></a>
-<p align="center"><img src="assets/sections/es-02.svg" alt="02 · Lo que estoy construyendo" width="100%" /></p>
+<h2 align="center"><img src="assets/sections/es-02.svg" alt="02 · Lo que estoy construyendo" width="100%" /></h2>
 
 Herramientas para que los agentes de IA trabajen de forma segura y recuerden lo importante — locales, sin telemetría y en Rust.
 
@@ -112,152 +114,8 @@ rekora agent install claude --confirm                   # dale memoria a Claude 
 
 <p align="center"><img src="assets/divider.svg" alt="" width="92%" /></p>
 
-<a id="herramientas"></a>
-<p align="center"><img src="assets/sections/es-03.svg" alt="03 · Mi caja de herramientas de IA" width="100%" /></p>
-
-<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/widgets/ecosystem-es-dark.svg" /><img src="assets/widgets/ecosystem-es-light.svg" alt="Six connected open-source projects" width="100%" /></picture></p>
-
-
-Construyo **servidores MCP, skills y hooks** para que los agentes hagan trabajo real en mi equipo — en local y
-conmigo al mando.
-
-<table align="center" width="100%">
-  <tr>
-    <th width="33%"><img src="assets/icons/network.svg" width="20" height="20" alt="" /> Servidores MCP</th>
-    <th width="33%"><img src="assets/icons/arrow.svg" width="20" height="20" alt="" /> Skills y roles de agentes</th>
-    <th width="33%"><img src="assets/icons/network.svg" width="20" height="20" alt="" /> Memoria y límites</th>
-  </tr>
-  <tr>
-    <td valign="top">
-      <a href="https://github.com/robgallardof/davinci-resolve-mcp">davinci-resolve-mcp</a> — edición de video<br/>
-      <a href="https://github.com/robgallardof/social-publisher-mcp">social-publisher-mcp</a> — publicación<br/>
-      <a href="https://github.com/robgallardof/declaracion">declaracion</a> — impuestos en México
-    </td>
-    <td valign="top">
-      Productor, editores, colorista y QA para Resolve<br/>
-      Copywriter, estratega y analista para redes<br/>
-      Contador y auditor para declaraciones
-    </td>
-    <td valign="top">
-      <a href="https://github.com/robgallardof/rekora">Rekora</a> — memoria verificable para agentes<br/>
-      <a href="https://github.com/robgallardof/RepoRinse">RepoRinse</a> — hooks de Git y agentes<br/>
-      Guardas de comandos y rutas para agentes<br/>
-      Un historial de commits solo con personas
-    </td>
-  </tr>
-</table>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/MCP-servidores-8A2BE2?style=for-the-badge&logo=anthropic&logoColor=white" alt="MCP" />
-  <img src="https://img.shields.io/badge/Claude%20Code-skills%20y%20plugins-D97757?style=for-the-badge&logo=anthropic&logoColor=white" alt="Skills y plugins de Claude Code" />
-  <img src="https://img.shields.io/badge/Ollama-RAG%20local-000000?style=for-the-badge&logo=ollama&logoColor=white" alt="Ollama" />
-</p>
-
-<p align="center">Adaptadores por proyecto para OpenCode y DeepSeek Harness; Docker opcional con puertos configurables. Pruebas de hosts reales en CI.<br/><a href="https://github.com/robgallardof/rekora/blob/main/docs/architecture/ADAPTERS.md">MCP adapters</a> · <a href="https://github.com/robgallardof/RepoRinse/blob/main/docs/integrations/opencode-deepseek.md">Agent hooks</a></p>
-
-<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/widgets/workflow-es-dark.svg" /><img src="assets/widgets/workflow-es-light.svg" alt="Plan, build, verify, ship" width="100%" /></picture></p>
-
-<p align="center"><img src="assets/divider.svg" alt="" width="92%" /></p>
-
-<a id="tecnologias"></a>
-<p align="center"><img src="assets/sections/es-04.svg" alt="04 · Tecnologías" width="100%" /></p>
-
-<table align="center" width="100%">
-<tr>
-<td width="50%" valign="top" align="center">
-
-<h3 align="center"><img src="assets/icons/arrow.svg" width="20" height="20" alt="" /> Backend</h3>
-<p align="center">
-  <img src="https://skillicons.dev/icons?theme=dark&perline=5&i=cs,dotnet,rust,python,java,kotlin,nodejs" alt=" Backend" /><br/><br/>
-  <code>.NET Framework 2.0–4.8</code> <code>.NET Core</code> <code>.NET 5–11</code> <code>ASP.NET Core</code> <code>Minimal APIs</code> <code>EF Core</code> <code>SignalR</code> <code>WCF</code> <code>ASP.NET Web Forms</code> <code>VB.NET</code> <code>Autenticación JWT</code> <code>xUnit + Moq</code> <code>Mulesoft (SOA)</code>
-</p>
-
-</td>
-<td width="50%" valign="top" align="center">
-
-<h3 align="center"><img src="assets/icons/clock.svg" width="20" height="20" alt="" /> Frontend</h3>
-<p align="center">
-  <img src="https://skillicons.dev/icons?theme=dark&perline=5&i=ts,js,react,nextjs,vue,tailwind,html,css" alt=" Frontend" /><br/><br/>
-  <code>React Native</code> <code>shadcn/ui</code> <code>Framer Motion</code> <code>PWA</code> <code>i18n</code> <code>Accesibilidad</code>
-</p>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top" align="center">
-
-<h3 align="center"><img src="assets/icons/clock.svg" width="20" height="20" alt="" /> Datos y nube</h3>
-<p align="center">
-  <img src="https://skillicons.dev/icons?theme=dark&perline=5&i=mongodb,sqlite,postgres,mysql,azure,cloudflare,vercel" alt=" Datos y nube" /><br/><br/>
-  <code>SQL Server</code> <code>MongoDB Atlas</code> <code>Pipelines de agregación</code> <code>Informix</code> <code>SSRS</code> <code>SQLite · FTS5</code> <code>Azure Blob · SAS</code> <code>Cloudflare Zero Trust</code>
-</p>
-
-</td>
-<td width="50%" valign="top" align="center">
-
-<h3 align="center"><img src="assets/icons/clock.svg" width="20" height="20" alt="" /> DevOps y herramientas</h3>
-<p align="center">
-  <img src="https://skillicons.dev/icons?theme=dark&perline=5&i=docker,kubernetes,githubactions,nginx,linux,ubuntu,git,github,vscode,visualstudio,androidstudio,postman,powershell,bash" alt=" DevOps y herramientas" /><br/><br/>
-  <code>Azure DevOps</code> <code>CI/CD</code> <code>Jira</code> <code>Tree-sitter</code> <code>PDFSharp · iText7</code>
-</p>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top" align="center">
-
-<h3 align="center"><img src="assets/icons/layers.svg" width="20" height="20" alt="" /> Arquitectura y prácticas</h3>
-<p align="center">
-  <code>Clean Architecture</code> <code>CQRS</code> <code>SOLID · DRY · KISS</code> <code>Microservicios</code> <code>Diseño de APIs REST</code> <code>Modernización de legacy</code> <code>Revisión de código</code> <code>Pruebas unitarias e integración</code> <code>Documentación técnica</code>
-</p>
-
-</td>
-<td width="50%" valign="top" align="center">
-
-<h3 align="center"><img src="assets/icons/network.svg" width="20" height="20" alt="" /> IA y agentes</h3>
-<p align="center">
-  <img src="https://img.shields.io/badge/Codex-412991?style=flat-square" alt="Codex" />
-  <img src="https://img.shields.io/badge/Claude%20Code-D97757?style=flat-square&logo=claude&logoColor=white" alt="Claude Code" />
-  <img src="https://img.shields.io/badge/Antigravity-4285F4?style=flat-square&logo=google&logoColor=white" alt="Antigravity" />
-  <img src="https://img.shields.io/badge/ChatGPT-10A37F?style=flat-square" alt="ChatGPT" />
-  <img src="https://img.shields.io/badge/Gemini%20CLI-8E75B2?style=flat-square&logo=googlegemini&logoColor=white" alt="Gemini CLI" />
-  <img src="https://img.shields.io/badge/Cursor-000000?style=flat-square&logo=cursor&logoColor=white" alt="Cursor" />
-  <img src="https://img.shields.io/badge/OpenCode-334155?style=flat-square" alt="OpenCode" />
-  <img src="https://img.shields.io/badge/DeepSeek-4D6BFE?style=flat-square&logo=deepseek&logoColor=white" alt="DeepSeek" />
-  <img src="https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white" alt="Ollama" />
-  <img src="https://img.shields.io/badge/MCP%20servers-8A2BE2?style=flat-square&logo=anthropic&logoColor=white" alt="MCP servers" />
-  <img src="https://img.shields.io/badge/RAG%20%C2%B7%20embeddings-0EA5E9?style=flat-square" alt="RAG · embeddings" />
-  <img src="https://img.shields.io/badge/Agent%20hooks-6D28D9?style=flat-square" alt="Agent hooks" />
-  <img src="https://img.shields.io/badge/faster-whisper-F59E0B?style=flat-square" alt="faster-whisper" />
-</p>
-
-</td>
-</tr>
-<tr>
-<td colspan="2" width="100%" valign="top">
-
-<h3 align="center"><img src="assets/icons/network.svg" width="20" height="20" alt="" /> Contenido y automatización</h3>
-<p align="center">
-  <img src="https://img.shields.io/badge/DaVinci%20Resolve-233A51?style=flat-square&logo=davinciresolve&logoColor=white" alt="DaVinci Resolve" />
-  <img src="https://img.shields.io/badge/FFmpeg-007808?style=flat-square&logo=ffmpeg&logoColor=white" alt="FFmpeg" />
-  <img src="https://img.shields.io/badge/TikTok-000000?style=flat-square&logo=tiktok&logoColor=white" alt="TikTok" />
-  <img src="https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white" alt="Instagram" />
-  <img src="https://img.shields.io/badge/YouTube-FF0000?style=flat-square&logo=youtube&logoColor=white" alt="YouTube" />
-  <img src="https://img.shields.io/badge/Facebook-0866FF?style=flat-square&logo=facebook&logoColor=white" alt="Facebook" />
-  <img src="https://img.shields.io/badge/Discord-5865F2?style=flat-square&logo=discord&logoColor=white" alt="Discord" />
-  <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat-square" alt="Playwright" />
-  <img src="https://img.shields.io/badge/Camoufox-FF7139?style=flat-square&logo=firefoxbrowser&logoColor=white" alt="Camoufox" />
-  <img src="https://img.shields.io/badge/Tampermonkey-00485B?style=flat-square&logo=tampermonkey&logoColor=white" alt="Tampermonkey" />
-</p>
-
-</td>
-</tr>
-</table>
-
-<p align="center"><img src="assets/divider.svg" alt="" width="92%" /></p>
-
 <a id="proyectos"></a>
-<p align="center"><img src="assets/sections/es-05.svg" alt="05 · Proyectos destacados" width="100%" /></p>
+<h2 align="center"><img src="assets/sections/es-05.svg" alt="03 · Proyectos destacados" width="100%" /></h2>
 
 <table align="center" width="100%">
   <tr>
@@ -359,8 +217,55 @@ conmigo al mando.
 
 <p align="center"><img src="assets/divider.svg" alt="" width="92%" /></p>
 
+<a id="herramientas"></a>
+<h2 align="center"><img src="assets/sections/es-03.svg" alt="04 · Mi caja de herramientas de IA" width="100%" /></h2>
+
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/widgets/ecosystem-es-dark.svg" /><img src="assets/widgets/ecosystem-es-light.svg" alt="Six connected open-source projects" width="100%" /></picture></p>
+
+
+Construyo **servidores MCP, skills y hooks** para que los agentes hagan trabajo real en mi equipo — en local y
+conmigo al mando.
+
+<table align="center" width="100%">
+  <tr>
+    <th width="33%"><img src="assets/icons/network.svg" width="20" height="20" alt="" /> Servidores MCP</th>
+    <th width="33%"><img src="assets/icons/arrow.svg" width="20" height="20" alt="" /> Skills y roles de agentes</th>
+    <th width="33%"><img src="assets/icons/network.svg" width="20" height="20" alt="" /> Memoria y límites</th>
+  </tr>
+  <tr>
+    <td valign="top">
+      <a href="https://github.com/robgallardof/davinci-resolve-mcp">davinci-resolve-mcp</a> — edición de video<br/>
+      <a href="https://github.com/robgallardof/social-publisher-mcp">social-publisher-mcp</a> — publicación<br/>
+      <a href="https://github.com/robgallardof/declaracion">declaracion</a> — impuestos en México
+    </td>
+    <td valign="top">
+      Productor, editores, colorista y QA para Resolve<br/>
+      Copywriter, estratega y analista para redes<br/>
+      Contador y auditor para declaraciones
+    </td>
+    <td valign="top">
+      <a href="https://github.com/robgallardof/rekora">Rekora</a> — memoria verificable para agentes<br/>
+      <a href="https://github.com/robgallardof/RepoRinse">RepoRinse</a> — hooks de Git y agentes<br/>
+      Guardas de comandos y rutas para agentes<br/>
+      Un historial de commits solo con personas
+    </td>
+  </tr>
+</table>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/MCP-servidores-8A2BE2?style=for-the-badge&logo=anthropic&logoColor=white" alt="MCP" />
+  <img src="https://img.shields.io/badge/Claude%20Code-skills%20y%20plugins-D97757?style=for-the-badge&logo=anthropic&logoColor=white" alt="Skills y plugins de Claude Code" />
+  <img src="https://img.shields.io/badge/Ollama-RAG%20local-000000?style=for-the-badge&logo=ollama&logoColor=white" alt="Ollama" />
+</p>
+
+<p align="center">Adaptadores por proyecto para OpenCode y DeepSeek Harness; Docker opcional con puertos configurables. Pruebas de hosts reales en CI.<br/><a href="https://github.com/robgallardof/rekora/blob/main/docs/architecture/ADAPTERS.md">MCP adapters</a> · <a href="https://github.com/robgallardof/RepoRinse/blob/main/docs/integrations/opencode-deepseek.md">Agent hooks</a></p>
+
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/widgets/workflow-es-dark.svg" /><img src="assets/widgets/workflow-es-light.svg" alt="Plan, build, verify, ship" width="100%" /></picture></p>
+
+<p align="center"><img src="assets/divider.svg" alt="" width="92%" /></p>
+
 <a id="experiencia"></a>
-<p align="center"><img src="assets/sections/es-06.svg" alt="06 · Experiencia y formación" width="100%" /></p>
+<h2 align="center"><img src="assets/sections/es-06.svg" alt="05 · Experiencia y formación" width="100%" /></h2>
 
 <p align="center">
   <picture>
@@ -371,8 +276,105 @@ conmigo al mando.
 
 <p align="center"><img src="assets/divider.svg" alt="" width="92%" /></p>
 
+<a id="tecnologias"></a>
+<h2 align="center"><img src="assets/sections/es-04.svg" alt="06 · Tecnologías" width="100%" /></h2>
+
+<table align="center" width="100%">
+<tr>
+<td width="50%" valign="top" align="center">
+
+<h3 align="center"><img src="assets/icons/arrow.svg" width="20" height="20" alt="" /> Backend</h3>
+<p align="center">
+  <img src="https://skillicons.dev/icons?theme=dark&perline=5&i=cs,dotnet,rust,python,java,kotlin,nodejs" alt=" Backend" /><br/><br/>
+  <code>.NET Framework 2.0–4.8</code> <code>.NET Core</code> <code>.NET 5–11</code> <code>ASP.NET Core</code> <code>Minimal APIs</code> <code>EF Core</code> <code>SignalR</code> <code>WCF</code> <code>ASP.NET Web Forms</code> <code>VB.NET</code> <code>Autenticación JWT</code> <code>xUnit + Moq</code> <code>Mulesoft (SOA)</code>
+</p>
+
+</td>
+<td width="50%" valign="top" align="center">
+
+<h3 align="center"><img src="assets/icons/clock.svg" width="20" height="20" alt="" /> Frontend</h3>
+<p align="center">
+  <img src="https://skillicons.dev/icons?theme=dark&perline=5&i=ts,js,react,nextjs,vue,tailwind,html,css" alt=" Frontend" /><br/><br/>
+  <code>React Native</code> <code>shadcn/ui</code> <code>Framer Motion</code> <code>PWA</code> <code>i18n</code> <code>Accesibilidad</code>
+</p>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top" align="center">
+
+<h3 align="center"><img src="assets/icons/clock.svg" width="20" height="20" alt="" /> Datos y nube</h3>
+<p align="center">
+  <img src="https://skillicons.dev/icons?theme=dark&perline=5&i=mongodb,sqlite,postgres,mysql,azure,cloudflare,vercel" alt=" Datos y nube" /><br/><br/>
+  <code>SQL Server</code> <code>MongoDB Atlas</code> <code>Pipelines de agregación</code> <code>Informix</code> <code>SSRS</code> <code>SQLite · FTS5</code> <code>Azure Blob · SAS</code> <code>Cloudflare Zero Trust</code>
+</p>
+
+</td>
+<td width="50%" valign="top" align="center">
+
+<h3 align="center"><img src="assets/icons/clock.svg" width="20" height="20" alt="" /> DevOps y herramientas</h3>
+<p align="center">
+  <img src="https://skillicons.dev/icons?theme=dark&perline=5&i=docker,kubernetes,githubactions,nginx,linux,ubuntu,git,github,vscode,visualstudio,androidstudio,postman,powershell,bash" alt=" DevOps y herramientas" /><br/><br/>
+  <code>Azure DevOps</code> <code>CI/CD</code> <code>Jira</code> <code>Tree-sitter</code> <code>PDFSharp · iText7</code>
+</p>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top" align="center">
+
+<h3 align="center"><img src="assets/icons/layers.svg" width="20" height="20" alt="" /> Arquitectura y prácticas</h3>
+<p align="center">
+  <code>Clean Architecture</code> <code>CQRS</code> <code>SOLID · DRY · KISS</code> <code>Microservicios</code> <code>Diseño de APIs REST</code> <code>Modernización de legacy</code> <code>Revisión de código</code> <code>Pruebas unitarias e integración</code> <code>Documentación técnica</code>
+</p>
+
+</td>
+<td width="50%" valign="top" align="center">
+
+<h3 align="center"><img src="assets/icons/network.svg" width="20" height="20" alt="" /> IA y agentes</h3>
+<p align="center">
+  <img src="https://img.shields.io/badge/Codex-412991?style=flat-square" alt="Codex" />
+  <img src="https://img.shields.io/badge/Claude%20Code-D97757?style=flat-square&logo=claude&logoColor=white" alt="Claude Code" />
+  <img src="https://img.shields.io/badge/Antigravity-4285F4?style=flat-square&logo=google&logoColor=white" alt="Antigravity" />
+  <img src="https://img.shields.io/badge/ChatGPT-10A37F?style=flat-square" alt="ChatGPT" />
+  <img src="https://img.shields.io/badge/Gemini%20CLI-8E75B2?style=flat-square&logo=googlegemini&logoColor=white" alt="Gemini CLI" />
+  <img src="https://img.shields.io/badge/Cursor-000000?style=flat-square&logo=cursor&logoColor=white" alt="Cursor" />
+  <img src="https://img.shields.io/badge/OpenCode-334155?style=flat-square" alt="OpenCode" />
+  <img src="https://img.shields.io/badge/DeepSeek-4D6BFE?style=flat-square&logo=deepseek&logoColor=white" alt="DeepSeek" />
+  <img src="https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white" alt="Ollama" />
+  <img src="https://img.shields.io/badge/MCP%20servers-8A2BE2?style=flat-square&logo=anthropic&logoColor=white" alt="MCP servers" />
+  <img src="https://img.shields.io/badge/RAG%20%C2%B7%20embeddings-0EA5E9?style=flat-square" alt="RAG · embeddings" />
+  <img src="https://img.shields.io/badge/Agent%20hooks-6D28D9?style=flat-square" alt="Agent hooks" />
+  <img src="https://img.shields.io/badge/faster-whisper-F59E0B?style=flat-square" alt="faster-whisper" />
+</p>
+
+</td>
+</tr>
+<tr>
+<td colspan="2" width="100%" valign="top">
+
+<h3 align="center"><img src="assets/icons/network.svg" width="20" height="20" alt="" /> Contenido y automatización</h3>
+<p align="center">
+  <img src="https://img.shields.io/badge/DaVinci%20Resolve-233A51?style=flat-square&logo=davinciresolve&logoColor=white" alt="DaVinci Resolve" />
+  <img src="https://img.shields.io/badge/FFmpeg-007808?style=flat-square&logo=ffmpeg&logoColor=white" alt="FFmpeg" />
+  <img src="https://img.shields.io/badge/TikTok-000000?style=flat-square&logo=tiktok&logoColor=white" alt="TikTok" />
+  <img src="https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white" alt="Instagram" />
+  <img src="https://img.shields.io/badge/YouTube-FF0000?style=flat-square&logo=youtube&logoColor=white" alt="YouTube" />
+  <img src="https://img.shields.io/badge/Facebook-0866FF?style=flat-square&logo=facebook&logoColor=white" alt="Facebook" />
+  <img src="https://img.shields.io/badge/Discord-5865F2?style=flat-square&logo=discord&logoColor=white" alt="Discord" />
+  <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat-square" alt="Playwright" />
+  <img src="https://img.shields.io/badge/Camoufox-FF7139?style=flat-square&logo=firefoxbrowser&logoColor=white" alt="Camoufox" />
+  <img src="https://img.shields.io/badge/Tampermonkey-00485B?style=flat-square&logo=tampermonkey&logoColor=white" alt="Tampermonkey" />
+</p>
+
+</td>
+</tr>
+</table>
+
+<p align="center"><img src="assets/divider.svg" alt="" width="92%" /></p>
+
 <a id="estadisticas"></a>
-<p align="center"><img src="assets/sections/es-07.svg" alt="07 · Estadísticas de GitHub" width="100%" /></p>
+<h2 align="center"><img src="assets/sections/es-07.svg" alt="07 · Estadísticas de GitHub" width="100%" /></h2>
 
 <p align="center">
   <picture>
@@ -441,4 +443,8 @@ conmigo al mando.
   <i>“Primero que funcione, luego que esté bien, luego que sea rápido.” — Kent Beck</i>
 </p>
 
-<img src="assets/footer-es.svg" alt="Gracias por pasar" width="100%" />
+<p align="center"><a href="#top">Volver al inicio</a></p>
+
+<!-- readme-builder:signature:start -->
+<p align="center"><a href="https://github.com/robgallardof"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/readme/brand/signature-es-dark.svg" /><img src="assets/readme/brand/signature-es-light.svg" alt="robgallardof / Roberto Gallardo" width="100%" /></picture></a></p>
+<!-- readme-builder:signature:end -->
