@@ -77,10 +77,12 @@
 <a id="building"></a>
 ## <img src="assets/readme-builder/icons/box.svg" width="24" height="24" alt="" /> What I'm building now
 
-Tools that let AI coding agents work safely and remember what matters — local, no telemetry, written in Rust.
+Local tools that help AI coding agents work safely, remember what matters and make session activity visible, without telemetry.
 
 - <img src="assets/icons/network.svg" width="20" height="20" alt="" /> **[Rekora](https://github.com/robgallardof/rekora)** — verifiable memory for agents: every decision cites its source, stale knowledge is flagged, and tasks hand off cleanly between Claude Code, Codex, OpenCode and DeepSeek Harness.
 - <img src="assets/icons/clock.svg" width="20" height="20" alt="" /> **[RepoRinse](https://github.com/robgallardof/RepoRinse)** — clean commit history and guardrail hooks for Claude Code, Codex, Gemini CLI, Cursor, OpenCode and DeepSeek Harness.
+
+- <img src="assets/icons/code.svg" width="20" height="20" alt="" /> **[Agent Mods](https://github.com/robgallardof/agent-mods)** — independently installable native Claude Code displays for session usage, quotas, Git, memory and tools.
 
 ```sh
 reporinse install --provider git --all --yes            # clean every commit message
@@ -180,11 +182,19 @@ rekora agent install claude --confirm                   # give Claude Code a mem
       </p>
     </td>
   </tr>
-  <tr><td colspan="2" align="center">
+  <tr>
+    <td width="50%" valign="top" align="center">
       <h3 align="center"><img src="assets/icons/lucide/layout-template.svg" width="20" height="20" alt="" /> <a href="https://github.com/robgallardof/readme-builder">readme-builder</a></h3>
       <p>Reusable README design system: prompts, original SVG widgets, separators and an offline generator.</p>
       <p><code>Python</code> <code>SVG</code> <code>EN / ES</code> <code>Offline</code></p>
-    </td></tr>
+    </td>
+    <td width="50%" valign="top" align="center">
+      <h3 align="center"><img src="assets/icons/lucide/panels-top-left.svg" width="20" height="20" alt="" /> <a href="https://github.com/robgallardof/agent-mods">Agent Mods</a></h3>
+      <p>See what your coding session is using: context, cost, quotas, Git branch, available MCP tools, memory and tool activity. Six native Claude Code mods; install only the displays you want.</p>
+      <p><code>Native mods</code> <code>Claude Code</code> <code>Choose your setup</code></p>
+      <p><a href="https://github.com/robgallardof/agent-mods/actions"><img src="https://img.shields.io/github/actions/workflow/status/robgallardof/agent-mods/test.yml?branch=main&amp;label=Windows%20%2B%20Linux&amp;style=flat-square" alt="Windows and Linux checks" /></a></p>
+    </td>
+  </tr>
 </table>
 
 <p align="center"><a href="https://github.com/robgallardof?tab=repositories"><b><img src="assets/icons/code.svg" width="20" height="20" alt="" /> See all repositories</b></a></p>
@@ -195,7 +205,7 @@ rekora agent install claude --confirm                   # give Claude Code a mem
 <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/widgets/ecosystem-en-dark.svg" /><img src="assets/widgets/ecosystem-en-light.svg" alt="Six connected open-source projects" width="100%" /></picture></p>
 
 
-I build **MCP servers, skills and hooks** so agents can do real work on my machine — locally, with me in control.
+I build **MCP servers, skills, hooks and native mods** so agents can do real work on my machine — locally, with me in control.
 
 <table align="center" width="100%">
   <tr>
@@ -228,6 +238,8 @@ I build **MCP servers, skills and hooks** so agents can do real work on my machi
   <img src="https://img.shields.io/badge/Claude%20Code-skills%20%26%20plugins-D97757?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude Code skills and plugins" />
   <img src="https://img.shields.io/badge/Ollama-local%20RAG-000000?style=for-the-badge&logo=ollama&logoColor=white" alt="Ollama" />
 </p>
+
+<p align="center"><b>Native mods · Claude Code</b><br/><a href="https://github.com/robgallardof/agent-mods">Agent Mods</a> adds session displays inside the agent. Choose each mod independently; native validation, event tests and real installation checks run on Windows and Linux.</p>
 
 <p align="center">Project-scoped adapters for OpenCode and DeepSeek Harness; optional Docker with configurable ports. Real host tests run in CI.<br/><a href="https://github.com/robgallardof/rekora/blob/main/docs/architecture/ADAPTERS.md">MCP adapters</a> · <a href="https://github.com/robgallardof/RepoRinse/blob/main/docs/integrations/opencode-deepseek.md">Agent hooks</a></p>
 
