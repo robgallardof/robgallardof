@@ -384,7 +384,7 @@ conmigo al mando.
 <h3 align="center"><img src="assets/icons/layers.svg" width="20" height="20" alt="" /> Actividad reciente</h3>
 
 <!--START_SECTION:activity-->
-<sub> Se actualiza sola cada 6 horas con mis pull requests, issues y releases más recientes.</sub>
+1. 🎉 Merged PR [#2](https://github.com/robgallardof/control-api/pull/2) in [robgallardof/control-api](https://github.com/robgallardof/control-api)
 <!--END_SECTION:activity-->
 
 </td>
