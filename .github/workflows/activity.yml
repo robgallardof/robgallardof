@@ -34,3 +34,18 @@ jobs:
           MAX_LINES: 6
           TARGET_FILE: README.es.md
           COMMIT_MSG: "Actualiza la actividad reciente del perfil (ES)"
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Keep generated activity consistent with the SVG design
+        run: |
+          git pull --ff-only
+          python scripts/normalize_activity.py
+          python scripts/check_profile.py
+          if ! git diff --quiet -- README.md README.es.md; then
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git add -- README.md README.es.md
+            git commit -m 'Conserva iconos SVG en la actividad generada del perfil'
+            git push
+          fi
