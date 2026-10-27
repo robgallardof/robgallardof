@@ -14,10 +14,10 @@
       .tag { font-size: 17px; fill: #94a3b8; }
       .pill { font-size: 13.5px; font-weight: 600; fill: #f1f5f9; }
       .code { font-family: "Cascadia Code", "JetBrains Mono", Consolas, Menlo, monospace; font-size: 14px; fill: rgba(148,163,184,0.16); }
-      .float1 { animation: f1 9s ease-in-out infinite; }
-      .float2 { animation: f2 11s ease-in-out infinite; }
-      @keyframes f1 { 0%,100% { transform: translate(0,0); } 50% { transform: translate(40px,18px); } }
-      @keyframes f2 { 0%,100% { transform: translate(0,0); } 50% { transform: translate(-50px,-14px); } }
+      .float1 { animation: f1 18s ease-in-out -4s infinite; }
+      .float2 { animation: f2 24s ease-in-out -9s infinite; }
+      @keyframes f1 { 0%,100% { opacity: .5; } 50% { opacity: .8; } }
+      @keyframes f2 { 0%,100% { opacity: .4; } 50% { opacity: .7; } }
       @media (prefers-reduced-motion: reduce) { .float1, .float2 { animation: none; } }
     </style>
   </defs>

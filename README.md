@@ -13,12 +13,6 @@
 </p>
 
 <p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&duration=3200&pause=1100&color=8B5CF6&center=true&vCenter=true&width=720&lines=Software+architect+%2F+Guadalajara%2C+Mexico%3BModern+.NET+%2F+Rust+%2F+Python%3BRekora+%2B+RepoRinse+%2B+MCP+tooling%3BOpenCode+%2B+DeepSeek+Harness%3BDesigning+useful+tools%2C+with+verifiable+results" alt="Typing SVG" />
-  </a>
-</p>
-
-<p align="center">
   <a href="https://robertogallardo.dev"><img src="https://img.shields.io/badge/Website-robertogallardo.dev-0EA5E9?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website" /></a>
   <a href="https://linkedin.com/in/robgallardof"><img src="https://img.shields.io/badge/LinkedIn-robgallardof-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="https://github.com/robgallardof?tab=repositories"><img src="https://img.shields.io/badge/Repos-explore-181717?style=for-the-badge&logo=github&logoColor=white" alt="Repositories" /></a>
@@ -30,28 +24,12 @@
   <img src="https://img.shields.io/badge/Guadalajara-Jalisco%2C%20Mexico-512BD4?style=flat-square" alt="Guadalajara, Mexico" />
 </p>
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/facts-en-dark.svg" />
-    <img src="assets/facts-en-light.svg" alt="7+ years building software · .NET Framework 2.0 → 11 · 4 years with AI agents · MSc Software Architecture · bilingual" width="100%" />
-  </picture>
-</p>
+<p align="center">7+ years building software · .NET Framework 2.0 → 11 · 4 years with AI agents · MSc Software Architecture · bilingual</p>
 
-<p align="center">
-  <a href="#about"><img src="https://img.shields.io/badge/About-6D28D9?style=for-the-badge" alt="About" /></a>
-  <a href="#building"><img src="https://img.shields.io/badge/Building%20now-5B21B6?style=for-the-badge" alt="Building now" /></a>
-  <a href="#toolbox"><img src="https://img.shields.io/badge/AI%20toolbox-4F46E5?style=for-the-badge" alt="AI toolbox" /></a>
-  <a href="#stack"><img src="https://img.shields.io/badge/Stack-4338CA?style=for-the-badge" alt="Stack" /></a>
-  <a href="#projects"><img src="https://img.shields.io/badge/Projects-2563EB?style=for-the-badge" alt="Projects" /></a>
-  <a href="#experience"><img src="https://img.shields.io/badge/Experience-0284C7?style=for-the-badge" alt="Experience" /></a>
-  <a href="#stats"><img src="https://img.shields.io/badge/Stats-0EA5E9?style=for-the-badge" alt="Stats" /></a>
-<a href="#arcade"><img src="https://img.shields.io/badge/Arcade-0EA5E9?style=for-the-badge" alt="Arcade" /></a>
-</p>
-
-<p align="center"><img src="assets/divider.svg" alt="" width="92%" /></p>
+<p align="center"><a href="#about">About</a> · <a href="#toolbox">AI toolbox</a> · <a href="#projects">Projects</a> · <a href="#stats">Stats</a></p>
 
 <a id="about"></a>
-<h2 align="center"><img src="assets/sections/en-01.svg" alt="01 · About me" width="100%" /></h2>
+## <img src="assets/readme-builder/icons/layers.svg" width="24" height="24" alt="" /> About me
 
 <p align="center"><img src="assets/widgets/ide-en.svg" alt="Developer.cs" width="100%" /></p>
 
@@ -96,10 +74,8 @@
 </tr>
 </table>
 
-<p align="center"><img src="assets/divider.svg" alt="" width="92%" /></p>
-
 <a id="building"></a>
-<h2 align="center"><img src="assets/sections/en-02.svg" alt="02 · What I'm building now" width="100%" /></h2>
+## <img src="assets/readme-builder/icons/box.svg" width="24" height="24" alt="" /> What I'm building now
 
 Tools that let AI coding agents work safely and remember what matters — local, no telemetry, written in Rust.
 
@@ -112,10 +88,8 @@ reporinse install --provider opencode,deepseek --all --yes   # guardrails for yo
 rekora agent install claude --confirm                   # give Claude Code a memory
 ```
 
-<p align="center"><img src="assets/divider.svg" alt="" width="92%" /></p>
-
 <a id="projects"></a>
-<h2 align="center"><img src="assets/sections/en-05.svg" alt="03 · Featured projects" width="100%" /></h2>
+## <img src="assets/readme-builder/icons/box.svg" width="24" height="24" alt="" /> Featured projects
 
 <table align="center" width="100%">
   <tr>
@@ -215,10 +189,8 @@ rekora agent install claude --confirm                   # give Claude Code a mem
 
 <p align="center"><a href="https://github.com/robgallardof?tab=repositories"><b><img src="assets/icons/code.svg" width="20" height="20" alt="" /> See all repositories</b></a></p>
 
-<p align="center"><img src="assets/divider.svg" alt="" width="92%" /></p>
-
 <a id="toolbox"></a>
-<h2 align="center"><img src="assets/sections/en-03.svg" alt="04 · My AI agent toolbox" width="100%" /></h2>
+## <img src="assets/readme-builder/icons/bot.svg" width="24" height="24" alt="" /> My AI agent toolbox
 
 <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/widgets/ecosystem-en-dark.svg" /><img src="assets/widgets/ecosystem-en-light.svg" alt="Six connected open-source projects" width="100%" /></picture></p>
 
@@ -261,10 +233,8 @@ I build **MCP servers, skills and hooks** so agents can do real work on my machi
 
 <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/widgets/workflow-en-dark.svg" /><img src="assets/widgets/workflow-en-light.svg" alt="Plan, build, verify, ship" width="100%" /></picture></p>
 
-<p align="center"><img src="assets/divider.svg" alt="" width="92%" /></p>
-
 <a id="experience"></a>
-<h2 align="center"><img src="assets/sections/en-06.svg" alt="05 · Experience & education" width="100%" /></h2>
+## <img src="assets/readme-builder/icons/layers.svg" width="24" height="24" alt="" /> Experience & education
 
 <p align="center">
   <picture>
@@ -273,10 +243,8 @@ I build **MCP servers, skills and hooks** so agents can do real work on my machi
   </picture>
 </p>
 
-<p align="center"><img src="assets/divider.svg" alt="" width="92%" /></p>
-
 <a id="stack"></a>
-<h2 align="center"><img src="assets/sections/en-04.svg" alt="06 · Tech stack" width="100%" /></h2>
+## <img src="assets/readme-builder/icons/layers.svg" width="24" height="24" alt="" /> Tech stack
 
 <table align="center" width="100%">
 <tr>
@@ -370,10 +338,8 @@ I build **MCP servers, skills and hooks** so agents can do real work on my machi
 </tr>
 </table>
 
-<p align="center"><img src="assets/divider.svg" alt="" width="92%" /></p>
-
 <a id="stats"></a>
-<h2 align="center"><img src="assets/sections/en-07.svg" alt="07 · GitHub stats" width="100%" /></h2>
+## <img src="assets/readme-builder/icons/chart.svg" width="24" height="24" alt="" /> GitHub stats
 
 <p align="center">
   <picture>
@@ -415,9 +381,8 @@ I build **MCP servers, skills and hooks** so agents can do real work on my machi
 </tr>
 </table>
 
-<p align="center"><img src="assets/divider.svg" alt="" width="92%" /></p>
 <a id="arcade"></a>
-<h2 align="center">Contribution arcade</h2>
+## Contribution arcade
 <p align="center"><a href="https://github.com/robgallardof?tab=overview"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/robgallardof/robgallardof/output/contributions-dark.svg" /><img src="https://raw.githubusercontent.com/robgallardof/robgallardof/output/contributions-light.svg" alt="Actual GitHub contribution calendar for robgallardof" width="100%" /></picture></a></p>
 <p align="center"><sub>My real GitHub calendar, refreshed hourly. Contributions include commits and other activity recorded by GitHub.</sub></p>
 <h3 align="center">Pac-Man</h3>
@@ -436,8 +401,6 @@ I build **MCP servers, skills and hooks** so agents can do real work on my machi
   </picture>
 </p>
 
-<p align="center"><img src="assets/divider.svg" alt="" width="92%" /></p>
-
 <p align="center">
   <i>“Make it work, make it right, make it fast.” — Kent Beck</i>
 </p>
@@ -445,5 +408,5 @@ I build **MCP servers, skills and hooks** so agents can do real work on my machi
 <p align="center"><a href="#top">Back to top</a></p>
 
 <!-- readme-builder:signature:start -->
-<p align="center"><a href="https://github.com/robgallardof"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/readme/brand/signature-en-dark.svg" /><img src="assets/readme/brand/signature-en-light.svg" alt="robgallardof / Roberto Gallardo" width="100%" /></picture></a></p>
+<p align="center"><a href="https://github.com/robgallardof"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/readme/brand/signature-en-dark.svg" /><img src="assets/readme/brand/signature-en-light.svg" alt="robgallardof / Roberto Gallardo" width="360" /></picture></a></p>
 <!-- readme-builder:signature:end -->

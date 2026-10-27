@@ -13,12 +13,6 @@
 </p>
 
 <p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&duration=3200&pause=1100&color=8B5CF6&center=true&vCenter=true&width=720&lines=Arquitectura+de+software+%2F+Guadalajara%3BModernizacion+.NET+%2F+Rust+%2F+Python%3BRekora+%2B+RepoRinse+%2B+herramientas+MCP%3BOpenCode+%2B+DeepSeek+Harness%3BHerramientas+utiles%2C+resultados+verificables" alt="Typing SVG" />
-  </a>
-</p>
-
-<p align="center">
   <a href="https://robertogallardo.dev"><img src="https://img.shields.io/badge/Sitio-robertogallardo.dev-0EA5E9?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Sitio web" /></a>
   <a href="https://linkedin.com/in/robgallardof"><img src="https://img.shields.io/badge/LinkedIn-robgallardof-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="https://github.com/robgallardof?tab=repositories"><img src="https://img.shields.io/badge/Repos-explorar-181717?style=for-the-badge&logo=github&logoColor=white" alt="Repositorios" /></a>
@@ -30,12 +24,7 @@
   <img src="https://img.shields.io/badge/Guadalajara-Jalisco%2C%20Mexico-512BD4?style=flat-square" alt="Guadalajara, Mexico" />
 </p>
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/facts-es-dark.svg" />
-    <img src="assets/facts-es-light.svg" alt="7+ años construyendo software · .NET Framework 2.0 → 11 · 4 años con agentes de IA · Maestría en Arquitectura de Software · bilingüe" width="100%" />
-  </picture>
-</p>
+<p align="center">7+ años construyendo software · .NET Framework 2.0 → 11 · 4 años con agentes de IA · Maestría en Arquitectura de Software · bilingüe</p>
 
 <p align="center">
   <a href="#sobre-mi"><img src="https://img.shields.io/badge/Sobre%20mí-6D28D9?style=for-the-badge" alt="Sobre mí" /></a>
@@ -48,10 +37,8 @@
 <a href="#arcade"><img src="https://img.shields.io/badge/Arcade-0EA5E9?style=for-the-badge" alt="Arcade" /></a>
 </p>
 
-<p align="center"><img src="assets/divider.svg" alt="" width="92%" /></p>
-
 <a id="sobre-mi"></a>
-<h2 align="center"><img src="assets/sections/es-01.svg" alt="01 · Sobre mí" width="100%" /></h2>
+## <img src="assets/readme-builder/icons/layers.svg" width="24" height="24" alt="" /> Sobre mí
 
 <p align="center"><img src="assets/widgets/ide-es.svg" alt="Developer.cs" width="100%" /></p>
 
@@ -96,10 +83,8 @@
 </tr>
 </table>
 
-<p align="center"><img src="assets/divider.svg" alt="" width="92%" /></p>
-
 <a id="construyendo"></a>
-<h2 align="center"><img src="assets/sections/es-02.svg" alt="02 · Lo que estoy construyendo" width="100%" /></h2>
+## <img src="assets/readme-builder/icons/box.svg" width="24" height="24" alt="" /> Lo que estoy construyendo
 
 Herramientas para que los agentes de IA trabajen de forma segura y recuerden lo importante — locales, sin telemetría y en Rust.
 
@@ -112,10 +97,8 @@ reporinse install --provider opencode,deepseek --all --yes   # límites para tus
 rekora agent install claude --confirm                   # dale memoria a Claude Code
 ```
 
-<p align="center"><img src="assets/divider.svg" alt="" width="92%" /></p>
-
 <a id="proyectos"></a>
-<h2 align="center"><img src="assets/sections/es-05.svg" alt="03 · Proyectos destacados" width="100%" /></h2>
+## <img src="assets/readme-builder/icons/box.svg" width="24" height="24" alt="" /> Proyectos destacados
 
 <table align="center" width="100%">
   <tr>
@@ -215,10 +198,8 @@ rekora agent install claude --confirm                   # dale memoria a Claude 
 
 <p align="center"><a href="https://github.com/robgallardof?tab=repositories"><b><img src="assets/icons/code.svg" width="20" height="20" alt="" /> Ver todos los repositorios</b></a></p>
 
-<p align="center"><img src="assets/divider.svg" alt="" width="92%" /></p>
-
 <a id="herramientas"></a>
-<h2 align="center"><img src="assets/sections/es-03.svg" alt="04 · Mi caja de herramientas de IA" width="100%" /></h2>
+## <img src="assets/readme-builder/icons/terminal.svg" width="24" height="24" alt="" /> Mi caja de herramientas de IA
 
 <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/widgets/ecosystem-es-dark.svg" /><img src="assets/widgets/ecosystem-es-light.svg" alt="Six connected open-source projects" width="100%" /></picture></p>
 
@@ -262,10 +243,8 @@ conmigo al mando.
 
 <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/widgets/workflow-es-dark.svg" /><img src="assets/widgets/workflow-es-light.svg" alt="Plan, build, verify, ship" width="100%" /></picture></p>
 
-<p align="center"><img src="assets/divider.svg" alt="" width="92%" /></p>
-
 <a id="experiencia"></a>
-<h2 align="center"><img src="assets/sections/es-06.svg" alt="05 · Experiencia y formación" width="100%" /></h2>
+## <img src="assets/readme-builder/icons/layers.svg" width="24" height="24" alt="" /> Experiencia y formación
 
 <p align="center">
   <picture>
@@ -274,10 +253,8 @@ conmigo al mando.
   </picture>
 </p>
 
-<p align="center"><img src="assets/divider.svg" alt="" width="92%" /></p>
-
 <a id="tecnologias"></a>
-<h2 align="center"><img src="assets/sections/es-04.svg" alt="06 · Tecnologías" width="100%" /></h2>
+## <img src="assets/readme-builder/icons/layers.svg" width="24" height="24" alt="" /> Tecnologías
 
 <table align="center" width="100%">
 <tr>
@@ -371,10 +348,8 @@ conmigo al mando.
 </tr>
 </table>
 
-<p align="center"><img src="assets/divider.svg" alt="" width="92%" /></p>
-
 <a id="estadisticas"></a>
-<h2 align="center"><img src="assets/sections/es-07.svg" alt="07 · Estadísticas de GitHub" width="100%" /></h2>
+## <img src="assets/readme-builder/icons/layers.svg" width="24" height="24" alt="" /> Estadísticas de GitHub
 
 <p align="center">
   <picture>
@@ -416,9 +391,8 @@ conmigo al mando.
 </tr>
 </table>
 
-<p align="center"><img src="assets/divider.svg" alt="" width="92%" /></p>
 <a id="arcade"></a>
-<h2 align="center">Arcade de contribuciones</h2>
+## Arcade de contribuciones
 <p align="center"><a href="https://github.com/robgallardof?tab=overview"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/robgallardof/robgallardof/output/contributions-dark.svg" /><img src="https://raw.githubusercontent.com/robgallardof/robgallardof/output/contributions-light.svg" alt="Actual GitHub contribution calendar for robgallardof" width="100%" /></picture></a></p>
 <p align="center"><sub>Mi calendario real de GitHub, actualizado cada hora. Las contribuciones incluyen commits y otras actividades registradas por GitHub.</sub></p>
 <h3 align="center">Pac-Man</h3>
@@ -437,8 +411,6 @@ conmigo al mando.
   </picture>
 </p>
 
-<p align="center"><img src="assets/divider.svg" alt="" width="92%" /></p>
-
 <p align="center">
   <i>“Primero que funcione, luego que esté bien, luego que sea rápido.” — Kent Beck</i>
 </p>
@@ -446,5 +418,5 @@ conmigo al mando.
 <p align="center"><a href="#top">Volver al inicio</a></p>
 
 <!-- readme-builder:signature:start -->
-<p align="center"><a href="https://github.com/robgallardof"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/readme/brand/signature-es-dark.svg" /><img src="assets/readme/brand/signature-es-light.svg" alt="robgallardof / Roberto Gallardo" width="100%" /></picture></a></p>
+<p align="center"><a href="https://github.com/robgallardof"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/readme/brand/signature-es-dark.svg" /><img src="assets/readme/brand/signature-es-light.svg" alt="robgallardof / Roberto Gallardo" width="360" /></picture></a></p>
 <!-- readme-builder:signature:end -->
