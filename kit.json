@@ -400,6 +400,28 @@
      }
     },
     {
+     "title": "Qualyx",
+     "href": "https://github.com/robgallardof/qualyx",
+     "icon": "lucide-scan-eye",
+     "badge": {
+      "en": "New",
+      "es": "Nuevo"
+     },
+     "kicker": {
+      "en": "Testing and QA",
+      "es": "Pruebas y QA"
+     },
+     "tags": [
+      "Rust",
+      "MCP",
+      "Next.js"
+     ],
+     "text": {
+      "en": "Finds a project's tests, runs them with its own tools (cargo, dotnet, npm, pytest) and keeps the evidence. I use it from the terminal, through an agent over MCP, or in a small web console.",
+      "es": "Encuentra las pruebas de un proyecto, las corre con sus propias herramientas (cargo, dotnet, npm, pytest) y guarda la evidencia. Lo uso desde la terminal, con un agente por MCP o en una consola web."
+     }
+    },
+    {
      "title": "davinci-resolve-mcp",
      "href": "https://github.com/robgallardof/davinci-resolve-mcp",
      "icon": "lucide-clapperboard",
