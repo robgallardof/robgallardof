@@ -4,27 +4,27 @@
   <rect x="24" y="0.5" width="96" height="3" rx="1.5" fill="url(#brand)"/>
   <text x="36" y="56" style="font-size:20px;font-weight:800" fill="url(#brand)">Resumen de GitHub</text>
   <text x="1164" y="56" text-anchor="end" style="font-size:12px" fill="#57606a">se actualiza a diario con GitHub Actions</text>
-  <rect x="36" y="80" width="116" height="92" rx="14" fill="rgba(15,23,42,0.05)" stroke="#d8dee8"/><text x="52" y="128" style="font-size:32px;font-weight:800" fill="url(#brand)">26</text><text x="52" y="154" style="font-size:12.5px" fill="#57606a">repos públicos</text>
+  <rect x="36" y="80" width="116" height="92" rx="14" fill="rgba(15,23,42,0.05)" stroke="#d8dee8"/><text x="52" y="128" style="font-size:32px;font-weight:800" fill="url(#brand)">27</text><text x="52" y="154" style="font-size:12.5px" fill="#57606a">repos públicos</text>
   <rect x="164" y="80" width="116" height="92" rx="14" fill="rgba(15,23,42,0.05)" stroke="#d8dee8"/><text x="180" y="128" style="font-size:32px;font-weight:800" fill="url(#brand)">8</text><text x="180" y="154" style="font-size:12.5px" fill="#57606a">años en GitHub</text>
   <rect x="292" y="80" width="116" height="92" rx="14" fill="rgba(15,23,42,0.05)" stroke="#d8dee8"/><text x="308" y="128" style="font-size:32px;font-weight:800" fill="url(#brand)">7</text><text x="308" y="154" style="font-size:12.5px" fill="#57606a">lenguajes</text>
   <text x="36" y="202" style="font-size:13px;font-weight:700" fill="#0f172a">Lenguajes en mis repositorios</text>
   <rect x="36" y="214" width="356" height="10" rx="5" fill="#eef1f6"/>
-  <rect x="36.0" y="214" width="140.4" height="10" rx="3" fill="#3178c6"/>
-  <rect x="178.4" y="214" width="97.7" height="10" rx="3" fill="#3776ab"/>
-  <rect x="278.1" y="214" width="40.7" height="10" rx="3" fill="#f1e05a"/>
-  <rect x="320.8" y="214" width="40.7" height="10" rx="3" fill="#dea584"/>
-  <rect x="363.5" y="214" width="12.2" height="10" rx="3" fill="#9b4f96"/>
-  <rect x="377.8" y="214" width="12.2" height="10" rx="3" fill="#89e051"/>
-  <circle cx="41" cy="246" r="5" fill="#3178c6"/><text x="52" y="250" style="font-size:12.5px" fill="#0f172a">TypeScript <tspan fill="#57606a">40%</tspan></text>
-  <circle cx="163" cy="246" r="5" fill="#3776ab"/><text x="174" y="250" style="font-size:12.5px" fill="#0f172a">Python <tspan fill="#57606a">28%</tspan></text>
+  <rect x="36.0" y="214" width="134.9" height="10" rx="3" fill="#3178c6"/>
+  <rect x="172.9" y="214" width="107.5" height="10" rx="3" fill="#3776ab"/>
+  <rect x="282.5" y="214" width="39.1" height="10" rx="3" fill="#f1e05a"/>
+  <rect x="323.5" y="214" width="39.1" height="10" rx="3" fill="#dea584"/>
+  <rect x="364.6" y="214" width="11.7" height="10" rx="3" fill="#9b4f96"/>
+  <rect x="378.3" y="214" width="11.7" height="10" rx="3" fill="#89e051"/>
+  <circle cx="41" cy="246" r="5" fill="#3178c6"/><text x="52" y="250" style="font-size:12.5px" fill="#0f172a">TypeScript <tspan fill="#57606a">38%</tspan></text>
+  <circle cx="163" cy="246" r="5" fill="#3776ab"/><text x="174" y="250" style="font-size:12.5px" fill="#0f172a">Python <tspan fill="#57606a">31%</tspan></text>
   <circle cx="285" cy="246" r="5" fill="#f1e05a"/><text x="296" y="250" style="font-size:12.5px" fill="#0f172a">JavaScript <tspan fill="#57606a">12%</tspan></text>
   <circle cx="41" cy="268" r="5" fill="#dea584"/><text x="52" y="272" style="font-size:12.5px" fill="#0f172a">Rust <tspan fill="#57606a">12%</tspan></text>
   <circle cx="163" cy="268" r="5" fill="#9b4f96"/><text x="174" y="272" style="font-size:12.5px" fill="#0f172a">C# <tspan fill="#57606a">4%</tspan></text>
   <circle cx="285" cy="268" r="5" fill="#89e051"/><text x="296" y="272" style="font-size:12.5px" fill="#0f172a">Shell <tspan fill="#57606a">4%</tspan></text>
   <rect x="432" y="80" width="1" height="190" fill="#d8dee8"/>
   <text x="450" y="100" style="font-size:13px;font-weight:700" fill="#0f172a">Proyectos más recientes</text>
-  <rect x="450" y="122" width="714" height="32" rx="10" fill="rgba(15,23,42,0.05)" stroke="#d8dee8"/><circle cx="468" cy="138" r="5" fill="#f1e05a"/><text x="482" y="143" style="font-size:14px;font-weight:600" fill="#0f172a">agent-mods</text><text x="1150" y="143" text-anchor="end" style="font-size:12.5px" fill="#57606a">JavaScript</text>
-  <rect x="450" y="162" width="714" height="32" rx="10" fill="rgba(15,23,42,0.05)" stroke="#d8dee8"/><circle cx="468" cy="178" r="5" fill="#dea584"/><text x="482" y="183" style="font-size:14px;font-weight:600" fill="#0f172a">qualyx</text><text x="1150" y="183" text-anchor="end" style="font-size:12.5px" fill="#57606a">Rust</text>
-  <rect x="450" y="202" width="714" height="32" rx="10" fill="rgba(15,23,42,0.05)" stroke="#d8dee8"/><circle cx="468" cy="218" r="5" fill="#3776ab"/><text x="482" y="223" style="font-size:14px;font-weight:600" fill="#0f172a">readme-builder</text><text x="1150" y="223" text-anchor="end" style="font-size:12.5px" fill="#57606a">Python</text>
-  <rect x="450" y="242" width="714" height="32" rx="10" fill="rgba(15,23,42,0.05)" stroke="#d8dee8"/><circle cx="468" cy="258" r="5" fill="#dea584"/><text x="482" y="263" style="font-size:14px;font-weight:600" fill="#0f172a">rekora</text><text x="1150" y="263" text-anchor="end" style="font-size:12.5px" fill="#57606a">Rust</text>
+  <rect x="450" y="122" width="714" height="32" rx="10" fill="rgba(15,23,42,0.05)" stroke="#d8dee8"/><circle cx="468" cy="138" r="5" fill="#3776ab"/><text x="482" y="143" style="font-size:14px;font-weight:600" fill="#0f172a">blender-forge</text><text x="1150" y="143" text-anchor="end" style="font-size:12.5px" fill="#57606a">Python</text>
+  <rect x="450" y="162" width="714" height="32" rx="10" fill="rgba(15,23,42,0.05)" stroke="#d8dee8"/><circle cx="468" cy="178" r="5" fill="#f1e05a"/><text x="482" y="183" style="font-size:14px;font-weight:600" fill="#0f172a">agent-mods</text><text x="1150" y="183" text-anchor="end" style="font-size:12.5px" fill="#57606a">JavaScript</text>
+  <rect x="450" y="202" width="714" height="32" rx="10" fill="rgba(15,23,42,0.05)" stroke="#d8dee8"/><circle cx="468" cy="218" r="5" fill="#dea584"/><text x="482" y="223" style="font-size:14px;font-weight:600" fill="#0f172a">qualyx</text><text x="1150" y="223" text-anchor="end" style="font-size:12.5px" fill="#57606a">Rust</text>
+  <rect x="450" y="242" width="714" height="32" rx="10" fill="rgba(15,23,42,0.05)" stroke="#d8dee8"/><circle cx="468" cy="258" r="5" fill="#3776ab"/><text x="482" y="263" style="font-size:14px;font-weight:600" fill="#0f172a">readme-builder</text><text x="1150" y="263" text-anchor="end" style="font-size:12.5px" fill="#57606a">Python</text>
 </svg>
