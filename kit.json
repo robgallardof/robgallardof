@@ -444,6 +444,56 @@
           }
         },
         {
+          "title": "linkedin-forge",
+          "icon": "lucide-briefcase-business",
+          "badge": {
+            "en": "New",
+            "es": "Nuevo"
+          },
+          "kicker": {
+            "en": "LinkedIn",
+            "es": "LinkedIn"
+          },
+          "tags": [
+            "MCP",
+            "Python",
+            "LinkedIn"
+          ],
+          "text": {
+            "en": "So I can share what I build without sounding like a press release. An agent reads the repo or checks the news and writes the post in English and Spanish. Nothing goes out until I approve it.",
+            "es": "Para compartir lo que hago sin sonar a comunicado de prensa. Un agente lee el repo o revisa las noticias y escribe el post en inglés y español. Nada sale hasta que yo lo apruebo."
+          },
+          "href": {
+            "en": "#projects",
+            "es": "#proyectos"
+          }
+        },
+        {
+          "title": "ORVYX",
+          "icon": "lucide-cpu",
+          "badge": {
+            "en": "Private",
+            "es": "Privado"
+          },
+          "kicker": {
+            "en": "Small language models",
+            "es": "Modelos de lenguaje pequeños"
+          },
+          "tags": [
+            "Rust",
+            "CPU",
+            "Research"
+          ],
+          "text": {
+            "en": "How far can a language model go in a few megabytes, on a normal CPU, with no network? I'm testing that in Rust. Several of my ideas didn't beat the simple baseline, and I keep those results too.",
+            "es": "¿Hasta dónde llega un modelo de lenguaje de pocos megabytes, en un CPU normal y sin red? Lo estoy probando en Rust. Varias de mis ideas no le ganaron al modelo simple, y también guardo esos resultados."
+          },
+          "href": {
+            "en": "#projects",
+            "es": "#proyectos"
+          }
+        },
+        {
           "title": "davinci-resolve-mcp",
           "href": "https://github.com/robgallardof/davinci-resolve-mcp",
           "icon": "lucide-clapperboard",
@@ -641,6 +691,10 @@
             {
               "en": "social-publisher-mcp, for posting",
               "es": "social-publisher-mcp, para publicar"
+            },
+            {
+              "en": "linkedin-forge, for LinkedIn",
+              "es": "linkedin-forge, para LinkedIn"
             },
             {
               "en": "declaracion, for my taxes",
