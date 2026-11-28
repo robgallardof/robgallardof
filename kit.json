@@ -632,6 +632,24 @@
             "en": "Lots of separate browser profiles that keep their sessions. Camoufox underneath, a Next.js dashboard and a Python backend.",
             "es": "Muchos perfiles de navegador separados que conservan su sesión. Camoufox por debajo, un panel en Next.js y backend en Python."
           }
+        },
+        {
+          "title": "Rivet",
+          "href": "https://github.com/robgallardof/rivet",
+          "icon": "lucide-terminal",
+          "kicker": {
+            "en": "Desktop API client",
+            "es": "Cliente de API para escritorio"
+          },
+          "tags": [
+            "Rust",
+            "Tauri",
+            "React"
+          ],
+          "text": {
+            "en": "A local HTTP workspace with collections, environment variables, JSON inspection, and Windows builds.",
+            "es": "Espacio local para solicitudes HTTP, con colecciones, variables de entorno, exploración de JSON y descargas para Windows."
+          }
         }
       ]
     },
